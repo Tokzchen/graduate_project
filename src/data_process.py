@@ -48,6 +48,7 @@ class DataProcess:
                     # 如果所有类别的数据都已经达到1200条，提前退出
                     if all(count >= 1200 for count in category_count.values()):
                         break
+        print(category_count)
 
     # 读取并处理暴雨灾害相关的网页文本
     def process_storm_files(self,folder_path, output_csv):
@@ -63,7 +64,7 @@ class DataProcess:
 
     # 主函数
     def main(self):
-        cnews_file = '../data/cnews.val.txt'  # cnews.val.txt 文件路径
+        cnews_file = '../data/cnews.train.txt'  # cnews.val.txt 文件路径
         storm_folder = '../data/renmin_news'  # 暴雨灾害文本文件夹路径
         output_csv = '../data/data.csv'  # 输出文件路径
 
@@ -115,4 +116,4 @@ class DataProcess:
                 writer.writerow([category] + feature_vector)
 
 if __name__ == '__main__':
-        DataProcess().main_matrix()
+        DataProcess().main()

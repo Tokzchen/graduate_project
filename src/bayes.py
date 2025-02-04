@@ -60,12 +60,16 @@ def extract_words_with_weight(html_content):
 # ----------------------------
 # 修改后的训练统计逻辑
 # ----------------------------
-class_stats = defaultdict(lambda: {
-    "docs_count": 0,
-    "weighted_word_freq": defaultdict(float),  # 带权词频
-    "total_weighted_words": 0.0,  # 带权总词数
-    "doc_contain_word": defaultdict(int)  # 包含某词的文档数（用于idf）
-})
+# 定义一个函数来返回默认的字典结构
+def default_class_stats():
+    return {
+        "docs_count": 0,
+        "weighted_word_freq": defaultdict(float),  # 带权词频
+        "total_weighted_words": 0.0,  # 带权总词数
+        "doc_contain_word": defaultdict(int)  # 包含某词的文档数（用于idf）
+    }
+# 使用 defaultdict，并用定义的函数作为默认工厂
+class_stats = defaultdict(default_class_stats)
 
 all_features = set() # 全局不重复的特征词集合
 
@@ -104,7 +108,7 @@ def load_and_split_data(csv_path, train_per_class=1000, test_per_class=200):
 
 
 # 示例调用
-train_data, test_data = load_and_split_data("data.csv")
+train_data, test_data = load_and_split_data("../data/data.csv")
 
 for cls, html in train_data:
     # 提取词及其权重
@@ -158,7 +162,30 @@ for cls in class_stats:
         conditional_prob[cls][word] = prob
 
 
+
+
+# ----------------------------
+# 模型保存与测试
+# ----------------------------
+model = {
+    "prior_prob": prior_prob,
+    "conditional_prob": dict(conditional_prob),
+    "M_a": M_a,
+    "classes": list(class_stats.keys()),
+    "class_stats":class_stats
+}
+
 # 分类逻辑，模型测试
+
+# 持久化模型
+with open("nb_model.pkl", "wb") as f:
+    pickle.dump(model, f)
+
+def load_model(model_path):
+    with open(model_path, "rb") as f:
+        return pickle.load(f)
+
+model = load_model("nb_model.pkl")
 def classify_with_weight(text):
     """带权重的分类函数"""
     words_with_weight = extract_words_with_weight(text)
@@ -172,7 +199,7 @@ def classify_with_weight(text):
             # 获取基础条件概率
             base_prob = model["conditional_prob"][cls].get(
                 word,
-                1 / (model["M_a"] + model["conditional_prob"][cls]["total_weighted_words"])
+                1 / (model["M_a"] + model["class_stats"][cls]["total_weighted_words"])
             )
             # 应用权重：P(W_k|C_i) × L_j
             weighted_prob = base_prob * weight
@@ -184,16 +211,6 @@ def classify_with_weight(text):
 
     return best_class
 
-# ----------------------------
-# 模型保存与测试
-# ----------------------------
-model = {
-    "prior_prob": prior_prob,
-    "conditional_prob": dict(conditional_prob),
-    "M_a": M_a,
-    "classes": list(class_stats.keys())
-}
-
 # 测试集评估
 correct = 0
 total = len(test_data)
@@ -204,3 +221,38 @@ for true_cls, html in test_data:
 
 accuracy = correct / total
 print(f"改进后测试集准确率: {accuracy:.4f}")
+
+
+class Bayes_Predict:
+    """
+        实际使用时，使用该实体
+    """
+
+    def __init__(self):
+        self.model = load_model("nb_model.pkl")
+
+    def classify_with_weight(self,text):
+        """带权重的分类函数"""
+        model=self.model
+        words_with_weight = extract_words_with_weight(text)
+        max_log_prob = -float("inf")
+        best_class = None
+
+        for cls in model["classes"]:
+            log_prob = math.log(model["prior_prob"][cls])
+            # 累加带权概率
+            for word, weight in words_with_weight:
+                # 获取基础条件概率
+                base_prob = model["conditional_prob"][cls].get(
+                    word,
+                    1 / (model["M_a"] + model["class_stats"][cls]["total_weighted_words"])
+                )
+                # 应用权重：P(W_k|C_i) × L_j
+                weighted_prob = base_prob * weight
+                log_prob += math.log(weighted_prob)
+
+            if log_prob > max_log_prob:
+                max_log_prob = log_prob
+                best_class = cls
+
+        return best_class

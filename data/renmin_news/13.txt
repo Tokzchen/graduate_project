@@ -1,0 +1,1389 @@
+<html lang="zh-CN"><head>
+<meta http-equiv="content-type" content="text/html;charset=GB2312">
+<meta name="robots" content="all">
+<title>暴雨中的守护者--图片频道--人民网 </title>
+<meta name="keywords" content="">
+<meta name="description" content="入汛以来，安徽省黄山市连续遭遇强降雨。暴雨中，有一群人始终坚守一线，“逆行”向险，保群众安全，护基础设施，守文物古建。他们当中有社区干部，有水库巡查责任人，有消防人员，还有医务工作者、武警官兵、志愿者">
+<meta name="copyright" content="人民网版权所有">
+<meta name="filetype" content="0">
+<meta name="publishedtype" content="1">
+<meta name="pagetype" content="1">
+<meta name="catalogs" content="1016">
+<meta name="contentid" content="40266360">
+<meta name="publishdate" content="2024-06-28">
+<meta name="author" content="1453">
+<meta name="editor" content="">
+<meta name="source" content="来源：新华社">
+<meta name="sourcetype" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<link href="/img/MAIN/2020/06/120304/default20200715.css" type="text/css" rel="stylesheet" rev="stylesheet" media="all">
+<script async="" src="//cl2.webterren.com/webdig.js?z=15"></script><script type="text/javascript" src="http://tools.people.com.cn/libs/jquery/1.7.1/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/img/MAIN/2020/06/120304/js_library/main.js" charset="utf-8"></script>
+<style type="text/css">
+.edit{width:90%;}
+@media (max-width: 689px) and (min-device-width: 320px), (max-device-width: 480px){
+.text_show_img {
+ padding-right:10%;
+ width:90%;
+}
+.xianshi{display:block;}
+}
+
+
+.pre_title {
+       text-align: left;
+    }
+
+.sub_title {
+    
+    text-align: left;
+color: #999;
+   
+}
+
+@media (min-device-width: 320px) and (max-width:689px),(max-device-width:480px) {
+    .pre_title {
+        width: 92%;
+        font: normal 20px/150% "SimSun";
+    }
+.content p video{width:100%;}
+    .sub_title {
+        width: 92%;
+        margin: 0 auto;
+    }
+}
+
+</style>
+<style type="text/css">.ops_shareLayer ul,.ops_shareLayer li,.ops_shareLayer a,.ops_shareLayer i{margin:0px;padding:0px;}.ops_shareLayer{line-height:44px;}.ops_shareLayer .ops_tit{color:#666;float:left;margin-right:10px;}.ops_shareLayer .ops_icons{float:left;}.ops_shareLayer .ops_icons li{float:left;height:44px;width:44px;list-style:outside none none;margin-right:10px;}.ops_shareLayer .ops_icons a{float:left;border-radius:22px;-moz-border-radius:22px;-webkit-border-radius:22px;padding:10px;}.ops_shareLayer .ops_icons a i{background-image:url(http://www.people.com.cn/img/2012wbn/images/ops_icons_02.png);height:24px;width:24px;line-height:24px;display:block;cursor:pointer;}.ops_shareLayer .ops_icons a.icon_rmwb{background-color:#ebccd1;}.ops_shareLayer .ops_icons a.icon_rmwb:hover,.ops_shareLayer .ops_icons a.icon_rmwb:focus{background-color:#cb0000;}.ops_shareLayer .ops_icons a.icon_sina{background-color:#fccfcf;}.ops_shareLayer .ops_icons a.icon_sina:hover,.ops_shareLayer .ops_icons a.icon_sina:focus{background-color:#d9534f;}.ops_shareLayer .ops_icons a.icon_sina i{background-position:0 -50px;}.ops_shareLayer .ops_icons a.icon_weixin{background-color:#d6e9c6;}.ops_shareLayer .ops_icons a.icon_weixin:hover,.ops_shareLayer .ops_icons a.icon_weixin:focus{background-color:#5cb85c;}.ops_shareLayer .ops_icons a.icon_weixin i{background-position:0 -100px;}.ops_shareLayer .ops_icons a.icon_qzone{background-color:#faebcc;}.ops_shareLayer .ops_icons a.icon_qzone:hover,.ops_shareLayer .ops_icons a.icon_qzone:focus{background-color:#f0ad4e;}.ops_shareLayer .ops_icons a.icon_qzone i{background-position:0 -150px;}.ops_shareLayer .ops_icons a.icon_copy{background-color:#bce8f1;}.ops_shareLayer .ops_icons a.icon_copy:hover,.ops_shareLayer .ops_icons a.icon_copy:focus{background-color:#428bca;}.ops_shareLayer .ops_icons a.icon_copy i{background-position:0 -200px;}.weixin_popup{background:#fff none repeat scroll 0 0;border:1px solid #d8d8d8;padding:10px;position:fixed;z-index:11001;text-align:left;font-size:12px;color:#333;}.weixin_popup .weixin_popup_head{color:#000;font-weight:bold;height:16px;line-height:16px;position:relative;text-align:left;}.weixin_popup .weixin_popup_head .weixin_popup_close{color:#999;font-size:16px;height:16px;position:absolute;right:0;text-decoration:none;top:0;width:16px;}.weixin_popup .weixin_popup_main{TEXT-ALIGN: center;padding-top:10px;padding-bottom:10px;}.weixin_popup .weixin_popup_foot{color:#666;line-height:22px;text-align:left;}#weixin_qrcode{height:295px;left:333.5px;bottom:150px;width:240px;}</style><script type="text/javascript" referrerpolicy="no-referrer-when-downgrade" src="//d.webterren.com/common.js?z=15&amp;t=202409200756"></script></head>
+<body>
+<!--top-->
+<div class="top_nav clearfix">
+   <div class="w1000_320 white pos_re_login">
+      <div class="fl"><style type="text/css">
+.top_nav div a{ padding:0 6px 0 6px;}
+</style>
+<a href="http://www.people.com.cn/" target="_blank">网站首页</a><a href="http://cpc.people.com.cn/" target="_blank">党网·时政</a><a href="http://finance.people.com.cn/" target="_blank">经济·科技</a><a href="http://society.people.com.cn/" target="_blank">社会·法治</a><a href="http://ent.people.com.cn/" target="_blank">文旅·体育</a><a href="http://health.people.com.cn/" target="_blank">健康·生活</a><a href="http://opinion.people.com.cn/" target="_blank">观点</a><a href="http://fangtan.people.com.cn/" target="_blank">访谈</a><a href="http://world.people.com.cn/" target="_blank">国际</a><a href="http://military.people.com.cn/" target="_blank">军事</a><a href="http://hm.people.com.cn/" target="_blank">港澳</a><a href="http://tw.people.com.cn/" target="_blank">台湾</a><a href="http://v.people.cn/" target="_blank">视频</a><a href="http://pic.people.com.cn/" target="_blank">图片</a><a href="http://edu.people.com.cn/" target="_blank">教育</a></div>
+      <div class="fr">
+      	<div id="txz_dlq"><a id="login_button">登录</a><a href="http://sso.people.com.cn/u/reg?appCode=ENw9NE44" target="_blank">注册</a></div>
+        <div id="txz_dlh" style="display:none;"><span id="loginMsg"></span> <a id="logout" target="_self">退出</a></div>
+      </div>
+      <div class="p_login" id="p_login">
+            <div id="txz_dlq1	">
+            <p>登录人民网通行证 &nbsp;&nbsp;&nbsp;<a href="http://sso.people.com.cn/u/reg?appCode=ENw9NE44" class="red">立即注册</a></p>
+            <form name="loginForm" onssologin="loginSuccess()" onssoerror="alert(msg)">
+            <p><input type="text" value="请输入用户名" onfocus="this.value='';this.style.color='#000';" onblur="if(!value){value=defaultValue;this.style.color='#d0d0d0';}" name="username" data-suggest="off"></p>
+            <p><input type="password" value="" name="password"></p><span style="display:none;"><input type="checkbox" name="remember" checked="checked" value="1"><label for="rememberMe">记住登录状态</label></span>
+            <p><a href="http://sso.people.com.cn/u/findpwd/user">忘记密码？</a></p>
+            <p class="tc"><input type="submit" name="" value="登录" class="people_button_sub"></p>
+            </form>
+            </div>
+        </div>
+   </div>
+</div>
+<script type="text/javascript" src="http://www.people.com.cn/img/2016wb/main_login.js" charset="utf-8"></script>
+<!--top end-->
+<!--path-->
+<div class=" clearfix w1000_320 path path2 pos_re_search">
+   <div class="fl">
+   <span id="rwb_logo"><em><a href="http://www.people.com.cn" target="_blank"><img src="http://www.people.com.cn/img/2016wb/images/logo01.png" width="112" height="46"></a></em><i><a href="http://www.people.com.cn" target="_blank"><img src="http://www.people.com.cn/img/2016wb/images/logo2.png" width="112" height="46"></a></i></span>
+   <span id="rwb_navpath"><a href="http://www.people.com.cn/" class="clink">人民网</a>&gt;&gt;<a href="http://pic.people.com.cn/" class="clink">图片频道</a></span>
+   </div>
+   <div class="fr"><img src="http://www.people.com.cn/img/2016wb/images/icon01.gif" width="29" height="29" id="search_button"><a href="http://www.people.com.cn/GB/138812/index.html" target="_blank"><img src="http://www.people.com.cn/img/2016wb/images/icon02.gif" width="29" height="29"></a><a href="http://bbs1.people.com.cn/postLocalLink.do?nid=40266360" target="_blank"><img src="http://www.people.com.cn/img/2016wb/images/icon04.jpg" width="29" height="23"></a></div>
+   <div class="p_search" id="p_search">
+            <form action="http://search.people.com.cn/cnpeople/peoplesearch.do" name="searchForm" method="post" target="_blank">
+            <p><input class="people_input" name="keyword" id="keyword" value="请输入检索内容" onfocus="this.value='';this.style.color='#000';" onblur="if(!value){value=defaultValue;this.style.color='#d0d0d0';}" type="text"></p>
+            <p class="tc"><input type="submit" name="" value="站内检索" class="people_button_sub"></p></form>
+       </div>
+</div>
+<!--pic content-->
+<div class="pic_content clearfix">
+         <div class="pic_c clearfix">
+           <div class="picBox">
+               <div class="pre_title" style="text-align:left;font-weight:bold;"></div>
+               <div class="title"><h1>暴雨中的守护者</h1><span style="display:none"><a href="/NMediaFile/2024/0628/MAIN1719537566911XZHFK10G9Z.JPG" id="pic_url" target="_blank">【查看原图】</a></span></div>
+               <div class="sub_title"></div>
+               <div class="pic_data clearfix" id="picG">
+               <span class="a_left"></span>
+               <span class="a_right"></span>
+                <img src="/NMediaFile/2024/0628/MAIN1719537566911XZHFK10G9Z.JPG" border="0" alt="6月26日，在黄山市屯溪区老街街道，老街专职消防队队长程顺富（前）与队友们清理路面树枝。新华社记者 傅天 摄"><div class="text_show_img">6月26日，在黄山市屯溪区老街街道，老街专职消防队队长程顺富（前）与队友们清理路面树枝。新华社记者 傅天 摄</div>
+                <div class="page_c">
+                    <div class="page_n"><a href="/n1/2024/0628/c1016-40266360.html">1</a><a href="/n1/2024/0628/c1016-40266360-2.html">2</a><a href="/n1/2024/0628/c1016-40266360-3.html">3</a><a href="/n1/2024/0628/c1016-40266360-4.html">4</a><a href="/n1/2024/0628/c1016-40266360-5.html">5</a><a href="/n1/2024/0628/c1016-40266360-6.html">6</a><a href="/n1/2024/0628/c1016-40266360-7.html">7</a><a href="/n1/2024/0628/c1016-40266360-8.html">8</a><a href="/n1/2024/0628/c1016-40266360-9.html">9</a><a href="/n1/2024/0628/c1016-40266360-10.html">10</a><a href="/n1/2024/0628/c1016-40266360-11.html" style="display: none;">11</a><a href="/n1/2024/0628/c1016-40266360-12.html" style="display: none;">12</a><a href="/n1/2024/0628/c1016-40266360-13.html" style="display: none;">13</a><a href="/n1/2024/0628/c1016-40266360-14.html" style="display: none;">14</a><a href="/n1/2024/0628/c1016-40266360-15.html" style="display: none;">15</a><a href="/n1/2024/0628/c1016-40266360-16.html" style="display: none;">16</a><a href="/n1/2024/0628/c1016-40266360-17.html" style="display: none;">17</a><a href="/n1/2024/0628/c1016-40266360-2.html" id="next" style="display: none;">下一页</a><span class="more_list" title="查看更多"></span></div>
+                    <div class="fr">
+                    来源：<a href="http://www.xinhuanet.com/" target="_blank">新华社</a>&nbsp;&nbsp;2024年06月28日09:18
+                    </div>
+               </div>
+               <div class="xianshi"></div>
+               <div class="icon-hengping" style="display: none;">
+		<img src="/img/MAIN/2022/07/121495/images/hengping.png" alt="" class="">
+	       </div>
+           </div>
+           <!--content-->
+            <div class="content clear clearfix"><p style="text-indent: 2em;">入汛以来，安徽省黄山市连续遭遇强降雨。暴雨中，有一群人始终坚守一线，“逆行”向险，保群众安全，护基础设施，守文物古建。他们当中有社区干部，有水库巡查责任人，有消防人员，还有医务工作者、武警官兵、志愿者……各行各业的守护者保卫着暴雨中的家园。</p>
+            <div class="edit clearfix">
+                    <em>
+                        <div id="ops_share"><div class="ops_shareLayer"><span class="ops_tit">分享到：</span><ul class="ops_icons"><li><a href="javascript:void(0)" onclick="_opsShare.share('icon_sina');return false;" class="icon_sina" title="新浪微博"><i> </i></a></li><li><a href="javascript:void(0)" onclick="_opsShare.share('icon_weixin');return false;" class="icon_weixin" title="微信"><i> </i></a></li><li><a href="javascript:void(0)" onclick="_opsShare.share('icon_qzone');return false;" class="icon_qzone" title="QQ空间"><i> </i></a></li><li><a href="javascript:void(0)" onclick="_opsShare.share('icon_copy');return false;" class="icon_copy" title="复制地址"><i> </i></a></li></ul></div></div>
+                        <script src="http://www.people.com.cn/img/2016wb/share_qr2019dwb.min.js" charset="utf-8"></script>
+                    </em>
+                    <i id="p_editor">(责编：陈悦、常雪梅)</i>
+             </div>
+            </div>
+       </div>
+        <!--about pic list-->
+        <div class="about_pic clearfix">
+  <h3><span>相关图集</span></h3>
+  <ul><li><a href="/n1/2024/1029/c1016-40349707.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN17301893331723L2DJ2XUX8.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349707.html" target="_blank">新疆阿克陶：多彩红山谷 美如山水画</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349694.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730188073570CR882X4EC5.JPG" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349694.html" target="_blank">“川藏公路动工地”成文旅地标</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349687.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730187526216A03HUNU8Y4.JPG" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349687.html" target="_blank">中医“真的很了不起”——国际人士在瑞士日...</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349672.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730187139995ZGR5V36CM6.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349672.html" target="_blank">重庆黔江：万亩彩叶林似锦缎</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349646.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730184991694HXXN9DH2CR.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349646.html" target="_blank">山东聊城：游客打卡“两河明珠”</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349621.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730184183007THJAPH8IVS.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349621.html" target="_blank">2024第二届水岸铁人运动公开赛在河北迁...</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349439.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730165670828RIX8Q5LEN6.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349439.html" target="_blank">甘肃金塔：红辣椒映红致富路</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349435.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730165469694ZIB1KQIQ3M.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349435.html" target="_blank">河北秦皇岛：深秋长城美如画</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349429.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN173016512767167N8FOU2ZK.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349429.html" target="_blank">“贵州造”新能源客车首次搭乘中老班列出海</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349424.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730164843552LFJ9TBUBRH.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349424.html" target="_blank">河南新乡：太行秋色美</a></div></li>
+
+</ul>
+<span class="more"><a href="" target="_blank">查看更多</a></span>
+</div>
+   </div>
+</div>
+<!--message-->
+<div class="message clearfix">
+  <div class="message_c">
+     <div class="fl">
+		
+     </div>
+     <div class="fr">
+       
+     </div>
+  </div>
+</div>
+<div class="copyright clearfix" style="overflow: hidden;">
+<div id="copyright" class="copyright clearfix">人 民 网 股 份 有 限 公 司 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>
+Copyright © 1997-2024 by www.people.com.cn. all rights reserved</div>
+</div>
+<style type="text/css">
+  .replayImg{
+	 position:fixed;
+	 left:50%;
+	 margin-left:-650px;
+	 bottom:10%;
+  }
+</style>
+<div class="replayImg">
+<a href="http://pic.people.com.cn/" title="返回图片首页" target="_blank"><img src="/img/MAIN/2020/07/120340/images/replay_img.png" alt=""></a>
+</div>
+  <!--图片插件-->
+<script type="text/javascript">
+
+    $(document).ready(function(e) {
+//$('.text_show_img').html($('.text_show_img').html().replace('&nbsp;',' '))
+
+$('.text_show_img').html($('.text_show_img').html().replace(/&nbsp;/igm,' '))
+		if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+			} else {
+               $(document).scroll(function(){  
+				  var tops =  $(this).scrollTop();
+				  if(tops > 290){
+					$('.about_pic').css({
+					  position:'absolute',
+					  top:tops-160,
+					})
+				  }else{
+					$('.about_pic').css({
+					  position:'absolute',
+					  top:'75px',
+					})
+				  }
+				  console.log(tops)
+				})
+			}
+		
+   //debug
+   var cl=function(n){
+	   console.log(n);
+	   }
+   //img width height
+   var imgWidth = $(".pic_data img").width(); 
+   $(window).resize(function() {
+	   var screenWidth = document.body.clientWidth;
+	   //cl(screenWidth)
+	   if(screenWidth<850){
+		  $(".pic_data").css({width:"95%"})
+		  $(".pic_data img").css({width:"100%",height:"auto"}) 
+	   }else{
+		  $(".pic_data").css({width:"850px"})
+		   }
+   })
+   //show text
+     $(".xianshi").toggle(
+     function(){
+		 $(".text_show_img").css({height:"auto"});
+		 $(".xianshi").addClass("xianshi1");
+	 },
+	 function(){
+	    $(".text_show_img").css({height:"22px"});
+		$(this).removeClass("xianshi1");
+	 }
+   )
+   //page nub
+   $(".page_n a").each(function(index, element) {   
+	  if(index>=10){
+		  $(".page_n a").eq(index).hide();
+	   }
+   });
+   $(".page_n").append("<span class='more_list' title='\u67e5\u770b\u66f4\u591a'></span>");
+   	  var num_c = 10;
+	  var le_c = $(".page_n a").length;
+	if(le_c<10){
+	  $(".more_list").detach();
+	} 
+   $(".more_list").toggle(
+      function(){
+	 $(".page_n a").each(function(index, element){
+	  if(index>=num_c&&index<=19){
+		  $(".page_n a").eq(index).show();  
+	  }else{
+		$(".page_n a").eq(index).hide();
+	  }
+    });
+   },
+   function(){
+	 $(".page_n a").each(function(index, element){
+	  if(index>=20&&index<=le_c){
+		  $(".page_n a").eq(index).show();  
+	  }else{
+		$(".page_n a").eq(index).hide();
+	  }
+    });
+   },
+   function(){
+	 $(".page_n a").each(function(index, element){
+	  if(index>=0&&index<=9){
+		  $(".page_n a").eq(index).show();  
+	  }else{
+		$(".page_n a").eq(index).hide();
+	  }
+    });
+   }
+   )
+});
+  </script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+	 //获取鼠标位置
+	function mousePos(e){
+    var x,y;
+    var e = e||window.event;
+    return {
+    x:e.clientX+document.body.scrollLeft+document.documentElement.scrollLeft,
+    y:e.clientY+document.body.scrollTop+document.documentElement.scrollTop
+    };
+    };
+	var pic_url = $("#picG img").eq(0).attr("src");
+	$("#pic_url").attr("href",pic_url);
+    //鼠标手势改变
+	var G_str_widthpic = $(".pic_data").width();
+	var G_str_widthpic_all = $(".pic_c").width();
+	var G_str_srcpic = $(".pic_c img").attr("src");
+	$("#yuantu").attr("href",G_str_srcpic);
+	var next_link = $("#next").attr("href");
+	var prev_link = $("#prev").attr("href");
+	$(".pic_data").bind("mousemove",function(e){
+	    if (mousePos(e).x<G_str_widthpic_all/2)
+		 {
+          $(this).addClass("cursor-left");
+		  $(this).removeClass("cursor-right");
+		  $(".a_left").show();
+		  $(".a_right").hide();
+		 }else if(mousePos(e).x>G_str_widthpic_all/2){
+		  $(this).addClass("cursor-right");
+		  $(".a_left").hide();
+		  $(".a_right").show();
+		 }
+	});
+	$(".pic_data").click(function(){
+		  var className = $(this).attr("class");
+		  //console.log(className);
+		  if(className == "pic_data clearfix cursor-left"){
+			if(prev_link!=undefined){
+		      window.open(prev_link,"_self");
+			}else{ 
+			}
+		  }
+		  if(className == "pic_data clearfix cursor-right" || className == "pic_data clearfix cursor-left cursor-right"){
+			if(next_link!=undefined){
+		      window.open(next_link,"_self");
+			}else{ 
+			  //alert("已经是最后张了！！") 
+			}
+		  }
+	 }) 
+	//排行榜
+	$(".pai_list li").eq(0).addClass("top");
+	$(".pai_list li").eq(1).addClass("top");
+	$(".pai_list li").eq(2).addClass("top");
+   });
+  </script>
+  <!--插入图片透明方法-->
+<!--[if lte IE 6]>
+<script src="/img/2013lh/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('div, ul, img, li, input , a , td , em,h1 ,h2,h3,h4,h5,h6,em,i,p,');
+</script>
+<script type="text/javascript">
+var $this_width = $(".pic_data img").width();
+var $this_height = $(".pic_data img").height();
+$(".pic_data").css({width:$this_width,height:$this_height});
+var $this_pos = $(".pic_data").offset();
+var G_str_picwidth = $(".pic_data").width();
+$(".open").css({top:$this_pos.top+$this_height-50,left:$this_pos.left+G_str_picwidth+38})
+</script>
+<![endif]-->
+<img src="http://counter.people.cn:8000/c.gif?id=40266360" width="0" height="0" style="display:none;">
+<script src="/img/MAIN/2013/09/113727/loadScript.js" language="javascript" type="text/javascript"></script>
+<script src="/img/MAIN/2013/09/113727/AdPopup.js" language="javascript" type="text/javascript"></script>
+<script src="/img/MAIN/2014/02/114133/load.js" language="javascript" type="text/javascript"></script>
+<script src="http://tools.people.com.cn/css/2010tianrun/webdig_test.js" language="javascript" type="text/javascript" async=""></script>
+<script src="http://www.people.com.cn/img/2016wb/jweixin-1.0.0.js" type="text/javascript"></script>
+<script type="text/javascript">
+var str="暴雨中的守护者--图片频道--人民网 ";
+var str1="暴雨中的守护者";
+str=str.replace(/&nbsp;/g," ")
+str=str.replace(/&quot;/g,'"')
+str=str.replace(/<br>/g,"")
+str1=str1.replace(/&nbsp;/g," ")
+str1=str1.replace(/&quot;/g,'"')
+str1=str1.replace(/<br>/g,"")
+var wxData = {
+	"imgUrl": "http://www.people.com.cn/img/2016wb/images/logo_share.jpg", // 200x200
+	"link": window.location.href,
+	"desc": "" + str + "",
+	"title": "" + str1 + ""
+};
+</script>
+<script src="http://www.people.com.cn/img/2016wb/WeiXinData.js" type="text/javascript"></script>
+<script defer="" async="" type="text/javascript" src="http://tools.people.com.cn/wza/assist.js?sid=2716&amp;pos=left&amp;bar=0"></script>
+
+
+	<script type="text/javascript">var picArray = new Array();var picText = new Array();var picPage =  new Array();picArray[0] ="/NMediaFile/2024/0628/MAIN1719537566911XZHFK10G9Z.JPG";picText[0]  = "6月26日，在黄山市屯溪区老街街道，老街专职消防队队长程顺富（前）与队友们清理路面树枝。新华社记者 傅天 摄";picPage[0]  = "1";picArray[1] ="/NMediaFile/2024/0628/MAIN1719537567129H0XCGGG1KF.JPG";picText[1]  = "6月26日，山越救援队队员在黄山市歙县绍濂乡和平村清理老桥上的树干和树枝。新华社发（樊成柱摄）";picPage[1]  = "2";picArray[2] ="/NMediaFile/2024/0628/MAIN1719537567043QOILF53SX5.JPG";picText[2]  = "6月26日，在黄山市屯溪区阳湖镇黄口社区，社区干部毕志辉检查应急救援物资。新华社记者 傅天 摄";picPage[2]  = "3";picArray[3] ="/NMediaFile/2024/0628/MAIN1719537567064EP2U6KP0CQ.JPG";picText[3]  = "6月25日，在黄山市屯溪区百鸟亭小学尤溪校区门口，挖掘机驾驶员汪惠平操作挖掘机清理塌方路段。新华社记者 傅天 摄";picPage[3]  = "4";picArray[4] ="/NMediaFile/2024/0628/MAIN17195375668712LILTNIZGS.JPG";picText[4]  = "6月26日，在黄山市屯溪区屯光镇草市社区，瑶源水库巡查责任人张金良操作大流量排涝泵站。新华社记者 傅天 摄";picPage[4]  = "5";picArray[5] ="/NMediaFile/2024/0628/MAIN1719537566889MG2RD1YXO4.JPG";picText[5]  = "6月26日，黄山市歙县绍濂乡卫生院的医护人员在绍濂乡中心学校安置点为老人体检。新华社发（许昊摄）";picPage[5]  = "6";picArray[6] ="/NMediaFile/2024/0628/MAIN1719537566975TKLJB32KWK.JPG";picText[6]  = "6月26日，在黄山市屯溪区阳湖镇黄口社区，社区干部毕志辉（前）和同事巡逻查看社区内涝情况。新华社记者 傅天 摄";picPage[6]  = "7";picArray[7] ="/NMediaFile/2024/0628/MAIN1719537566818V9HDI6GKJ4.JPG";picText[7]  = "6月26日，山越救援队队员程红梅（左）在黄山市歙县绍濂乡和平村帮助村民过桥。新华社发（樊成柱摄）";picPage[7]  = "8";picArray[8] ="/NMediaFile/2024/0628/MAIN171953756684537VGT5T9W5.JPG";picText[8]  = "6月27日，在安徽省黄山市徽州区呈坎村，工作人员加固文物保护单位罗东舒祠前的防汛沙袋。新华社发（施亚磊摄）";picPage[8]  = "9";picArray[9] ="/NMediaFile/2024/0628/MAIN1719537567002ZROMR8TNAH.JPG";picText[9]  = "6月27日，在黄山市徽州区呈坎村，工作人员清理过水后的石板路面。新华社发（施亚磊 摄）";picPage[9]  = "10";picArray[10] ="/NMediaFile/2024/0628/MAIN1719537567025QLXB0XPDAK.JPG";picText[10]  = "6月26日，在黄山市屯溪区老街街道应急指挥中心，老街专职消防队队长程顺富查看全国重点文物保护单位屯溪老街内积水情况。新华社记者 傅天 摄";picPage[10]  = "11";picArray[11] ="/NMediaFile/2024/0628/MAIN1719537567091BNR6WTXDH8.JPG";picText[11]  = "6月26日，在黄山市屯溪区屯光镇草市社区，瑶源水库巡查责任人张金良查看启闭机状态。新华社记者 傅天 摄";picPage[11]  = "12";picArray[12] ="/NMediaFile/2024/0628/MAIN17195375671094JIL8658YE.JPG";picText[12]  = "6月27日，在黄山市徽州区岩寺镇翰山村安置点，志愿者为孩子们辅导作业。新华社发（郑辰摄）";picPage[12]  = "13";picArray[13] ="/NMediaFile/2024/0628/MAIN17195375669531QHP3AEPIW.JPG";picText[13]  = "6月27日，在黄山市徽州区呈坎村，工作人员加固文物保护单位长春社前的防汛沙袋。新华社发（郑辰摄）";picPage[13]  = "14";picArray[14] ="/NMediaFile/2024/0628/MAIN1719537567156PEED2QR3BO.JPG";picText[14]  = "6月23日，山越救援队队员在黄山市歙县徽城镇转移群众。新华社发（程红梅摄）";picPage[14]  = "15";picArray[15] ="/NMediaFile/2024/0628/MAIN17195375671876GR2Y7EFXX.JPG";picText[15]  = "6月22日，救援人员从停靠在黄山市歙县绍濂乡小溪中心小学楼顶的救援直升机上取下物资。新华社发（许昊摄）";picPage[15]  = "16";picArray[16] ="/NMediaFile/2024/0628/MAIN1719537566933Y4NR0BXQMR.JPG";picText[16]  = "6月27日，在黄山市徽州区岩寺镇翰山村安置点，志愿者和孩子们一起做手工。新华社发（施亚磊摄）";picPage[16]  = "17";</script>
+	<style>
+		/*新增样式*/
+		@media (max-width: 689px) and (min-device-width: 320px),
+		(max-device-width: 600px) {
+			body.adpt2022>div {
+				display: none;
+			}
+
+			body>.mobile-wrap {
+				display: block;
+			}
+		}
+
+		.mobile-wrap {
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 999;
+			background-color: #000;
+		}
+
+		.icon-hengping {
+			position: absolute;
+			right: 0px;
+			top: 0;
+			z-index: 9;
+			width: 11vw;
+			
+			z-index: 999;
+			border-radius: 6px;
+			/* background: #126bfb; */
+			color: #fff;
+			text-align: center;
+			font-size: 0;
+			line-height: 0;
+			opacity: .5;
+			animation:  aniHengping 1.3s linear infinite;
+			border-radius: 6px;
+			overflow: hidden;
+		}
+
+		@keyframes aniHengping {
+			0%,100% {
+				opacity: 0.5;
+			}
+			50% {
+				opacity: 0.2;
+			}
+		}
+		.icon-hengping img {
+			width: 100%;
+                        min-width: 0;
+                      max-width: none;
+                   max-height: none;
+min-height: none;
+		}
+		.gaoqing {
+			text-align: center;
+		}
+
+		.mobile-wrap,
+		.mobile-wrap * {
+			box-sizing: border-box;
+		}
+
+		.mobile-wrap .ti {
+			width: 100%;
+			height: auto;
+		}
+
+		.hbox,
+		.vbox {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+
+		.box-content {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+
+
+		.box-desc {
+
+			font-size: 20px;
+			background-color: rgba(0, 0, 0, .5);
+			color: #fff;
+		}
+
+		.hbox-desc,
+		.vbox-desc {
+			position: absolute;
+			display: table;
+
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 13vw;
+			text-indent: 2em;
+			z-index: 99999;
+			transform: translate3d(0, 0, 0);
+			transition: all .5s ease-out;
+			overflow-y: auto;
+		}
+
+		.hbox-desc.dis-desc,
+		.vbox-desc.dis-desc {
+			transform: translate3d(0, 100%, 0);
+			transition: none;
+		}
+
+		.hbox-desc {
+			height: 13vh;
+			overflow-y: auto;
+		}
+
+		.swiper-slide {
+			background: #000;
+			overflow: hidden;
+		}
+
+		.desc-outer {
+			display: table-cell;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			vertical-align: middle;
+			padding: 1vw;
+			display: flex;
+			align-items: center;
+		}
+
+		.vbox-desc .desc-inner {
+
+			/* padding: 10px; */
+		}
+
+		.content-rotate {
+			position: relative;
+			width: 100vh;
+			height: 100vw;
+			transform: rotate(90deg);
+			transform-origin: left bottom;
+			margin-top: -100vw;
+		}
+
+		.mobile-wrap .ti {
+			position: absolute;
+			height: 100%;
+			width: auto;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.mobile-wrap .swiper-container {
+			width: 100%;
+			height: 100%;
+		}
+
+		.mobile-wrap .btn-close {
+			position: absolute;
+			right: 2vh;
+			top: 2vw;
+			width: 6vw;
+			height: 6vw;
+			text-align: center;
+			line-height: 5vw;
+			text-align: center;
+			z-index: 3;
+			font-size: 6vw;
+			z-index: 99999;
+			transform: translate3d(0, 0, 0);
+			opacity: .4;
+		}
+
+		.mobile-wrap .hbox .btn-close {
+			right: 2vw;
+			top: 20px;
+			width: 8vh;
+			height: 8vh;
+
+		}
+
+		.mobile-wrap .has-last h3 {
+			color: #fff;
+			text-align: center;
+			font-size: 8vw;
+			margin-bottom: 4vw;
+			margin-top: 3vw;
+		}
+
+		.mobile-wrap .hbox .has-last h3 {
+
+			font-size: 10vh;
+			margin-top: 3vh;
+			margin-bottom: 3vh;
+		}
+		}
+
+		.mobile-wrap .has-last {
+			text-align: left;
+			overflow: hidden;
+		}
+
+		.mobile-wrap .has-last ul li {
+			position: relative;
+			display: inline-block;
+			width: 36.4vw;
+			height: 28vw;
+			margin-right: 4vw;
+			margin-bottom: 4vw;
+			text-align: left;
+		}
+
+		.mobile-wrap .hbox .has-last ul li {
+			width: 36.4vh;
+			height: 28vh;
+			margin-right: 5vh;
+			margin-bottom: 5vh;
+			text-align: left;
+		}
+
+
+
+		.mobile-wrap .has-last ul li img {
+			width: 100%;
+			height: 100%;
+		}
+
+		.mobile-wrap .has-last ul li:nth-child(4n) {
+			margin-right: 0;
+		}
+
+		.mobile-wrap .has-last ul {
+			width: 158vw;
+			height: 64vw;
+			margin: 0 auto;
+			font-size: 0;
+			overflow: hidden;
+		}
+
+		.mobile-wrap .hbox .has-last ul {
+			width: 161.5vh;
+			height: 64vh;
+			overflow: hidden;
+			margin: 0 auto;
+			font-size: 0;
+		}
+
+		.mobile-wrap .has-last ul li div {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			z-index: 1;
+			font-size: 3.8vw;
+			padding: 2vw;
+			background-color: rgba(0, 0, 0, .5);
+			color: #fff;
+			line-height: 1.3;
+		}
+
+		.mobile-wrap .hbox .has-last ul li div {
+
+			font-size: 3.8vh;
+			padding: 2vh;
+			background-color: rgba(0, 0, 0, .5);
+			color: #fff;
+			line-height: 1.3;
+		}
+
+		.mobile-wrap .has-last ul li div a {
+			color: #fff;
+		}
+
+		.vbox-arrow {
+			position: absolute;
+			top: 50%;
+			z-index: 8888888;
+			height: 10vw;
+			width: auto;
+			transform: translate3d(0, -50%, 0);
+			opacity: .4;
+		}
+
+		.hbox .vbox-arrow {
+			height: 12vh;
+		}
+
+		.swiper-left1 {
+			left: 1vh;
+		}
+
+		.swiper-right1 {
+			right: 1vh;
+		}
+
+		.swiper-left2 {
+			left: 1vw;
+		}
+
+		.swiper-right2 {
+			right: 1vw;
+		}
+
+		.long-v .swiper-left1 {
+			left: 3vh;
+		}
+
+		.long-v .swiper-right1 {
+			right: 3vh;
+		}
+
+		.long-h .swiper-left2 {
+			left: 3vw;
+		}
+
+		.long-h .swiper-right2 {
+			right: 3vw;
+		}
+
+		.toast-tip {
+			position: fixed;
+			left: 50%;
+			top: 50%;
+			z-index: 225555552;
+			padding: 20px 40px;
+			font-size: 18px;
+			background-color: rgba(0, 0, 0, .5);
+			white-space: nowrap;
+			color: #fff;
+			z-index: 99999;
+			transform: translate3d(-50%, -50%, 0);
+		}
+
+		.box-context {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 38.2vh;
+			height: 100%;
+			background: rgba(0, 0, 0, .7);
+			color: #fff;
+			text-align: left;
+			z-index: 100000;
+			padding: 3vw;
+			font-size: 3.5vw;
+			overflow-y: auto;
+			white-space: normal;
+			transform: translate3d(0, 0, 0);
+		}
+
+		.hbox .box-context {
+			width: 38.2vw;
+			padding: 3vh;
+			font-size: 4vh;
+		}
+
+		.box-context .context-inner {
+			display: inline-block;
+			width: 100%;
+			margin-left: auto;
+			text-indent: 2em;
+			text-align: justify;
+		}
+
+		.box-context .context-inner {
+			font-size: 4.5vw;
+		}
+
+		.hbox .box-context .context-inner {
+			font-size: 4.5vh;
+		}
+
+		.zhankai {
+			display: none;
+			position: absolute;
+			left: 6px;
+			top: 50%;
+			z-index: 2;
+			width: 8vw;
+			transform: translate3d(0, -50%, 0);
+			opacity: .6;
+		}
+
+		.hbox .zhankai {
+			width: 8vh;
+		}
+
+		.box-context.dis-context .context-inner {
+			display: none;
+		}
+
+		/* .box-context.dis-context .zhankai {
+		display: block;
+	} */
+
+		body .mobile-wrap .zhankai {
+			display: none;
+		}
+
+		body .mobile-wrap .box-context {
+			display: none;
+		}
+
+
+		body.page0 .mobile-wrap .dis-context .zhankai {
+			display: block;
+		}
+
+		body.page0 .mobile-wrap .dis-context .zhankai {
+			display: block;
+		}
+
+		body.page0 .mobile-wrap .box-context {
+			display: block;
+		}
+
+		body.page0 .mobile-wrap .box-context.dis-context {
+			background: transparent;
+		}
+
+		.zg-outer::-webkit-scrollbar {
+			width: 7px;
+			height: 7px;
+			background-color: #c76567;
+		}
+
+		.zg-outer::-webkit-scrollbar-track {
+			border-radius: 2px;
+			background-color: #000;
+		}
+
+		.zg-outer::-webkit-scrollbar-thumb {
+			border-radius: 2px;
+			background-color: #ccc;
+		}
+	</style>
+	<div class="toast-tip" style="display: none">
+		即将为您切换为高清横图模式
+	</div>
+	
+
+	<div class="mobile-wrap" style="display: none">
+		<!-- 竖屏状态 -->
+		<div class="vbox" id="vbox" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+			<div class="content-rotate">
+
+				<div class="vbox-desc box-desc">
+					<div class="desc-outer">
+						<div class="desc-inner">
+							丰厚的搜分红反对搜凤凰博你凡事都if噢ID是非农户佛第三方后端收费以后少花费都是发的司法建瓯盘粉红色东方红大厦丰厚的搜分红
+						</div>
+					</div>
+
+
+				</div>
+				<div class="box-content vbox-content">
+					<div class="swiper-container swiper-container-vbox">
+						<div class="swiper-wrapper" id="sw-vbox"><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537566911XZHFK10G9Z.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537567129H0XCGGG1KF.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537567043QOILF53SX5.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537567064EP2U6KP0CQ.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN17195375668712LILTNIZGS.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537566889MG2RD1YXO4.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537566975TKLJB32KWK.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537566818V9HDI6GKJ4.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN171953756684537VGT5T9W5.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537567002ZROMR8TNAH.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537567025QLXB0XPDAK.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537567091BNR6WTXDH8.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN17195375671094JIL8658YE.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN17195375669531QHP3AEPIW.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537567156PEED2QR3BO.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN17195375671876GR2Y7EFXX.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537566933Y4NR0BXQMR.JPG"></div><div class="swiper-slide has-last">
+  <h3><span>相关图集</span></h3>
+  <ul><li><a href="/n1/2024/1029/c1016-40349707.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN17301893331723L2DJ2XUX8.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349707.html" target="_blank">新疆阿克陶：多彩红山谷 美如山水画</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349694.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730188073570CR882X4EC5.JPG" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349694.html" target="_blank">“川藏公路动工地”成文旅地标</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349687.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730187526216A03HUNU8Y4.JPG" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349687.html" target="_blank">中医“真的很了不起”——国际人士在瑞士日...</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349672.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730187139995ZGR5V36CM6.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349672.html" target="_blank">重庆黔江：万亩彩叶林似锦缎</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349646.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730184991694HXXN9DH2CR.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349646.html" target="_blank">山东聊城：游客打卡“两河明珠”</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349621.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730184183007THJAPH8IVS.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349621.html" target="_blank">2024第二届水岸铁人运动公开赛在河北迁...</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349439.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730165670828RIX8Q5LEN6.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349439.html" target="_blank">甘肃金塔：红辣椒映红致富路</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349435.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730165469694ZIB1KQIQ3M.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349435.html" target="_blank">河北秦皇岛：深秋长城美如画</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349429.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN173016512767167N8FOU2ZK.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349429.html" target="_blank">“贵州造”新能源客车首次搭乘中老班列出海</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349424.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730164843552LFJ9TBUBRH.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349424.html" target="_blank">河南新乡：太行秋色美</a></div></li>
+
+</ul>
+<span class="more"><a href="" target="_blank">查看更多</a></span>
+</div></div>
+					</div>
+				</div>
+				<img src="/img/MAIN/2022/07/121495/images/btn-closebox.png" alt="" class="btn-close">
+				<img src="/img/MAIN/2022/07/121495/images/swiper-left.png" alt="" class="swiper-left1 vbox-arrow">
+				<img src="/img/MAIN/2022/07/121495/images/swiper-right.png" alt="" class="swiper-right1 vbox-arrow">
+			</div>
+
+		</div>
+		<!-- 横屏状态 -->
+		<div class="hbox" style="display: none">
+
+			<div class="hbox-desc box-desc">
+				<div class="desc-outer">
+					<div class="desc-inner">
+						丰厚的搜分红反对搜凤凰博你凡事都if噢ID是非农户佛第三方后端收费以后少花费都是发的司法建瓯盘粉红色东方红大厦丰厚的搜分红
+					</div>
+				</div>
+			</div>
+			<div class="box-content hbox-content">
+				<div class="swiper-container swiper-container-hbox">
+					<div class="swiper-wrapper" id="sw-hbox"><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537566911XZHFK10G9Z.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537567129H0XCGGG1KF.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537567043QOILF53SX5.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537567064EP2U6KP0CQ.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN17195375668712LILTNIZGS.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537566889MG2RD1YXO4.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537566975TKLJB32KWK.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537566818V9HDI6GKJ4.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN171953756684537VGT5T9W5.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537567002ZROMR8TNAH.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537567025QLXB0XPDAK.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537567091BNR6WTXDH8.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN17195375671094JIL8658YE.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN17195375669531QHP3AEPIW.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537567156PEED2QR3BO.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN17195375671876GR2Y7EFXX.JPG"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2024/0628/MAIN1719537566933Y4NR0BXQMR.JPG"></div><div class="swiper-slide has-last">
+  <h3><span>相关图集</span></h3>
+  <ul><li><a href="/n1/2024/1029/c1016-40349707.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN17301893331723L2DJ2XUX8.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349707.html" target="_blank">新疆阿克陶：多彩红山谷 美如山水画</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349694.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730188073570CR882X4EC5.JPG" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349694.html" target="_blank">“川藏公路动工地”成文旅地标</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349687.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730187526216A03HUNU8Y4.JPG" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349687.html" target="_blank">中医“真的很了不起”——国际人士在瑞士日...</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349672.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730187139995ZGR5V36CM6.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349672.html" target="_blank">重庆黔江：万亩彩叶林似锦缎</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349646.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730184991694HXXN9DH2CR.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349646.html" target="_blank">山东聊城：游客打卡“两河明珠”</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349621.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730184183007THJAPH8IVS.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349621.html" target="_blank">2024第二届水岸铁人运动公开赛在河北迁...</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349439.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730165670828RIX8Q5LEN6.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349439.html" target="_blank">甘肃金塔：红辣椒映红致富路</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349435.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730165469694ZIB1KQIQ3M.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349435.html" target="_blank">河北秦皇岛：深秋长城美如画</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349429.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN173016512767167N8FOU2ZK.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349429.html" target="_blank">“贵州造”新能源客车首次搭乘中老班列出海</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349424.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730164843552LFJ9TBUBRH.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349424.html" target="_blank">河南新乡：太行秋色美</a></div></li>
+
+</ul>
+<span class="more"><a href="" target="_blank">查看更多</a></span>
+</div></div>
+				</div>
+			</div>
+			<img src="/img/MAIN/2022/07/121495/images/btn-closebox.png" alt="" class="btn-close">
+			<img src="/img/MAIN/2022/07/121495/images/swiper-left.png" alt="" class="swiper-left2 vbox-arrow">
+			<img src="/img/MAIN/2022/07/121495/images/swiper-right.png" alt="" class="swiper-right2 vbox-arrow">
+
+		</div>
+	</div>
+	<link rel="stylesheet" href="http://people.com.cn/img/MAIN/2022/07/121494/css/swiper.min.css">
+	<script src="http://people.com.cn/img/MAIN/2022/07/121494/js/swiper.min.js" charset="utf-8"></script>
+	<script src="http://people.com.cn/img/MAIN/2018/10/118767/js/lib/hammer.min.js"></script>
+	<script>
+			- function () {
+if ($('.page_n a').length < 2) {
+                    $('.a_left,.a_right').remove()
+                }
+				var zhengwenText = $('.picBox .content p').first().html() || $('#picG > p').first().html() || document.title
+		console.log('正文是' + zhengwenText)
+
+				$('.context-inner').html(zhengwenText)
+
+				//签完名的图片旋转处理
+				function rotateBase64Img(src, edg, callback) {
+					var canvas = document.createElement("canvas");
+					var ctx = canvas.getContext("2d");
+					var imgW;//图片宽度
+					var imgH;//图片高度
+					var size;//canvas初始大小
+					if (edg % 90 != 0) {
+						console.error("旋转角度必须是90的倍数!");
+						throw '旋转角度必须是90的倍数!';
+					}
+					(edg < 0) && (edg = (edg % 360) + 360)
+					const quadrant = (edg / 90) % 4; //旋转象限
+					const cutCoor = { sx: 0, sy: 0, ex: 0, ey: 0 }; //裁剪坐标
+					var image = new Image();
+					image.crossOrigin = "anonymous"
+					image.src = src;
+					image.onload = function () {
+						imgW = image.width;
+						imgH = image.height;
+						size = imgW > imgH ? imgW : imgH;
+						canvas.width = size * 2;
+						canvas.height = size * 2;
+						switch (quadrant) {
+							case 0:
+								cutCoor.sx = size;
+								cutCoor.sy = size;
+								cutCoor.ex = size + imgW;
+								cutCoor.ey = size + imgH;
+								break;
+							case 1:
+								cutCoor.sx = size - imgH;
+								cutCoor.sy = size;
+								cutCoor.ex = size;
+								cutCoor.ey = size + imgW;
+								break;
+							case 2:
+								cutCoor.sx = size - imgW;
+								cutCoor.sy = size - imgH;
+								cutCoor.ex = size;
+								cutCoor.ey = size;
+								break;
+							case 3:
+								cutCoor.sx = size;
+								cutCoor.sy = size - imgW;
+								cutCoor.ex = size + imgH;
+								cutCoor.ey = size + imgW;
+								break;
+						}
+						ctx.translate(size, size);
+						ctx.rotate(edg * Math.PI / 180);
+						ctx.drawImage(image, 0, 0);
+						var imgData = ctx.getImageData(cutCoor.sx, cutCoor.sy, cutCoor.ex, cutCoor.ey);
+						if (quadrant % 2 == 0) {
+							canvas.width = imgW;
+							canvas.height = imgH;
+						} else {
+							canvas.width = imgH;
+							canvas.height = imgW;
+						}
+						ctx.putImageData(imgData, 0, 0);
+						callback(canvas.toDataURL())
+					};
+				}
+
+				// 只需要横图
+                               
+				var imgsAll = []
+                                if (typeof picArray === 'undefined') {
+                                       picArray = [
+                                              $('.pic_data img').first().attr('src')
+           
+                                     ]
+                                       picText = [$('.text_show_img').text() || document.title]
+                                       picPage = [1]
+      
+                                 }
+				picArray.forEach(function (item, index) {
+					imgsAll.push({
+						src: item,
+						text: picText[index] || $('.title h1').text() || document.title,
+						page: picPage[index]
+					})
+				})
+
+				var currentSlideIndex = 0
+				var isEnd = false
+				var genHTML1 = function () {
+					var html = ''
+					for (var i = 0; i < imgsAll.length; i++) {
+						html += '<div class="swiper-slide"><img class="ti" src="' + imgsAll[i].src + '"></div>'
+					}
+
+					if ($('.about_pic li').length) {
+						html += '<div class="swiper-slide has-last">' + $('.about_pic').html() + '</div>'
+					}
+					$('#sw-vbox').html(html)
+					$('#sw-hbox').html(html)
+				}
+
+				genHTML1()
+
+				var $vboxDesc = $('.vbox .desc-inner')
+				var $hboxDesc = $('.hbox .desc-inner')
+				var disClick = true
+
+				var initSwiptEvent = function () {
+					var hm = new Hammer(document.getElementById('vbox'))
+					hm.get('swipe').set({ direction: Hammer.DIRECTION_ALL });
+					var timer = null
+					hm.on('swipedown', function (e) {
+						console.log('上翻')
+						if (window.swiper1) {
+							window.swiper1.slidePrev()
+						}
+					}).on('swipeup', function (e) {
+						console.log('下翻')
+						if (window.swiper1) {
+							window.swiper1.slideNext()
+						}
+					})
+				}
+
+				initSwiptEvent()
+
+				var initSwiper1 = function () {
+					if (window.swiper1) {
+						window.swiper1.destroy(window.swiper1, true, true)
+
+					}
+					// $('.box-desc').removeClass('dis-desc')
+					window.swiper1 = new Swiper('.swiper-container-vbox', {
+						// direction: 'verticle',
+						initialSlide: currentSlideIndex,
+						speed: 600,
+						// autoplay: 3000,
+						loop: false,
+						prevButton: '.swiper-left1',
+						nextButton: '.swiper-right1',
+						onInit: function (swiper) {
+							swiper.detachEvents()
+							console.log('初始化')
+							clearTimeout(window.descTimer1)
+							clearTimeout(window.descTimer2)
+							clearTimeout(window.descTimer3)
+
+							if (currentSlideIndex === 0) {
+								$('body').addClass('page0')
+								$('.swiper-left1').hide()
+								$('.swiper-right1').show()
+								$('.box-context').removeClass('dis-context')
+								console.log('显示啦！！！！')
+								window.descTimer1 = setTimeout(function () {
+									console.log('关闭')
+									$('.box-desc').removeClass('dis-desc')
+									window.descTimer3 = setTimeout(function () {
+										$('.box-desc').addClass('dis-desc')
+									}, 4000)
+									$('.box-context').addClass('dis-context')
+								}, 0)
+							} else {
+								$('body').removeClass('page0')
+								$('.swiper-left1').show()
+								$('.box-desc').removeClass('dis-desc')
+								window.descTimer1 = setTimeout(function () {
+									console.log('关闭')
+									$('.box-desc').addClass('dis-desc')
+								}, 4500)
+							}
+
+							var item = imgsAll[currentSlideIndex]
+							item && $('.vbox .desc-inner').html(item.text)
+							$('.swiper-left1').off('click').click(function () {
+								swiper.slidePrev()
+							})
+							$('.swiper-right1').off('click').click(function () {
+								swiper.slideNext()
+							})
+							$('.box-desc').show()
+
+
+
+							$('.mobile-wrap .ti').off('click').click(function () {
+								clearTimeout(window.descTimer1)
+								clearTimeout(window.descTimer2)
+								if ($('.dis-desc').length) {
+									$('.box-desc').removeClass('dis-desc').show()
+									$('.box-context').addClass('dis-context')
+								} else {
+									$('.box-desc').addClass('dis-desc').show()
+								}
+							})
+						},
+						onTransitionEnd: function (swiper) {
+							currentSlideIndex = swiper.realIndex
+							clearTimeout(window.descTimer1)
+							clearTimeout(window.descTimer2)
+							clearTimeout(window.descTimer3)
+							$('.box-desc').show()
+							if (currentSlideIndex === 0) {
+								$('body').addClass('page0')
+								$('.swiper-left1').hide()
+								$('.swiper-right1').show()
+								clearTimeout(window.descTimer1)
+								clearTimeout(window.descTimer2)
+								clearTimeout(window.descTimer3)
+								window.descTimer1 = setTimeout(function () {
+									console.log('关闭')
+									$('.box-desc').removeClass('dis-desc')
+									window.descTimer3 = setTimeout(function () {
+										$('.box-desc').addClass('dis-desc')
+									}, 4000)
+									$('.box-context').addClass('dis-context')
+								}, 0)
+								// 显示正文
+								$('.box-context').removeClass('dis-context')
+							} else {
+								$('body').removeClass('page0')
+								$('.swiper-left1').show()
+
+								if (!swiper.isEnd) {
+									$('.box-desc').removeClass('dis-desc')
+									window.descTimer1 = setTimeout(function () {
+										console.log('关闭')
+										$('.box-desc').addClass('dis-desc')
+									}, 4500)
+								}
+								$('.box-context').addClass('dis-context')
+							}
+
+							if (swiper.isEnd) {
+								$('.swiper-right1').hide()
+								isEnd = true
+							} else {
+								$('.swiper-right1').show()
+								isEnd = false
+							}
+
+							if ($('.swiper-slide-active.has-last').length) {
+								$('.vbox-desc').addClass('dis-desc')
+							}
+
+							imgsAll[swiper.realIndex] && $vboxDesc.html(imgsAll[swiper.realIndex].text)
+
+						}
+					})
+				}
+				// initSwiper1()
+
+				var showSwiper = function () {
+					if (window.orientation === 0) {
+						$('.mobile-wrap').show()
+						$('.vbox').show()
+						$('.hbox').hide()
+						initSwiper1()
+						if (window.innerHeight / window.innerWidth > 1.85) {
+							$('body').addClass('long-v').removeClass('long-h')
+						} else {
+							$('body').removeClass('long-v')
+						}
+					} else {
+						$('.mobile-wrap').show()
+						$('.hbox').show()
+						$('.vbox').hide()
+						initSwiper2()
+						if (window.innerWidth / window.innerHeight > 1.85) {
+							$('body').addClass('long-h').removeClass('long-v')
+						} else {
+							$('body').removeClass('long-h')
+						}
+					}
+				}
+
+				window.onorientationchange = function () {
+					setTimeout(() => {
+						showSwiper()
+					}, 300);
+				}
+
+
+
+				var initSwiper2 = function () {
+					if (window.swiper2) {
+						window.swiper2.destroy(window.swiper2, true, true)
+
+					}
+					// $('.box-desc').removeClass('dis-desc')
+					window.swiper2 = new Swiper('.swiper-container-hbox', {
+						// direction: 'verticle',
+						initialSlide: currentSlideIndex,
+						speed: 600,
+						loop: false,
+						prevButton: '.swiper-left2',
+						nextButton: '.swiper-right2',
+						onInit: function (swiper) {
+							// swiper.detachEvents()
+							var item = imgsAll[currentSlideIndex]
+							item && $('.hbox .desc-inner').html(item.text)
+
+							clearTimeout(window.descTimer1)
+							clearTimeout(window.descTimer2)
+							clearTimeout(window.descTimer3)
+
+							if (currentSlideIndex === 0) {
+								$('body').addClass('page0')
+								$('.swiper-left2').hide()
+								$('.swiper-right2').show()
+								$('.box-context').removeClass('dis-context')
+								window.descTimer2 = setTimeout(function () {
+									console.log('关闭')
+									$('.box-desc').removeClass('dis-desc')
+									window.descTimer3 = setTimeout(function () {
+										$('.box-desc').addClass('dis-desc')
+									}, 4000)
+									$('.box-context').addClass('dis-context')
+
+								}, 0)
+							} else {
+								$('body').removeClass('page0')
+								$('.swiper-left2').show()
+								$('.box-desc').removeClass('dis-desc')
+								window.descTimer2 = setTimeout(function () {
+									console.log('关闭')
+									$('.box-desc').addClass('dis-desc')
+								}, 4500)
+							}
+
+
+							$('.box-desc').show()
+
+
+
+							$('.mobile-wrap .ti').off('click').click(function () {
+								clearTimeout(window.descTimer1)
+								clearTimeout(window.descTimer2)
+								if ($('.dis-desc').length) {
+									$('.box-desc').removeClass('dis-desc').show()
+									$('.box-context').addClass('dis-context')
+								} else {
+									$('.box-desc').addClass('dis-desc').show()
+								}
+							})
+						},
+						onTransitionEnd: function (swiper) {
+							console.log(swiper)
+							currentSlideIndex = swiper.realIndex
+							clearTimeout(window.descTimer1)
+							clearTimeout(window.descTimer2)
+							clearTimeout(window.descTimer3)
+
+							if (currentSlideIndex === 0) {
+								$('body').addClass('page0')
+								$('.swiper-left2').hide()
+								$('.box-desc').show()
+
+								window.descTimer2 = setTimeout(function () {
+									console.log('关闭')
+									$('.box-desc').removeClass('dis-desc')
+									window.descTimer3 = setTimeout(function () {
+										$('.box-desc').addClass('dis-desc')
+									}, 4000)
+									$('.box-context').addClass('dis-context')
+
+								}, 0)
+								// 显示正文
+								$('.box-context').removeClass('dis-context')
+							} else {
+								$('body').removeClass('page0')
+								$('.swiper-left2').show()
+								if (!swiper.isEnd) {
+									$('.box-desc').removeClass('dis-desc')
+									window.descTimer2 = setTimeout(function () {
+										console.log('关闭')
+										$('.box-desc').addClass('dis-desc')
+									}, 4500)
+								}
+								// 显示正文
+								$('.box-context').addClass('dis-context')
+							}
+
+							if (swiper.isEnd) {
+								$('.swiper-right2').hide()
+								isEnd = true
+							} else {
+								$('.swiper-right2').show()
+								isEnd = false
+							}
+
+							if ($('.swiper-slide-active.has-last').length) {
+								$('.hbox-desc').addClass('dis-desc')
+							}
+
+							imgsAll[swiper.realIndex] && $hboxDesc.html(imgsAll[swiper.realIndex].text)
+						}
+						// autoplay: 3000
+					})
+				}
+
+				if (/iPhone|iPad|Android/i.test(navigator.userAgent)) {
+					$('.icon-hengping').click(function (e) {
+
+						e.preventDefault()
+						e.stopImmediatePropagation()
+						showSwiper()
+					})
+
+					$('.icon-hengping').show()
+					// setTimeout(function () {
+					// 	showSwiper()
+					// 	$('.icon-hengping').show()
+					// 	setTimeout(function () {
+					// 		$('.adpt2022').removeClass('adpt2022')
+					// 	}, 1000)
+					// }, 0)
+
+					if (window.innerHeight / window.innerWidth > 1.74 && /iPhone/i.test(navigator)) {
+						// $('.vbox-arrow').css({
+						// 	transform: 'translate3d(-20px, -50%, 0)'
+						// })
+					}
+
+				}
+
+				$('.mobile-wrap .zhankai').click(function () {
+					$('.box-context').removeClass('dis-context')
+					$('.box-desc').addClass('dis-desc')
+				})
+
+				$('.mobile-wrap .btn-close').click(function () {
+					$('.mobile-wrap').hide()
+					if (isEnd) {
+						currentSlideIndex = 0
+					}
+					isEnd = false
+				})
+
+				console.log(imgsAll)
+				var allLandImages = []
+				var loadCount = 0
+				var imgs90 = []
+				var preloadImg = function (imgObj) {
+					var imgObj = imgsAll[loadCount]
+					if (!imgObj) {
+						return
+					}
+					var img = new Image()
+					img.src = imgObj.src
+					img.onerror = function () {
+						console.log(error)
+					}
+					img.onload = function () {
+						console.log(imgObj)
+
+						if (img.width / img.height >= 1) {
+							allLandImages.push(imgObj)
+							console.log(imgObj)
+							rotateBase64Img(imgObj.src, 90, function (base64) {
+								// $('#sw-vbox').append('<img class="ti" src="$src" alt="">'.replace('$src', base64))
+								imgs90.push(base64)
+								if (loadCount === imgsAll.length) {
+									return
+								}
+								loadCount++
+								preloadImg()
+							})
+						}
+						if (loadCount === imgsAll.length) {
+
+						}
+					}
+				}
+
+				// preloadImg(imgsAll[loadCount])
+
+
+			}()
+	</script>
+
+<script src="http://wx-api.people.com.cn/weixin/JS.js?url=http%3A%2F%2Fpic.people.com.cn%2Fn1%2F2024%2F0628%2Fc1016-40266360.html"></script></body></html>

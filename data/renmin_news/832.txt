@@ -1,0 +1,291 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=GB2312">
+<title>面对暴雨洪水，如何科学自救--健康·生活--人民网 </title>
+<meta name="keywords" content="暴雨洪水 水文情报预报 强降雨 防 雨区 河道 累积雨量 河水 灾害损失 山洪">
+<meta name="description" content="河水上涨，降雨持续……当前，南方汛期形势严峻。据水利部消息，自5月5日以来，受强降雨影响，我国南方地区22条河流发生超警以上洪水，其中3条河流超保、2条中小河流发生有实测记录以来最大洪水。今年5月12">
+<meta name="copyright" content="人民网版权所有">
+<meta name="filetype" content="0">
+<meta name="publishedtype" content="1">
+<meta name="pagetype" content="1">
+<meta name="catalogs" content="14739">
+<meta name="contentid" content="32683668">
+<meta name="publishdate" content="2023-05-11">
+<meta name="author" content="103545">
+<meta name="editor" content="">
+<meta name="source" content="来源：科技日报">
+<meta name="sourcetype" content="">
+<link rel="stylesheet" type="text/css" href="/img/MAIN/2016/05/116444/css/lib.css">
+<link rel="stylesheet" type="text/css" href="/img/MAIN/2016/05/116444/css/sub_gy.css">
+<script async="" src="//cl2.webterren.com/webdig.js?z=15"></script><script src="/img/MAIN/2016/05/116444/js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/img/MAIN/2016/05/116444/js/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
+<script src="/img/MAIN/2016/05/116444/js/jquery.lavalamp.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/img/MAIN/2016/05/116444/js/pub.js" type="text/javascript" charset="utf-8"></script>
+<script src="/img/MAIN/2016/05/116444/js/utils.js"></script>
+<script src="/img/MAIN/2016/05/116444/js/animate.js" type="text/javascript" charset="utf-8"></script>
+<script src="/img/MAIN/2016/05/116444/js/effect.js" type="text/javascript" charset="utf-8"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/img/MAIN/2016/05/116444/phone_2018.css">
+<script type="text/javascript" referrerpolicy="no-referrer-when-downgrade" src="//d.webterren.com/common.js?z=15&amp;t=202409200756"></script></head>
+<body>
+<div class="rm_jk_i">
+    <div class="header wrap_1000">
+        <style type="text/css">
+.header{ height:96px;}
+.header .fl{ margin-top:25px;}
+.header .fl img{ margin-right:10px;}
+.header .fl span{background:#e00011; font-size:30px;font-family:"\5FAE\8F6F\96C5\9ED1";padding:0 6px;line-height:36px; height:36px;vertical-align:middle;color:#fff;}
+.header .userCenter .fl{margin-top:0px;}
+.header .userCenter{padding:38px 0 0;}
+</style>
+<div class="fl"><a href="http://www.people.com.cn" target="_blank"><img src="http://www.people.com.cn/img/MAIN/2016/11/116906/images/logo_rmw.png" width="120" height="46" alt="人民网"></a><span>健康·生活</span></div>
+        
+        <div class="userCenter fr" id="wgt_user">
+            <dl class="userMenu fl" id="userInfo" data-type="navMenu" style="display:none">
+                <dt><a href="http://sso.people.com.cn/" target="_blank"><span id="userNick">--</span></a></dt>
+                <dd><ul class="subMemu">
+                    <li><a href="http://sso.people.com.cn/" target="_blank">用户中心</a></li>
+                    <li><a href="javascript:void(0)" id="logoutLink">安全退出</a></li>
+                </ul></dd>
+            </dl>
+            <dl class="fl" id="userNoLogin"><a href="http://sso.people.com.cn/login?fromUrl=http%3A%2F%2Fhealth.people.com.cn%2Fn1%2F2023%2F0511%2Fc14739-32683668.html" id="loginLink">登录</a><em>|</em><a href="http://sso.people.com.cn/u/reg?fromUrl=http%3A%2F%2Fhealth.people.com.cn%2Fn1%2F2023%2F0511%2Fc14739-32683668.html">注册</a></dl>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="navInner navInner_01">
+            <ul>
+                <li>
+ <div class="lt">资讯</div>
+ <div class="lv"></div>
+ <div class="rt">
+ <span><a href="http://health.people.com.cn/GB/408564/index.html" target="_blank">政策声音</a></span>
+ <span><a href="http://health.people.com.cn/GB/408565/index.html" target="_blank">行业热点</a></span>
+ <span><a href="http://health.people.com.cn/GB/408567/index.html" target="_blank">医学前沿</a></span>
+ <span><a href="http://health.people.com.cn/GB/408568/index.html" target="_blank">观察评论</a></span>
+ </div>
+ </li>
+ <li>
+ <div class="lt">推荐</div>
+ <div class="lv"></div>
+ <div class="rt">
+ <span><a href="http://health.people.com.cn/GB/26466/431463/433532/index.html" target="_blank">健康社区</a></span>
+ <span><a href="http://health.people.com.cn/GB/405407/index.html" target="_blank">中医药</a></span>
+ <span><a href="http://xiaofei.people.com.cn/GB/427092/430642/index.html" target="_blank">消费洞察</a></span>
+ <span><a href="http://health.people.com.cn/GB/420834/index.html" target="_blank">图说</a></span>
+ </div>
+ </li>
+ <li>
+ <div class="lt">科普</div>
+ <div class="lv"></div>
+ <div class="rt">
+ <span><a href="http://health.people.com.cn/GB/408572/index.html" target="_blank">保健养生</a></span>
+ <span><a href="http://health.people.com.cn/GB/408575/index.html" target="_blank">美容护肤</a></span>
+ <span><a href="http://health.people.com.cn/GB/437422/index.html" target="_blank">生活宝典</a></span>
+ <span><a href="http://health.people.com.cn/GB/408571/index.html" target="_blank">减肥健身</a></span>
+ </div>
+ </li>
+ <li>
+ 
+ </li><li class="noR">
+ <div class="lt">平台</div>
+ <div class="lv"></div>
+ <div class="rt w120">
+ <span><a href="http://health.people.com.cn/GB/26466/434320/index.html" target="_blank">公立医院党建云</a></span>
+ <span class="noR"><a href="http://health.people.com.cn/GB/26466/431463/432282/index.html" _blank"="">老龄健康服务</a></span>
+ </div>
+ </li>
+            </ul>
+        </div>
+    </div>
+    <script>navInit()</script>
+    <div class="hotNav">
+        <div class="wrap_1000">
+            <div class="hotWords fl">
+            <strong style="color: black;">热词：</strong><a href="http://health.people.com.cn/GB/415859/index.html" target="_blank"><font color="#ff0000">滚动</font></a>　<a href="/GB/26466/431463/431538/index.html" style="color: black;" target="_blank">疫情防控</a>　<a href="http://health.people.com.cn/GB/437422/index.html" style="color: black;" target="_blank">生活宝典</a>　<a href="http://health.people.com.cn/GB/51418/427128/index.html" style="color: black;" target="_blank">大家谈</a>　
+<a href="http://health.people.com.cn/GB/443192/index.html" style="color: black;" target="_blank">养生课</a>　
+<a href="http://consume.people.com.cn/GB/425320/index.html" target="_blank">消费</a>　<a href="http://health.people.com.cn/GB/408569/408719/" style="color: black;" target="_blank">食品</a>　<a href="http://finance.people.com.cn/" style="color: black;" target="_blank">经济·科技·生态</a>　<a href="http://ent.people.com.cn/" style="color: black;" target="_blank">文旅·体育</a>　 <a href="https://weiquan.people.com.cn/#/" style="color: black;" target="_blank">人民投诉</a>
+            </div>
+            <!--检索-->
+            <form action="http://search.people.com.cn/cnpeople/searchForChannel.do" name="searchForm" method="post" target="_blank" class="hotSearch fr">
+<input type="hidden" name="siteName" value="people">
+<input type="hidden" name="pageNum" value="1">
+<input type="hidden" name="totalPage" value="0">
+<input type="hidden" name="channelName" value="health">
+<input value="新闻检索" onblur="if(this.value=='') this.value='新闻检索';" onfocus="if(this.value=='新闻检索') this.value='';" type="text" name="keyword" id="keyword" class="hotKey">
+<input type="submit" class="hotBtn" value="">
+</form> 
+        </div>
+    </div>
+    <div class="main wrap_1000">
+        <div class="i_cont">
+            <!-- 两栏 -->
+            <div class="colum_2 clearfix">
+                <div class="fl w_660">
+                    <div class="subNav"><a href="http://www.people.com.cn/" class="clink">人民网</a>&gt;&gt;<a href="http://health.people.com.cn/" class="clink">健康·生活</a></div>
+                    <div class="columWrap">
+                    <div class="articleCont">
+                        <div class="title">
+                            <h4></h4>
+                            <h2>面对暴雨洪水，如何科学自救</h2>
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                        <div class="artOri">2023年05月11日08:51  来源：<a href="http://digitalpaper.stdaily.com/http_www.kjrb.com/kjrb/html/2023-05/11/content_553049.htm?div=-1" target="_blank">科技日报</a><span class="share"><a href="javascript:void(0)" onclick="shareToWX('http://health.people.com.cn/n1/2023/0511/c14739-32683668.html', this)" class="shareWeixin"></a><a href="javascript:shareToRMWB('http://health.people.com.cn/n1/2023/0511/c14739-32683668.html', '面对暴雨洪水，如何科学自救');" title="分享到人民微博" class="shareRMWB"></a><a href="javascript:shareToSinaWB('http://health.people.com.cn/n1/2023/0511/c14739-32683668.html', '面对暴雨洪水，如何科学自救');" title="分享到新浪微博" class="shareSina"></a></span></div>
+                        <div class="artDet">
+                        
+                        <p style="text-indent: 2em;">
+	河水上涨，降雨持续……当前，南方汛期形势严峻。据水利部消息，自5月5日以来，受强降雨影响，我国南方地区22条河流发生超警以上洪水，其中3条河流超保、2条中小河流发生有实测记录以来最大洪水。</p>
+<p style="text-indent: 2em;">
+	今年5月12日是我国第15个全国防灾减灾日，主题是“防范灾害风险，护航高质量发展”。今年汛期有何特点，面对暴雨洪水，公众该如何防范和自救？科技日报记者采访了相关专业人士。</p>
+<p style="text-indent: 2em;">
+	入汛偏早 汛期极端事件频发</p>
+<p style="text-indent: 2em;">
+	“据预测，今年汛期（6—8月），我国旱涝并重，极端事件多发频发重发。”10日，水利部水文情报预报中心正高级工程师李岩在接受记者采访时说。</p>
+<p style="text-indent: 2em;">
+	李岩介绍，根据《水利部关于印发我国入汛日期确定办法的通知》中的入汛标准，每年自3月1日起，连续3日累积雨量50毫米以上雨区的覆盖面积达到15万平方公里，或者任一入汛代表站发生超过警戒水位的洪水，那么当日即确定为入汛日期。</p>
+<p style="text-indent: 2em;">
+	3月21日8时至24日8时，我国南方连续3日累积雨量50毫米以上雨区的覆盖面积达37.1万平方公里，依据标准，3月24日为2023年我国入汛日，较多年平均入汛日期（4月1日）偏早8天。</p>
+<p style="text-indent: 2em;">
+	进入5月，我国江南大部、华南地区北部等地出现强降雨。中央气象台首席预报员孙军表示，此轮降雨覆盖范围广、强度强。“而且时间早，往年长江中下游一带出现这种比较强的降雨一般要到六七月份，今年5月上旬就出现了如此强的降雨过程，与常年相比明显偏早。”孙军说。</p>
+<p style="text-indent: 2em;">
+	降雨造成河流水位持续上涨。“入汛以来共发生6次强降雨过程，江西、福建、浙江、湖南、广东、广西等6省（自治区）50条河流发生超警以上洪水，较近十年同期均值偏多4成。”李岩表示。</p>
+<p style="text-indent: 2em;">
+	“防”字当先 不能心存侥幸</p>
+<p style="text-indent: 2em;">
+	受强降雨影响，5月6日，在江西省资溪县鹤城镇三江村刘家山水库大坝下游50米处，一人被困孤岛。</p>
+<p style="text-indent: 2em;">
+	“暴雨洪水突发性强，往往是刹那间已身处危险之中。当灾害来临时，科学避险，正确自救，才能更好地保障自身和家人的生命安全。”水利部防洪抗旱减灾工程技术研究中心正高级工程师柴福鑫说。</p>
+<p style="text-indent: 2em;">
+	对于如何防灾自救，柴福鑫建议，公众应尽可能远离灾害风险大的区域。不得在河湖管理范围以及行蓄洪区域建房、建厂，避免在低洼地带以及山洪、泥石流威胁区建房等。密切关注天气及预警信息，做好必要的防汛物资储备等。</p>
+<p style="text-indent: 2em;">
+	“同时，公众还需了解一些自救小常识，不能心存侥幸。”柴福鑫说，一是洪水陡涨陡落，当发现河道涨水及河水变浊时，要迅速向两岸高地撤离；二是在灾害发生后要头脑冷静，果断放弃财物尽早逃生；三是河道涨水影响漫水路桥或下凹立交桥积水时，千万不要强行通过，更不可在河边或者桥面上看水；四是发生暴雨洪水时，远离高压线路、电器设备等危险区域，雷雨时避免在空旷区域或山顶使用手机；五是加强互救工作，对被围困群众或落水人员，及时拨打求救电话，在做好自身防护情况下，要开展及时互救。</p>
+<p style="text-indent: 2em;">
+	柴福鑫表示，防汛抗旱是水利部门的天职，在防汛工作中，只有形成合力，坚持以“防”为主，“预”字当先，才能有效开展减灾自救，最大限度减轻灾害损失。（记者 付丽丽）</p>
+<div class="zdfy clearfix"></div><center><table border="0" align="center" width="40%"><tbody><tr></tr></tbody></table></center>
+                        
+                        </div>
+                        <div class="editor">(责编：乔业琼、杨迪)</div>    
+                    </div>
+                    
+                    <div class="ad_none"></div>
+                    <br>
+                    <!--推荐阅读-->
+                    
+                    <br>
+                    <div class="columHD clearfix sp_mrgB"><span class="columTag">相关新闻</span></div>
+                    <div class="relNews clearfix">
+                        <div class="fl">
+                            <ul class="subNewsList"><li><a href="http://cpc.people.com.cn/n1/2023/0508/c64387-32680799.html" target="_blank">最近三天赣闽等地21条河流发生超警以上洪水</a></li><li><a href="http://sh.people.com.cn/n2/2022/0918/c134768-40129062.html" target="_blank">提高老年人应急救护能力，宝山这个家庭日常急救知识讲座“干货满满”</a></li><li><a href="http://sc.people.com.cn/n2/2022/0814/c345167-40079518.html" target="_blank">河水突涨如何自救？这份自救指南请查收</a></li><li><a href="http://ln.people.com.cn/n2/2022/0708/c400014-40029120.html" target="_blank">辽宁省初步建立气象防灾减灾体系</a></li><li><a href="http://sn.people.com.cn/n2/2022/0604/c186331-35300675.html" target="_blank">水利部启动Ⅳ级应急响应应对多地暴雨洪水</a></li><li><a href="http://hn.people.com.cn/n2/2022/0514/c356887-35268388.html" target="_blank">浏阳大围山镇：多措并举齐行动 防灾减灾保平安</a></li><li><a href="http://cq.people.com.cn/n2/2022/0513/c367652-35267108.html" target="_blank">学地震知识、自救与互救 巴南举行青春自护教育课</a></li><li><a href="http://jx.people.com.cn/n2/2022/0226/c186330-35151234.html" target="_blank">今年全国防灾减灾日主题为“减轻灾害风险，守护美好家园”</a></li></ul>   
+                        </div>
+                    </div>
+                    <br>
+                    <!--图片九宫格-->
+                    
+                    <br>
+                                        
+                    </div>                    
+                    </div>                                      
+                <div class="fr w_316">
+                   <!-- 
+                    -->                   
+                   <!--  -->                    
+                    <div class="bg_01 columRWrap mrg_30">
+                        <h4 class="columSubHd">热门点击排行榜</h4>
+                        <ul class="hotRank"><li><em class="red">1</em><a href="/n1/2023/0504/c14739-32677801.html" target="_blank">运动可致血液中免疫细胞增多</a></li><li><em class="red">2</em><a href="/n1/2023/0506/c14739-32679862.html" target="_blank">顺应自然的养生智慧</a></li><li><em class="red">3</em><a href="/n1/2023/0506/c14739-32679897.html" target="_blank">今日立夏&nbsp;养生要注意这几点</a></li><li><em>4</em><a href="/n1/2023/0506/c14739-32679859.html" target="_blank">夏天来了，起居、饮食、运动有讲究</a></li><li><em>5</em><a href="/n1/2023/0507/c14739-32680407.html" target="_blank">夏天来了，起居、饮食、运动有讲究</a></li><li><em>6</em><a href="/n1/2023/0504/c14739-32677780.html" target="_blank">“健身过节”成为新时尚</a></li><li><em>7</em><a href="/n1/2023/0504/c14739-32677866.html" title="青少年成HPV感染高峰人群，宫颈癌该如何预防？" target="_blank">青少年成HPV感染高峰人群，宫颈癌该如…</a></li><li><em>8</em><a href="/n1/2023/0504/c14739-32677931.html" title="节后上班第一天 9个建议助你拉满开工活力值" target="_blank">节后上班第一天&nbsp;9个建议助你拉满开工活…</a></li><li><em>9</em><a href="/n1/2023/0505/c14739-32679006.html" target="_blank">牙膏蘸水不会影响刷牙效果</a></li><li><em>10</em><a href="/n1/2023/0504/c14739-32677841.html" target="_blank">中国年轻人热衷追着美食去“打卡”</a></li></ul> 
+                    </div>
+                                        
+                    
+                               
+                </div>
+            </div>
+        </div>
+    </div>  
+    <div class="bottom">
+        <div class="wrap_1000">
+            <!-- 版权栏 -->
+<style>
+#copyright{width:100%;border-top:1px solid #f5f5f5;height:auto;margin:0 auto;padding-top:10px;text-align:center;line-height:28px;color:#000;font-family:'SimSun';font-size:12px;}
+#copyright p{margin-top:22px;line-height:100%;text-align:center;}
+#copyright a{color:#000;}
+#copyright p.mt30 {margin-top:30px;position:relative;line-height:200%;}
+#copyright p.mt30 span#beian {position:absolute;right:220px;top:0px;}
+#copyright p.mt30 span#kxwz {position:absolute;right:80px;top:0px;}
+</style>
+<div id="copyright">
+ <p><a href="http://www.people.com.cn/GB/1018/22259/index.html" target="_blank">人民日报社概况</a>
+<span class="xian">|</span>
+<a href="http://www.people.com.cn/GB/50142/420117/index.html" target="_blank">关于人民网</a>
+<span class="xian">|</span>
+<a href="http://hr.peopledaily.com.cn/" target="_blank">报社招聘</a>
+<span class="xian">|</span>
+<a href="http://job.people.com.cn/" target="_blank">招聘英才</a>
+<span class="xian">|</span>
+<a href="http://www.people.com.cn/GB/208743/403202/index.html" target="_blank">广告服务</a>
+<span class="xian">|</span>
+<a href="http://www.people.com.cn/GB/208743/403202/403212/index.html" target="_blank">合作加盟</a>
+<span class="xian">|</span>
+<a href="http://gonggao.people.com.cn/" target="_blank">供稿服务</a>
+<span class="xian">|</span>
+<a href="http://www.people.com.cn/n/2013/1227/c373005-23961344.html" target="_blank">网站声明</a>
+<span class="xian">|</span>
+<a href="http://www.people.com.cn/n1/2019/0308/c420117-30965009.html" target="_blank">网站律师</a>
+<span class="xian">|</span>
+<a href="http://sso.people.com.cn/resource/html/userInforPro.html" target="_blank">信息保护</a>
+<span class="xian">|</span>
+<a href="http://kf.people.com.cn/" target="_blank">联系我们</a>
+<span class="xian">|</span>
+<a href="http://english.peopledaily.com.cn/" target="_blank">ENGLISH</a>
+        </p>
+<p>人民日报违法和不良信息举报电话：010-65363263&nbsp;&nbsp;&nbsp;&nbsp;举报邮箱：<a href="mailto:jubao@people.cn" target="_blank">jubao@people.cn</a></p>
+<p>人民网服务邮箱：<a href="mailto:kf@people.cn" target="_blank">kf@people.cn</a>&nbsp;&nbsp;&nbsp;&nbsp;违法和不良信息举报电话：010-65363636&nbsp;&nbsp;&nbsp;&nbsp;举报邮箱：<a href="mailto:rmwjubao@people.cn" target="_blank">rmwjubao@people.cn</a></p>
+<p><a href="http://www.people.com.cn/img/2014xuke/2018hlwxw.html" target="_blank">互联网新闻信息服务许可证10120170001</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.people.com.cn/img/2014xuke/2018zzdxxkz.html" target="_blank">增值电信业务经营许可证B1-20060139</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.people.com.cn/img/2019peopleindex/html/gbds2019.html" target="_blank">广播电视节目制作经营许可证（广媒）字第172号</a></p>
+<p><a href="http://www.people.com.cn/img/2011zzzs/2018xxwlcb.htm" target="_blank">信息网络传播视听节目许可证0104065</a>&nbsp;|&nbsp;<a href="http://www.people.com.cn/img/2014xuke/2018wlwh.html" target="_blank">网络文化经营许可证 京网文[2020]5494-1075号</a>&nbsp;|&nbsp;<a href="http://www.people.com.cn/img/2014xuke/2018wlcb.html" target="_blank">网络出版服务许可证（京）字121号</a>&nbsp;|&nbsp;<a href="http://www.people.com.cn/img/2014xuke/2018icp.html" target="_blank">京ICP证000006号</a>|<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000008" target="_blank">京公网安备11000002000008号</a></p>
+        <p class="mt30">人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>Copyright © 1997-2021 by www.people.com.cn. all rights reserved</p>
+		<p class="mt30">
+<a href="http://www.piyao.org.cn/" target="_blank"><img src="/img/2020peopleindex/img/copy_py2.png" width="175" alt=""></a>
+<a href="http://www.people.com.cn/img/2014xuke/2018icp.html" target="_blank"><img src="/img/2020peopleindex/img/copy_icon1.png" style="margin-left:15px" alt=""></a>
+<a href="https://ss.knet.cn/verifyseal.dll?sn=e12050911010020686307708&amp;ct=df&amp;a=1&amp;pa=980951" target="_blank"><img src="/img/2020peopleindex/img/copy_icon2.png" style="margin-left:15px" alt=""></a>
+<a href="http://si.trustutn.org/info?sn=470170320027574551118&amp;certType=1" target="_blank"><img src="/img/2020peopleindex/img/copy_icon3.png" style="margin-left:15px" alt=""></a>
+<a href="http://www.itrust.org.cn/home/index/itrust_certifi/wm/2710933198.html" target="_blank"><img src="/img/2020peopleindex/img/copy_icon4.png" style="margin-left:15px" alt=""></a>
+</p>
+</div>
+<!-- 版权栏结束 -->  
+        </div>     
+    </div>    
+    <!--2018响应版权-->
+    <div id="copyright" class="copyright clearfix">人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>
+Copyright © 1997-2023 by www.people.com.cn. all rights reserved</div>
+    <style>
+	.copyright{ display:none;}
+	@media (min-device-width:320px) and (max-width:689px),
+       (max-device-width:480px)
+	   {
+		   .copyright{ display:block;}
+	   }
+	#copyright{ width:100%; text-align:center;}
+	</style>
+    <!--2018响应版权 end-->
+</div>
+<!-- 微信分享-->
+<script src="http://www.people.com.cn/img/2016wb/jweixin-1.0.0.js" type="text/javascript"></script>
+<script type="text/javascript">
+var str="面对暴雨洪水，如何科学自救--健康·生活--人民网 ";
+var str1="面对暴雨洪水，如何科学自救";
+str=str.replace(/&nbsp;/g," ")
+str=str.replace(/&quot;/g,'"')
+str=str.replace(/<br>/g,"")
+str1=str1.replace("&nbsp;"," ")
+str1=str1.replace(/&quot;/g,'"')
+str1=str1.replace(/<br>/g,"")
+var wxData = {
+	"imgUrl": "http://www.people.com.cn/img/2016wb/images/logo_share.jpg", // 200x200
+	"link": window.location.href,
+	"desc": "" + str + "",
+	"title": "" + str1 + ""
+};
+</script>
+<script src="http://www.people.com.cn/img/2016wb/WeiXinData.js" type="text/javascript"></script>
+<script src="http://tools.people.com.cn/css/2010tianrun/webdig_test.js" language="javascript" type="text/javascript" async=""></script>
+<img src="http://counter.people.cn:8000/c.gif?id=32683668" width="0" height="0" style="display:none;">
+
+
+<script src="http://wx-api.people.com.cn/weixin/JS.js?url=http%3A%2F%2Fhealth.people.com.cn%2Fn1%2F2023%2F0511%2Fc14739-32683668.html"></script></body></html>

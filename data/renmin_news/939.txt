@@ -1,0 +1,1401 @@
+<html lang="zh-cn" class="html"><head>
+<meta http-equiv="content-type" content="text/html;charset=GB2312">
+<meta name="robots" content="all">
+<title>暴雨中，他们坚守在一线——京津冀防汛现场见闻--图片频道--人民网 </title>
+<meta name="viewport" content="width=1030, maximum-scale=2, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="7月31日，在河北省石家庄市中山西路一积水路段，工作人员进行紧急排水。新华社发（张晓峰摄）自7月29日开始，京津冀等地出现暴雨或大暴雨，局地现特大暴雨，给城市运行带来挑战。京津冀各地防汛部门闻“汛”而">
+<meta name="copyright" content="人民网版权所有">
+<meta name="filetype" content="0">
+<meta name="publishedtype" content="1">
+<meta name="pagetype" content="1">
+<meta name="catalogs" content="1016">
+<meta name="contentid" content="40047972">
+<meta name="publishdate" content="2023-08-01">
+<meta name="author" content="1453">
+<meta name="editor" content="">
+<meta name="source" content="来源：新华社">
+<meta name="sourcetype" content="">
+<link href="/img/MAIN/2020/07/120334/picbig20131220.css" type="text/css" rel="stylesheet" rev="stylesheet" media="all">
+<script async="" src="//cl2.webterren.com/webdig.js?z=15"></script><script type="text/javascript" src="http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="http://www.people.com.cn/css/search.js"></script>
+<script type="text/javascript" src="http://www.people.com.cn/img/2016wb/main.js" charset="utf-8"></script>
+<script src="/css/search.js"></script>
+<style type="text/css">
+html{-webkit-text-size-adjust:none;-webkit-font-smoothing:antialiased}
+#txz_dlh{width:120px;}
+.content{width:1024px;margin-top:2px;}
+.content p img{margin:0 auto;max-width:1024px !important;height:auto !important;}
+.pre_title{width:960px;margin:0 auto;text-align:center;font:normal 20px/220% "SimSun";}
+.content p.desc,.content p span[desc="desc"]{font-size:18px;color:#4d7caa;font-family:"楷体", "KaiTi_GB2312";line-height:30px;width:80%;margin:20px auto 0 auto;text-align:center;}
+.content div.bza{font-size:18px;color:#4d7caa;font-family:"楷体", "KaiTi_GB2312";border:1px solid #e5e5e5;padding:25px 20px 15px 20px;margin-top:30px;position:relative;display:none;}
+.content div.bza span{display:block;width:109px;height:24px;position:absolute;top:-14px;left:55px;background:url(/img/2020wbc/imgs/bza.jpg) no-repeat;}
+.content div.bza p{text-indent:2em;font-size:18px;font-family:"楷体", "KaiTi_GB2312";line-height:34px;margin-top:0px;}
+.title{background:transparent;font-family:'Microsoft YaHei';}
+.title h1{font-family:'Microsoft YaHei';}
+.sub{margin:15px 0 5px 0;color:#999;text-align:center;font-size:18px;font-family:'Microsoft YaHei';}
+.pre{text-align:center;font-size:26px;font-family:'Microsoft YaHei';}
+@media (min-device-width:320px) and (max-width:689px),(max-device-width:480px) {
+.content div.bza{padding:5vw 2vw 3vw 2vw;}
+.content div.bza span{left:4vw}
+.content p.desc,.content p span[desc="desc"]{width:100%;}
+}
+</style>
+<script type="text/javascript">
+//修订图片不居中bug
+$(document).ready(function (e) {
+	var strHtml = $('.footerText p').eq(0).html();
+	$('.content p').each(function (index, element) {
+		console.log($(this).attr('style'))
+		var thisHtml = $(this).html();
+		var imgObject = $(this).find('img');
+		console.log(imgObject);
+		if (imgObject.length == 1) {
+			$(this).removeAttr('style').css({
+				'text-align': "center"
+			})
+		}
+	});
+});
+</script>
+<style type="text/css">.ops_shareLayer ul,.ops_shareLayer li,.ops_shareLayer a,.ops_shareLayer i{margin:0px;padding:0px;}.ops_shareLayer{line-height:44px;}.ops_shareLayer .ops_tit{color:#666;float:left;margin-right:10px;}.ops_shareLayer .ops_icons{float:left;}.ops_shareLayer .ops_icons li{float:left;height:44px;width:44px;list-style:outside none none;margin-right:10px;}.ops_shareLayer .ops_icons a{float:left;border-radius:22px;-moz-border-radius:22px;-webkit-border-radius:22px;padding:10px;}.ops_shareLayer .ops_icons a i{background-image:url(http://www.people.com.cn/img/2012wbn/images/ops_icons_02.png);height:24px;width:24px;line-height:24px;display:block;cursor:pointer;}.ops_shareLayer .ops_icons a.icon_rmwb{background-color:#ebccd1;}.ops_shareLayer .ops_icons a.icon_rmwb:hover,.ops_shareLayer .ops_icons a.icon_rmwb:focus{background-color:#cb0000;}.ops_shareLayer .ops_icons a.icon_sina{background-color:#fccfcf;}.ops_shareLayer .ops_icons a.icon_sina:hover,.ops_shareLayer .ops_icons a.icon_sina:focus{background-color:#d9534f;}.ops_shareLayer .ops_icons a.icon_sina i{background-position:0 -50px;}.ops_shareLayer .ops_icons a.icon_weixin{background-color:#d6e9c6;}.ops_shareLayer .ops_icons a.icon_weixin:hover,.ops_shareLayer .ops_icons a.icon_weixin:focus{background-color:#5cb85c;}.ops_shareLayer .ops_icons a.icon_weixin i{background-position:0 -100px;}.ops_shareLayer .ops_icons a.icon_qzone{background-color:#faebcc;}.ops_shareLayer .ops_icons a.icon_qzone:hover,.ops_shareLayer .ops_icons a.icon_qzone:focus{background-color:#f0ad4e;}.ops_shareLayer .ops_icons a.icon_qzone i{background-position:0 -150px;}.ops_shareLayer .ops_icons a.icon_copy{background-color:#bce8f1;}.ops_shareLayer .ops_icons a.icon_copy:hover,.ops_shareLayer .ops_icons a.icon_copy:focus{background-color:#428bca;}.ops_shareLayer .ops_icons a.icon_copy i{background-position:0 -200px;}.weixin_popup{background:#fff none repeat scroll 0 0;border:1px solid #d8d8d8;padding:10px;position:fixed;z-index:11001;text-align:left;font-size:12px;color:#333;}.weixin_popup .weixin_popup_head{color:#000;font-weight:bold;height:16px;line-height:16px;position:relative;text-align:left;}.weixin_popup .weixin_popup_head .weixin_popup_close{color:#999;font-size:16px;height:16px;position:absolute;right:0;text-decoration:none;top:0;width:16px;}.weixin_popup .weixin_popup_main{TEXT-ALIGN: center;padding-top:10px;padding-bottom:10px;}.weixin_popup .weixin_popup_foot{color:#666;line-height:22px;text-align:left;}#weixin_qrcode{height:295px;left:333.5px;bottom:150px;width:240px;}</style><script type="text/javascript" referrerpolicy="no-referrer-when-downgrade" src="//d.webterren.com/common.js?z=15&amp;t=202409200756"></script></head>
+<body>
+    <!--top-->
+    <div class="top_nav clearfix">
+        <div class="w1000_320 white pos_re_login">
+            <div class="fl"><style type="text/css">
+.top_nav div a{ padding:0 6px 0 6px;}
+</style>
+<a href="http://www.people.com.cn/" target="_blank">网站首页</a><a href="http://cpc.people.com.cn/" target="_blank">党网·时政</a><a href="http://finance.people.com.cn/" target="_blank">经济·科技</a><a href="http://society.people.com.cn/" target="_blank">社会·法治</a><a href="http://ent.people.com.cn/" target="_blank">文旅·体育</a><a href="http://health.people.com.cn/" target="_blank">健康·生活</a><a href="http://opinion.people.com.cn/" target="_blank">观点</a><a href="http://fangtan.people.com.cn/" target="_blank">访谈</a><a href="http://world.people.com.cn/" target="_blank">国际</a><a href="http://military.people.com.cn/" target="_blank">军事</a><a href="http://hm.people.com.cn/" target="_blank">港澳</a><a href="http://tw.people.com.cn/" target="_blank">台湾</a><a href="http://v.people.cn/" target="_blank">视频</a><a href="http://pic.people.com.cn/" target="_blank">图片</a><a href="http://edu.people.com.cn/" target="_blank">教育</a></div>
+            <div class="fr">
+                <div id="txz_dlq"><a id="login_button">登录</a><a href="http://sso.people.com.cn/u/reg?appCode=ENw9NE44" target="_blank">注册</a></div>
+                <div id="txz_dlh" style="display:none;"><span id="loginMsg"></span><a id="logout" target="_self">退出</a></div>
+            </div>
+            <div class="p_login" id="p_login">
+                <div id="txz_dlq">
+                    <p>登录人民网通行证 &nbsp;&nbsp;&nbsp;<a href="http://sso.people.com.cn/u/reg?appCode=ENw9NE44" class="red">立即注册</a></p>
+                    <form name="loginForm" data-sso="loginForm" onssologin="loginSuccess()" onssoerror="alert(msg)">
+                        <p><input type="text" value="请输入用户名" onfocus="this.value='';this.style.color='#000';" onblur="if(!value){value=defaultValue;this.style.color='#d0d0d0';}" name="username" data-suggest="off"></p>
+                        <p><input type="password" value="" name="password"></p><span style="display:none;"><input type="checkbox" name="remember" checked="checked" value="1"><label for="rememberMe">记住登录状态</label></span>
+                        <p><a href="http://sso.people.com.cn/u/findpwd/user">忘记密码？</a></p>
+                        <p class="tc"><input type="submit" name="" value="登录" class="people_button_sub"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        //SSO Loader [v 1.1.0]
+        (function () { var s = "http://sso.people.com.cn/resource/js/sso.js"; function e(b) { return function () { RMWSSO.cache.push({ n: b, a: arguments }) } } function d(b, c) { var a = document.createElement("script"); a.type = "text/javascript"; a.onreadystatechange = a.onload = function () { this.readyState && "loaded" != this.readyState && "complete" != this.readyState || (c && c(), a.onreadystatechange = a.onload = null, a.parentNode.removeChild(a)) }; a.src = b; document.getElementsByTagName("head")[0].appendChild(a) } if (!window.RMWSSO) { var c = ["login", "logout", "getUsername", "getUserData", "crossDomainLogin", "ready"]; window.RMWSSO = { type: "loader", cache: [] }; for (var b = 0; b < c.length; b++)RMWSSO[c[b]] = e(c[b]); var f = setTimeout(function () { d(s) }, 5E3); d(s, function () { clearTimeout(f) }) } })();
+    </script>
+    <script type="text/javascript">
+        RMWSSO.getUserData(function (user) {
+            if (!user.userId) {
+                $("#txz_dlq").show();
+                $("#txz_dlh").hide();
+                //alert('未登录');
+            } else {
+                $("#txz_dlq").hide();
+                $("#txz_dlh").show();
+                var loginMsg = user.nickname + "";
+                $("#loginMsg").html(loginMsg);
+            }
+        });
+        function loginSuccess() {
+            $("#txz_dlq").hide();
+            $("#txz_dlh").show();
+            RMWSSO.getUserData(function (user) {
+                if (user.userId) {
+                    var loginMsg = user.nickname + "";
+                    $("#loginMsg").html(loginMsg);
+                }
+            })
+            $("#p_login").css({ "display": "none" })
+        }
+        $("#logout").bind('click', function (event) {
+            RMWSSO.logout(function () {
+                //alert('退出成功！')
+                $("#txz_dlq").show();
+                $("#txz_dlh").hide();
+            });
+        })
+    </script>
+    <!--top end-->    
+    <!--path-->
+    <div class="clearfix w1000_320 path pos_re_search">
+        <div class="fl"><a href="http://www.people.com.cn" target="_blank"><img src="http://www.people.com.cn/img/2016wb/images/logo01.gif" width="112" height="46"></a><a href="http://www.people.com.cn/" class="clink">人民网</a>&gt;&gt;<a href="http://pic.people.com.cn/" class="clink">图片频道</a></div>
+        <div class="fr">    
+  <img src="http://www.people.com.cn/img/2016wb/images/icon01.gif" width="29" height="29" id="search_button"><a href="http://www.people.com.cn/GB/138812/index.html" target="_blank"><img src="http://www.people.com.cn/img/2016wb/images/icon02.gif" width="29" height="29"></a></div>
+        <div class="p_search" id="p_search">
+            <form action="http://search.people.com.cn/rmw/GB/rmwsearch/gj_search_pd.jsp" name="searchForm" method="post" onsubmit="if(getParameter_DJ('ALL') == false) return false;" target="_blank"><input type="hidden" name="XMLLIST">
+                <p><input class="people_input" name="names" id="names" value="请输入检索内容" onfocus="this.value='';this.style.color='#000';" onblur="if(!value){value=defaultValue;this.style.color='#d0d0d0';}" type="text"></p>
+                <p class="tc"><input type="submit" name="" value="站内检索" class="people_button_sub"></p>
+            </form>
+        </div>
+    </div>
+    <!--pic content-->
+    <div class="pic_content clearfix">
+        <div class="pre_title" style="text-align:center;font-weight:bold;"></div>
+		<h3 class="pre"></h3>
+    	<div class="title">
+            <h1>暴雨中，他们坚守在一线——京津冀防汛现场见闻</h1>
+        </div>
+    	<h4 class="sub"></h4>
+    </div>
+    <!--ad banner-->
+    <div class="content clear clearfix" id="picG">
+        <div class="bza"><span></span>
+            <p></p>
+        </div>
+        <p style="text-align: center; text-indent: 0px;" imgindex="0"><img src="/NMediaFile/2023/0801/MAIN16908516515387BOPJZBARI.jpeg" width="1000" height="658" alt="7月31日，在河北省石家庄市中山西路一积水路段，工作人员进行紧急排水。新华社发（张晓峰摄）" data-index="0"><div class="icon-hengping" style=""><img src="/img/MAIN/2022/07/121495/images/hengping.png" alt="" class="icon-hp" style="width: 100%; height: auto;"></div></p>
+<p style="text-align: center;"><span desc="desc">7月31日，在河北省石家庄市中山西路一积水路段，工作人员进行紧急排水。新华社发（张晓峰摄）</span></p>
+<p style="text-indent: 2em;">自7月29日开始，京津冀等地出现暴雨或大暴雨，局地现特大暴雨，给城市运行带来挑战。京津冀各地防汛部门闻“汛”而动，坚守一线，全力作答防汛“考卷”。</p>
+<p style="text-align: center; text-indent: 0px;" imgindex="1"><img src="/NMediaFile/2023/0801/MAIN1690851677073I8RKAYGGOD.jpeg" width="1000" height="667" alt="7月31日，抢险人员在北京市门头沟区新桥大街救援抛锚的公交车。新华社记者 鞠焕宗 摄" data-index="1"><div class="icon-hengping" style=""><img src="/img/MAIN/2022/07/121495/images/hengping.png" alt="" class="icon-hp" style="width: 100%; height: auto;"></div></p>
+<p style="text-align: center;"><span desc="desc">7月31日，抢险人员在北京市门头沟区新桥大街救援抛锚的公交车。新华社记者 鞠焕宗 摄</span></p>
+<p style="text-indent: 2em;">7月29日11时45分，北京排水集团启动防汛特级响应。集团防汛指挥部各级人员到岗指挥，各分指相关人员到岗，所有水厂及泵站人员全部在岗值守。</p>
+<p style="text-indent: 2em;">“这里有树叶，咱们赶紧清掏一下。”在北京市东二环附近的春秀路上，邵松松与同事一把一把地抓起雨水篦子上的垃圾与树叶。“这处管道还是畅通的，如果遇到已经积水的情况，我们就得使用专业设备进行处理了。”邵松松说。</p>
+<p style="text-indent: 2em;">邵松松是北京排水集团第一管网分公司运行二班副班长，在这次降雨过程中，邵松松所在的班组被划分为数个抢险单元，他被任命为巡查小单元的单元长。除了负责巡查道路、胡同的路面情况，检查雨水口外，他还得跟辖区内的街道、社区、警察互通信息，处理各种热线反馈的积滞水任务，并随时听从分公司指挥中心调度，一旦发生积滞水险情，必须立刻出发。“从7月29日中午到7月31日中午，光是‘热线任务’我们就处理了23件，48小时的值守时间里，我的头发几乎就没干过。”邵松松说。</p>
+<p style="text-indent: 2em;">街道车水马龙，路人行色匆匆。由于雨情瞬息万变，邵松松和同事们始终处于值守状态，轮流安排就餐时间，雨小了就抓紧时间休息，给手机、设备充充电。“虽然很辛苦，但这也是我们的职责所在。”</p>
+<p style="text-align: center; text-indent: 0px;" imgindex="2"><img src="/NMediaFile/2023/0801/MAIN1690851705705VCXOM5ZEFX.jpg" width="1000" height="750" alt="图为7月31日，邵松松与同事清掏雨水篦子。新华社记者 田晨旭 摄" data-index="2"><div class="icon-hengping" style=""><img src="/img/MAIN/2022/07/121495/images/hengping.png" alt="" class="icon-hp" style="width: 100%; height: auto;"></div></p>
+<p style="text-align: center;"><span desc="desc">图为7月31日，邵松松与同事清掏雨水篦子。新华社记者 田晨旭 摄</span></p>
+<p style="text-indent: 2em;">日前，受暴雨天气影响，河北省保定市阜平县城南庄镇当地河流水位上涨，多座桥梁受损。7月30日晚8时许，国网阜平县供电公司城南庄供电所辖区的10千伏马兰547线路故障停电。一直在供电所值守的外勤班班长李雪炜接到通知后，立即带领抢修人员驱车前往，分成两组沿线路排查故障原因。</p>
+<p style="text-indent: 2em;">抢修车外暴雨不停，天黑难行，一路巡查到达麻棚村附近，大家发现唯一一条通往村里的漫水桥已被暴涨的河水淹没，车辆根本无法通过。有着20多年抢修经验的李雪炜当机立断，“下车，咱背上工具走过去查找故障原因。”</p>
+<p style="text-indent: 2em;">李雪炜和抢修人员把抢修用的绳子绑在各自腰间，互相拉拽着前行，每一步都走得艰难。</p>
+<p style="text-indent: 2em;">步行约半个小时后，伴随晃动的手电光亮，李雪炜发现了山坡上的异常情况，于是迅速带着大家爬上山坡，确认线路主干141号杆附近树木倾倒导致线路被砸断。</p>
+<p style="text-indent: 2em;">由于事故地点地处山区，施工环境复杂，加之连日大雨山路泥泞，抢修难度陡增。顾不得湿透的衣服和满身泥泞，李雪炜指挥抢修人员经过苦战，晚上9时34分，线路供电恢复正常。在抢修完附近群众家中的供电故障后，一行人返回时已是午夜12点。</p>
+<p style="text-indent: 2em;">据介绍，国网保定供电公司启动24小时应急值守，2200余名值班人员、53支抢修队伍坚守在防汛应急一线。针对山区县偏远区域可能因洪水出现的风险，供电公司提前将防汛抢修物资放置29个供电所，4辆大型发电车、58台发电机、996台应急排水设备全部就位。</p>
+<p style="text-align: center; text-indent: 0px;" imgindex="3"><img src="/NMediaFile/2023/0801/MAIN1690851735942KEYNXDMV91.jpeg" width="1000" height="750" alt="7月30日，王磊（左）和同事正在车站内的风井泵坑里布设临时排水泵。新华社记者 黄江林 摄" data-index="3"><div class="icon-hengping" style=""><img src="/img/MAIN/2022/07/121495/images/hengping.png" alt="" class="icon-hp" style="width: 100%; height: auto;"></div></p>
+<p style="text-align: center;"><span desc="desc">7月30日，王磊（左）和同事正在车站内的风井泵坑里布设临时排水泵。新华社记者 黄江林 摄</span></p>
+<p style="text-indent: 2em;">为保障广大乘客安全便捷出行，天津地铁部门闻“汛”而动，筑牢安全防线。天津轨道交通集团地铁6号线机电第一综合维修室主任王磊连日来坚守值班岗位，检查风井、室外冷却塔、站内主废水泵房，及时确认并处置监控发现的问题。</p>
+<p style="text-indent: 2em;">天津地铁6号线有39个车站，线路长点位多，防汛任务较重。王磊和40多名同事组成了8支抢险队，采取轮班值守的方式24小时巡查值守，随时准备进行应急抢险排水作业。</p>
+<p style="text-indent: 2em;">王磊说：“降雨来临前，我们就组织专业人员提前对防汛物资进行整备，协调好抢险车辆，合理安排人员，做好了长时段持续应对汛情的准备，全力保障强降雨天气下地铁线路安全运营。”</p>
+<p style="text-indent: 2em;">连日来，天津各区、各部门连续作战，昼夜盯守，通力协作，积极应对强降雨。天津市防汛抗旱指挥部组织气象、水务等部门滚动会商研判，向市、区、乡镇等各级的1万余名防汛责任人通报汛情，督促各区加大险工险段堤防加固、物资调运，落实专业力量加强巡堤查险。（新华社记者田晨旭、杜一方、黄江林）</p><div class="zdfy clearfix"></div><center><table border="0" align="center" width="40%"><tbody><tr></tr></tbody></table></center>
+        <div class="page_c">
+        </div>
+        <div class="page_c" style="text-align:right;">
+            来源：<a href="http://www.xinhuanet.com/" target="_blank">新华社</a>&nbsp;&nbsp;2023年08月01日09:02
+        </div>
+        <div class="edit clearfix">
+            <em>
+                <div id="ops_share"><div class="ops_shareLayer"><span class="ops_tit">分享到：</span><ul class="ops_icons"><li><a href="javascript:void(0)" onclick="_opsShare.share('icon_sina');return false;" class="icon_sina" title="新浪微博"><i> </i></a></li><li><a href="javascript:void(0)" onclick="_opsShare.share('icon_weixin');return false;" class="icon_weixin" title="微信"><i> </i></a></li><li><a href="javascript:void(0)" onclick="_opsShare.share('icon_qzone');return false;" class="icon_qzone" title="QQ空间"><i> </i></a></li><li><a href="javascript:void(0)" onclick="_opsShare.share('icon_copy');return false;" class="icon_copy" title="复制地址"><i> </i></a></li></ul></div></div>
+                <script src="http://www.people.com.cn/img/2016wb/share_qr2019dwb.min.js" charset="utf-8"></script>
+            </em>
+            <i id="p_editor">(责编：陈悦、常雪梅)</i>
+        </div>
+    </div>
+
+<div class="about-wrap" style="display: none;">
+    <!--about pic list-->
+     <div class="about_pic clearfix">
+  <h3><span>相关图集</span></h3>
+  <ul><li><a href="/n1/2024/1029/c1016-40349707.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN17301893331723L2DJ2XUX8.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349707.html" target="_blank">新疆阿克陶：多彩红山谷 美如山水画</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349694.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730188073570CR882X4EC5.JPG" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349694.html" target="_blank">“川藏公路动工地”成文旅地标</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349687.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730187526216A03HUNU8Y4.JPG" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349687.html" target="_blank">中医“真的很了不起”——国际人士在瑞士日...</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349646.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730184991694HXXN9DH2CR.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349646.html" target="_blank">山东聊城：游客打卡“两河明珠”</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349621.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730184183007THJAPH8IVS.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349621.html" target="_blank">2024第二届水岸铁人运动公开赛在河北迁...</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349439.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730165670828RIX8Q5LEN6.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349439.html" target="_blank">甘肃金塔：红辣椒映红致富路</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349435.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730165469694ZIB1KQIQ3M.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349435.html" target="_blank">河北秦皇岛：深秋长城美如画</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349429.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN173016512767167N8FOU2ZK.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349429.html" target="_blank">“贵州造”新能源客车首次搭乘中老班列出海</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349424.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730164843552LFJ9TBUBRH.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349424.html" target="_blank">河南新乡：太行秋色美</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349421.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN17301647014333TQAX6PXUN.JPG" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349421.html" target="_blank">神州大地秋意浓</a></div></li>
+
+</ul>
+<span class="more"><a href="" target="_blank">查看更多</a></span>
+</div>
+</div>
+<script>
+-function() {
+$('#picG img').first().closest('p').css('textIndent', 0)
+$('#picG p img').closest('p').removeClass('desc').css('textIndent', 0)
+$('img[desc]').each(function() {
+   var $next = $(this).closest('p').next()
+    if ($next.hasClass('desc')) {
+        $(this).attr('desc', $next.html())
+    }    
+})
+}();
+</script>    
+    <div class="copyright clearfix" style="overflow: hidden;">
+        <style type="text/css">
+#copyright{width:980px; margin:0px auto; font-size:12px; text-align:center; padding:20px 0; line-height:180%; clear:both;}
+</style>
+<div id="copyright">人 民 网 股 份 有 限 公 司 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>
+Copyright © 1997-2024 by www.people.com.cn. all rights reserved</div>
+    </div>
+    <style type="text/css">
+        .replayImg {
+            position: fixed;
+            left: 50%;
+            margin-left: -600px;
+            bottom: 10%;
+        }
+        @media (min-device-width:320px) and (max-width:689px),
+        (max-device-width:480px) {
+            .replayImg {
+                position: fixed;
+                left: 0%;
+                margin: 0;
+                bottom: 10%;
+            }
+        }
+    </style>
+    <div class="replayImg">
+        <a href="http://pic.people.com.cn/" title="返回图片首页" target="_blank"><img src="/img/MAIN/2020/07/120340/images/replay_img.png" alt=""></a>
+    </div>
+    <style>
+        .mobile-wrap {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 999;
+            background-color: #000;
+        }
+        .icon-hengping {
+display: none;
+            position: absolute;
+            right: 10px;
+            top: 31px;
+            z-index: 9;
+            width: 6vw;
+            z-index: 999;
+            border-radius: 6px;
+            /* background: #126bfb; */
+            color: #fff;
+            text-align: center;
+            font-size: 0;
+            line-height: 0;
+    float: left;
+    margin-top: -1.5vw;   
+    overflow: hidden;          
+			animation:  aniHengping 1.3s linear infinite;
+        }
+
+        @keyframes aniHengping {
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.2;
+            }
+        }
+
+    div.path    .icon-hengping img {
+            width: 100%;
+            min-width: 0;
+            max-width: none;
+            max-height: none;
+            min-height: none;
+border-radius: 4px;
+margin: 0;
+        }
+
+        .gaoqing {
+            text-align: center;
+        }
+
+        .mobile-wrap,
+        .mobile-wrap * {
+            box-sizing: border-box;
+        }
+
+        .mobile-wrap .ti {
+            width: 100%;
+            height: auto;
+        }
+
+        .hbox,
+        .vbox {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .box-content {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+
+        .box-desc {
+
+            font-size: 20px;
+            background-color: rgba(0, 0, 0, .5);
+            color: #fff;
+        }
+
+        .hbox-desc,
+        .vbox-desc {
+            position: absolute;
+            display: table;
+
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 13vw;
+            text-indent: 2em;
+            z-index: 99999;
+            transform: translate3d(0, 0, 0);
+            transition: all .5s ease-out;
+            overflow-y: auto;
+        }
+
+        .hbox-desc.dis-desc,
+        .vbox-desc.dis-desc {
+            transform: translate3d(0, 100%, 0);
+            transition: none;
+        }
+
+        .hbox-desc {
+            height: 13vh;
+            overflow-y: auto;
+        }
+
+        .swiper-slide {
+            background: #000;
+            overflow: hidden;
+        }
+
+        .desc-outer {
+            display: table-cell;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            vertical-align: middle;
+            padding: 1vw;
+            display: flex;
+            align-items: center;
+        }
+
+        .vbox-desc .desc-inner {
+
+            /* padding: 10px; */
+        }
+
+        .content-rotate {
+            position: relative;
+            width: 100vh;
+            height: 100vw;
+            transform: rotate(90deg);
+            transform-origin: left bottom;
+            margin-top: -100vw;
+        }
+
+        .mobile-wrap .ti {
+            position: absolute;
+            height: 100%;
+            width: auto;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .mobile-wrap .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .mobile-wrap .btn-close {
+            position: absolute;
+            right: 2vh;
+            top: 2vw;
+            width: 6vw;
+            height: 6vw;
+            text-align: center;
+            line-height: 5vw;
+            text-align: center;
+            z-index: 3;
+            font-size: 6vw;
+            z-index: 99999;
+            transform: translate3d(0, 0, 0);
+            opacity: .4;
+        }
+
+        .mobile-wrap .hbox .btn-close {
+            right: 2vw;
+            top: 20px;
+            width: 8vh;
+            height: 8vh;
+
+        }
+
+        .mobile-wrap .has-last h3 {
+            color: #fff;
+            text-align: center;
+            font-size: 8vw;
+            margin-bottom: 4vw;
+            margin-top: 3vw;
+        }
+
+        .mobile-wrap .hbox .has-last h3 {
+
+            font-size: 10vh;
+            margin-top: 3vh;
+            margin-bottom: 3vh;
+        }
+        }
+
+        .mobile-wrap .has-last {
+            text-align: left;
+            overflow: hidden;
+        }
+
+        .mobile-wrap .has-last ul li {
+            position: relative;
+            display: inline-block;
+            width: 36.4vw;
+            height: 28vw;
+            margin-right: 4vw;
+            margin-bottom: 4vw;
+            text-align: left;
+        }
+
+        .mobile-wrap .hbox .has-last ul li {
+            width: 36.4vh;
+            height: 28vh;
+            margin-right: 5vh;
+            margin-bottom: 5vh;
+            text-align: left;
+        }
+
+
+
+        .mobile-wrap .has-last ul li img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .mobile-wrap .has-last ul li:nth-child(4n) {
+            margin-right: 0;
+        }
+
+        .mobile-wrap .has-last ul {
+            width: 158vw;
+            height: 64vw;
+            margin: 0 auto;
+            font-size: 0;
+            overflow: hidden;
+        }
+
+        .mobile-wrap .hbox .has-last ul {
+            width: 161.5vh;
+            height: 64vh;
+            overflow: hidden;
+            margin: 0 auto;
+            font-size: 0;
+        }
+
+        .mobile-wrap .has-last ul li div {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            z-index: 1;
+            font-size: 3.8vw;
+            padding: 2vw;
+            background-color: rgba(0, 0, 0, .5);
+            color: #fff;
+            line-height: 1.3;
+        }
+
+        .mobile-wrap .hbox .has-last ul li div {
+
+            font-size: 3.8vh;
+            padding: 2vh;
+            background-color: rgba(0, 0, 0, .5);
+            color: #fff;
+            line-height: 1.3;
+        }
+
+        .mobile-wrap .has-last ul li div a {
+            color: #fff;
+        }
+
+        .vbox-arrow {
+            position: absolute;
+            top: 50%;
+            z-index: 8888888;
+            height: 10vw;
+            width: auto;
+            transform: translate3d(0, -50%, 0);
+            opacity: .4;
+        }
+
+        .hbox .vbox-arrow {
+            height: 12vh;
+        }
+
+        .swiper-left1 {
+            left: 1vh;
+        }
+
+        .swiper-right1 {
+            right: 1vh;
+        }
+
+        .swiper-left2 {
+            left: 1vw;
+        }
+
+        .swiper-right2 {
+            right: 1vw;
+        }
+
+        .long-v .swiper-left1 {
+            left: 3vh;
+        }
+
+        .long-v .swiper-right1 {
+            right: 3vh;
+        }
+
+        .long-h .swiper-left2 {
+            left: 3vw;
+        }
+
+        .long-h .swiper-right2 {
+            right: 3vw;
+        }
+
+        .toast-tip {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            z-index: 225555552;
+            padding: 20px 40px;
+            font-size: 18px;
+            background-color: rgba(0, 0, 0, .5);
+            white-space: nowrap;
+            color: #fff;
+            z-index: 99999;
+            transform: translate3d(-50%, -50%, 0);
+        }
+
+        .box-context {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 38.2vh;
+            height: 100%;
+            background: rgba(0, 0, 0, .7);
+            color: #fff;
+            text-align: left;
+            z-index: 100000;
+            padding: 3vw;
+            font-size: 3.5vw;
+            overflow-y: auto;
+            white-space: normal;
+            transform: translate3d(0, 0, 0);
+        }
+
+        .hbox .box-context {
+            width: 38.2vw;
+            padding: 3vh;
+            font-size: 4vh;
+        }
+
+        .box-context .context-inner {
+            display: inline-block;
+            width: 100%;
+            margin-left: auto;
+            text-indent: 2em;
+            text-align: justify;
+        }
+
+        .box-context .context-inner {
+            font-size: 4.5vw;
+        }
+
+        .hbox .box-context .context-inner {
+            font-size: 4.5vh;
+        }
+
+        .zhankai {
+            display: none;
+            position: absolute;
+            left: 6px;
+            top: 50%;
+            z-index: 2;
+            width: 8vw;
+            transform: translate3d(0, -50%, 0);
+            opacity: .6;
+        }
+
+        .hbox .zhankai {
+            width: 8vh;
+        }
+
+        .box-context.dis-context .context-inner {
+            display: none;
+        }
+
+        /* .box-context.dis-context .zhankai {
+		display: block;
+	} */
+
+        body .mobile-wrap .zhankai {
+            display: none;
+        }
+
+        body .mobile-wrap .box-context {
+            display: none;
+        }
+
+
+        body.page0 .mobile-wrap .dis-context .zhankai {
+            display: block;
+        }
+
+        body.page0 .mobile-wrap .dis-context .zhankai {
+            display: block;
+        }
+
+        body.page0 .mobile-wrap .box-context {
+            display: block;
+        }
+
+        body.page0 .mobile-wrap .box-context.dis-context {
+            background: transparent;
+        }
+
+        .zg-outer::-webkit-scrollbar {
+            width: 7px;
+            height: 7px;
+            background-color: #c76567;
+        }
+
+        .zg-outer::-webkit-scrollbar-track {
+            border-radius: 2px;
+            background-color: #000;
+        }
+
+        .zg-outer::-webkit-scrollbar-thumb {
+            border-radius: 2px;
+            background-color: #ccc;
+        }
+
+.vbox-desc .desc-inner {
+    /* padding: 10px; */
+    font-size: 1.5vh;
+}
+
+@media (min-device-width: 320px) and (max-width:689px), (max-device-width:480px) {
+    div.content p img {
+        width: 100%;
+        height: auto;
+        width: 100%!important;
+        max-width: 100vw!important;
+    }
+	div.content p.desc,.content p span[desc="desc"]{font-size:3vw;line-height:1.7}
+	.html body {min-width: auto;}
+}
+
+/*20190626*/
+.content p{position:relative;}
+    </style>    
+    <div class="mobile-wrap" style="display: none">
+        <!-- 竖屏状态 -->
+        <div class="vbox" id="vbox" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <div class="content-rotate">
+
+                <div class="vbox-desc box-desc">
+                    <div class="desc-outer">
+                        <div class="desc-inner">
+                            丰厚的搜分红反对搜凤凰博你凡事都if噢ID是非农户佛第三方后端收费以后少花费都是发的司法建瓯盘粉红色东方红大厦丰厚的搜分红
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="box-content vbox-content">
+                    <div class="swiper-container swiper-container-vbox">
+                        <div class="swiper-wrapper" id="sw-vbox"><div class="swiper-slide"><img class="ti" src="/NMediaFile/2023/0801/MAIN16908516515387BOPJZBARI.jpeg"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2023/0801/MAIN1690851677073I8RKAYGGOD.jpeg"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2023/0801/MAIN1690851705705VCXOM5ZEFX.jpg"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2023/0801/MAIN1690851735942KEYNXDMV91.jpeg"></div><div class="swiper-slide has-last">
+  <h3><span>相关图集</span></h3>
+  <ul><li><a href="/n1/2024/1029/c1016-40349707.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN17301893331723L2DJ2XUX8.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349707.html" target="_blank">新疆阿克陶：多彩红山谷 美如山水画</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349694.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730188073570CR882X4EC5.JPG" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349694.html" target="_blank">“川藏公路动工地”成文旅地标</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349687.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730187526216A03HUNU8Y4.JPG" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349687.html" target="_blank">中医“真的很了不起”——国际人士在瑞士日...</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349646.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730184991694HXXN9DH2CR.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349646.html" target="_blank">山东聊城：游客打卡“两河明珠”</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349621.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730184183007THJAPH8IVS.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349621.html" target="_blank">2024第二届水岸铁人运动公开赛在河北迁...</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349439.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730165670828RIX8Q5LEN6.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349439.html" target="_blank">甘肃金塔：红辣椒映红致富路</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349435.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730165469694ZIB1KQIQ3M.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349435.html" target="_blank">河北秦皇岛：深秋长城美如画</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349429.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN173016512767167N8FOU2ZK.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349429.html" target="_blank">“贵州造”新能源客车首次搭乘中老班列出海</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349424.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730164843552LFJ9TBUBRH.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349424.html" target="_blank">河南新乡：太行秋色美</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349421.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN17301647014333TQAX6PXUN.JPG" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349421.html" target="_blank">神州大地秋意浓</a></div></li>
+
+</ul>
+<span class="more"><a href="" target="_blank">查看更多</a></span>
+</div></div>
+                    </div>
+                </div>
+                <img src="/img/MAIN/2022/07/121495/images/btn-closebox.png" alt="" class="btn-close">
+                <img src="/img/MAIN/2022/07/121495/images/swiper-left.png" alt="" class="swiper-left1 vbox-arrow">
+                <img src="/img/MAIN/2022/07/121495/images/swiper-right.png" alt="" class="swiper-right1 vbox-arrow">
+            </div>
+
+        </div>
+
+        <!-- 横屏状态 -->
+        <div class="hbox" style="display: none">
+
+            <div class="hbox-desc box-desc">
+                <div class="desc-outer">
+                    <div class="desc-inner">
+                        丰厚的搜分红反对搜凤凰博你凡事都if噢ID是非农户佛第三方后端收费以后少花费都是发的司法建瓯盘粉红色东方红大厦丰厚的搜分红
+                    </div>
+                </div>
+            </div>
+            <div class="box-content hbox-content">
+                <div class="swiper-container swiper-container-hbox">
+                    <div class="swiper-wrapper" id="sw-hbox"><div class="swiper-slide"><img class="ti" src="/NMediaFile/2023/0801/MAIN16908516515387BOPJZBARI.jpeg"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2023/0801/MAIN1690851677073I8RKAYGGOD.jpeg"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2023/0801/MAIN1690851705705VCXOM5ZEFX.jpg"></div><div class="swiper-slide"><img class="ti" src="/NMediaFile/2023/0801/MAIN1690851735942KEYNXDMV91.jpeg"></div><div class="swiper-slide has-last">
+  <h3><span>相关图集</span></h3>
+  <ul><li><a href="/n1/2024/1029/c1016-40349707.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN17301893331723L2DJ2XUX8.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349707.html" target="_blank">新疆阿克陶：多彩红山谷 美如山水画</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349694.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730188073570CR882X4EC5.JPG" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349694.html" target="_blank">“川藏公路动工地”成文旅地标</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349687.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730187526216A03HUNU8Y4.JPG" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349687.html" target="_blank">中医“真的很了不起”——国际人士在瑞士日...</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349646.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730184991694HXXN9DH2CR.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349646.html" target="_blank">山东聊城：游客打卡“两河明珠”</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349621.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730184183007THJAPH8IVS.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349621.html" target="_blank">2024第二届水岸铁人运动公开赛在河北迁...</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349439.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730165670828RIX8Q5LEN6.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349439.html" target="_blank">甘肃金塔：红辣椒映红致富路</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349435.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730165469694ZIB1KQIQ3M.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349435.html" target="_blank">河北秦皇岛：深秋长城美如画</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349429.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN173016512767167N8FOU2ZK.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349429.html" target="_blank">“贵州造”新能源客车首次搭乘中老班列出海</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349424.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN1730164843552LFJ9TBUBRH.jpg" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349424.html" target="_blank">河南新乡：太行秋色美</a></div></li>
+<li><a href="/n1/2024/1029/c1016-40349421.html" target="_blank"><img src="/NMediaFile/2024/1029/MAIN17301647014333TQAX6PXUN.JPG" width="140" height="100" alt=""></a><div><a href="/n1/2024/1029/c1016-40349421.html" target="_blank">神州大地秋意浓</a></div></li>
+
+</ul>
+<span class="more"><a href="" target="_blank">查看更多</a></span>
+</div></div>
+                </div>
+            </div>
+            <img src="/img/MAIN/2022/07/121495/images/btn-closebox.png" alt="" class="btn-close">
+            <img src="/img/MAIN/2022/07/121495/images/swiper-left.png" alt="" class="swiper-left2 vbox-arrow">
+            <img src="/img/MAIN/2022/07/121495/images/swiper-right.png" alt="" class="swiper-right2 vbox-arrow">
+
+        </div>
+    </div>
+    <link rel="stylesheet" href="http://people.com.cn/img/MAIN/2022/07/121494/css/swiper.min.css">
+    <script src="http://people.com.cn/img/MAIN/2022/07/121494/js/swiper.min.js" charset="utf-8"></script>
+    <script src="http://people.com.cn/img/MAIN/2018/10/118767/js/lib/hammer.min.js"></script>
+    <script>
+            - function () {
+
+          $('.content p:has(img)').append('<div class="icon-hengping" style=""><img src="/img/MAIN/2022/07/121495/images/hengping.png" alt="" class="icon-hp" style="width: 100%; height: auto;"></div>')
+$('.content p:has(img)').each(function(index) {
+    $(this).attr('imgIndex', index)
+})
+
+                var zhengwenText = $('.picBox .content p').first().html() || $('#picG > p').first().html() || document.title
+                console.log('正文是' + zhengwenText)
+
+                $('.context-inner').html(zhengwenText)
+
+                //签完名的图片旋转处理
+                function rotateBase64Img(src, edg, callback) {
+                    var canvas = document.createElement("canvas");
+                    var ctx = canvas.getContext("2d");
+                    var imgW;//图片宽度
+                    var imgH;//图片高度
+                    var size;//canvas初始大小
+                    if (edg % 90 != 0) {
+                        console.error("旋转角度必须是90的倍数!");
+                        throw '旋转角度必须是90的倍数!';
+                    }
+                    (edg < 0) && (edg = (edg % 360) + 360)
+                    const quadrant = (edg / 90) % 4; //旋转象限
+                    const cutCoor = { sx: 0, sy: 0, ex: 0, ey: 0 }; //裁剪坐标
+                    var image = new Image();
+                    image.crossOrigin = "anonymous"
+                    image.src = src;
+                    image.onload = function () {
+                        imgW = image.width;
+                        imgH = image.height;
+                        size = imgW > imgH ? imgW : imgH;
+                        canvas.width = size * 2;
+                        canvas.height = size * 2;
+                        switch (quadrant) {
+                            case 0:
+                                cutCoor.sx = size;
+                                cutCoor.sy = size;
+                                cutCoor.ex = size + imgW;
+                                cutCoor.ey = size + imgH;
+                                break;
+                            case 1:
+                                cutCoor.sx = size - imgH;
+                                cutCoor.sy = size;
+                                cutCoor.ex = size;
+                                cutCoor.ey = size + imgW;
+                                break;
+                            case 2:
+                                cutCoor.sx = size - imgW;
+                                cutCoor.sy = size - imgH;
+                                cutCoor.ex = size;
+                                cutCoor.ey = size;
+                                break;
+                            case 3:
+                                cutCoor.sx = size;
+                                cutCoor.sy = size - imgW;
+                                cutCoor.ex = size + imgH;
+                                cutCoor.ey = size + imgW;
+                                break;
+                        }
+                        ctx.translate(size, size);
+                        ctx.rotate(edg * Math.PI / 180);
+                        ctx.drawImage(image, 0, 0);
+                        var imgData = ctx.getImageData(cutCoor.sx, cutCoor.sy, cutCoor.ex, cutCoor.ey);
+                        if (quadrant % 2 == 0) {
+                            canvas.width = imgW;
+                            canvas.height = imgH;
+                        } else {
+                            canvas.width = imgH;
+                            canvas.height = imgW;
+                        }
+                        ctx.putImageData(imgData, 0, 0);
+                        callback(canvas.toDataURL())
+                    };
+                }
+
+                // 只需要横图
+                var imgsAll = []
+                // <img alt="" desc="铁力市的水系景观（7月21日摄，无人机照片）。新华社记者王松摄" src="/NMediaFile/2022/0722/MAIN202207221450000045557594817.JPG" style="width: 1024px; height: 767px;" />
+                $('.content p:has(img)').children('img').each(function(index, img) {
+                    imgsAll.push({
+                        src: img.getAttribute('src'),
+                        text: img.getAttribute('desc') || $.trim($(img).closest('p').text()) ||  $.trim($(img).closest('p').next().text()),
+                        page: index
+                    })
+                     $(this).attr('data-index', index)
+                })
+                // picArray.forEach(function (item, index) {
+                //     imgsAll.push({
+                //         src: item,
+                //         text: picText[index],
+                //         page: picPage[index]
+                //     })
+                // })
+
+                var currentSlideIndex = 0
+                var isEnd = false
+                var genHTML1 = function () {
+                    var html = ''
+                    for (var i = 0; i < imgsAll.length; i++) {
+                        html += '<div class="swiper-slide"><img class="ti" src="' + imgsAll[i].src + '"></div>'
+                    }
+
+                    if ($('.about_pic li').length) {
+                        html += '<div class="swiper-slide has-last">' + $('.about_pic').html() + '</div>'
+                    }
+                    $('#sw-vbox').html(html)
+                    $('#sw-hbox').html(html)
+                }
+
+                genHTML1()
+
+                var $vboxDesc = $('.vbox .desc-inner')
+                var $hboxDesc = $('.hbox .desc-inner')
+                var disClick = true
+
+                var initSwiptEvent = function () {
+                    var hm = new Hammer(document.getElementById('vbox'))
+                    hm.get('swipe').set({ direction: Hammer.DIRECTION_ALL });
+                    var timer = null
+                    hm.on('swipedown', function (e) {
+                        console.log('上翻')
+                        if (window.swiper1) {
+                            window.swiper1.slidePrev()
+                        }
+                    }).on('swipeup', function (e) {
+                        console.log('下翻')
+                        if (window.swiper1) {
+                            window.swiper1.slideNext()
+                        }
+                    })
+                }
+
+                initSwiptEvent()
+
+                var initSwiper1 = function () {
+                    if (window.swiper1) {
+                        window.swiper1.destroy(window.swiper1, true, true)
+
+                    }
+                    // $('.box-desc').removeClass('dis-desc')
+                    window.swiper1 = new Swiper('.swiper-container-vbox', {
+                        // direction: 'verticle',
+                        initialSlide: currentSlideIndex,
+                        speed: 600,
+                        // autoplay: 3000,
+                        loop: false,
+                        prevButton: '.swiper-left1',
+                        nextButton: '.swiper-right1',
+                        onInit: function (swiper) {
+                            swiper.detachEvents()
+                            console.log('初始化')
+                            clearTimeout(window.descTimer1)
+                            clearTimeout(window.descTimer2)
+                            clearTimeout(window.descTimer3)
+
+                            if (currentSlideIndex === 0) {
+                                $('body').addClass('page0')
+                                $('.swiper-left1').hide()
+                                $('.swiper-right1').show()
+                                $('.box-context').removeClass('dis-context')
+                                console.log('显示啦！！！！')
+                                window.descTimer1 = setTimeout(function () {
+                                    console.log('关闭')
+                                    $('.box-desc').removeClass('dis-desc')
+                                    window.descTimer3 = setTimeout(function () {
+                                        $('.box-desc').addClass('dis-desc')
+                                    }, 4000)
+                                    $('.box-context').addClass('dis-context')
+                                }, 0)
+                            } else {
+                                $('body').removeClass('page0')
+                                $('.swiper-left1').show()
+                                $('.box-desc').removeClass('dis-desc')
+                                window.descTimer1 = setTimeout(function () {
+                                    console.log('关闭')
+                                    $('.box-desc').addClass('dis-desc')
+                                }, 4500)
+                            }
+
+                            var item = imgsAll[currentSlideIndex]
+                            item && $('.vbox .desc-inner').html(item.text)
+                            $('.swiper-left1').off('click').click(function () {
+                                swiper.slidePrev()
+                            })
+                            $('.swiper-right1').off('click').click(function () {
+                                swiper.slideNext()
+                            })
+                            $('.box-desc').show()
+
+
+
+                            $('.mobile-wrap .ti').off('click').click(function () {
+                                clearTimeout(window.descTimer1)
+                                clearTimeout(window.descTimer2)
+                                if ($('.dis-desc').length) {
+                                    $('.box-desc').removeClass('dis-desc').show()
+                                    $('.box-context').addClass('dis-context')
+                                } else {
+                                    $('.box-desc').addClass('dis-desc').show()
+                                }
+                            })
+                        },
+                        onTransitionEnd: function (swiper) {
+                            currentSlideIndex = swiper.realIndex
+                            clearTimeout(window.descTimer1)
+                            clearTimeout(window.descTimer2)
+                            clearTimeout(window.descTimer3)
+                            $('.box-desc').show()
+                            if (currentSlideIndex === 0) {
+                                $('body').addClass('page0')
+                                $('.swiper-left1').hide()
+                                $('.swiper-right1').show()
+                                clearTimeout(window.descTimer1)
+                                clearTimeout(window.descTimer2)
+                                clearTimeout(window.descTimer3)
+                                window.descTimer1 = setTimeout(function () {
+                                    console.log('关闭')
+                                    $('.box-desc').removeClass('dis-desc')
+                                    window.descTimer3 = setTimeout(function () {
+                                        $('.box-desc').addClass('dis-desc')
+                                    }, 4000)
+                                    $('.box-context').addClass('dis-context')
+                                }, 0)
+                                // 显示正文
+                                $('.box-context').removeClass('dis-context')
+                            } else {
+                                $('body').removeClass('page0')
+                                $('.swiper-left1').show()
+
+                                if (!swiper.isEnd) {
+                                    $('.box-desc').removeClass('dis-desc')
+                                    window.descTimer1 = setTimeout(function () {
+                                        console.log('关闭')
+                                        $('.box-desc').addClass('dis-desc')
+                                    }, 4500)
+                                }
+                                $('.box-context').addClass('dis-context')
+                            }
+
+                            if (swiper.isEnd) {
+                                $('.swiper-right1').hide()
+                                isEnd = true
+                            } else {
+                                $('.swiper-right1').show()
+                                isEnd = false
+                            }
+
+                            if ($('.swiper-slide-active.has-last').length) {
+                                $('.vbox-desc').addClass('dis-desc')
+                            }
+
+                            imgsAll[swiper.realIndex] && $vboxDesc.html(imgsAll[swiper.realIndex].text)
+
+                        }
+                    })
+                }
+                // initSwiper1()
+
+                var showSwiper = function (index2) {
+currentSlideIndex = index2
+                    if (window.orientation === 0) {
+                        $('.mobile-wrap').show()
+                        $('.vbox').show()
+                        $('.hbox').hide()
+                        initSwiper1()
+                        if (window.innerHeight / window.innerWidth > 1.85) {
+                            $('body').addClass('long-v').removeClass('long-h')
+                        } else {
+                            $('body').removeClass('long-v')
+                        }
+                    } else {
+                        $('.mobile-wrap').show()
+                        $('.hbox').show()
+                        $('.vbox').hide()
+                        initSwiper2()
+                        if (window.innerWidth / window.innerHeight > 1.85) {
+                            $('body').addClass('long-h').removeClass('long-v')
+                        } else {
+                            $('body').removeClass('long-h')
+                        }
+                    }
+                }
+
+                window.onorientationchange = function () {
+                    setTimeout(() => {
+                        showSwiper()
+                    }, 300);
+                }
+
+
+
+                var initSwiper2 = function () {
+                    if (window.swiper2) {
+                        window.swiper2.destroy(window.swiper2, true, true)
+
+                    }
+                    // $('.box-desc').removeClass('dis-desc')
+                    window.swiper2 = new Swiper('.swiper-container-hbox', {
+                        // direction: 'verticle',
+                        initialSlide: currentSlideIndex,
+                        speed: 600,
+                        loop: false,
+                        prevButton: '.swiper-left2',
+                        nextButton: '.swiper-right2',
+                        onInit: function (swiper) {
+                            // swiper.detachEvents()
+                            var item = imgsAll[currentSlideIndex]
+                            item && $('.hbox .desc-inner').html(item.text)
+
+                            clearTimeout(window.descTimer1)
+                            clearTimeout(window.descTimer2)
+                            clearTimeout(window.descTimer3)
+
+                            if (currentSlideIndex === 0) {
+                                $('body').addClass('page0')
+                                $('.swiper-left2').hide()
+                                $('.swiper-right2').show()
+                                $('.box-context').removeClass('dis-context')
+                                window.descTimer2 = setTimeout(function () {
+                                    console.log('关闭')
+                                    $('.box-desc').removeClass('dis-desc')
+                                    window.descTimer3 = setTimeout(function () {
+                                        $('.box-desc').addClass('dis-desc')
+                                    }, 4000)
+                                    $('.box-context').addClass('dis-context')
+
+                                }, 0)
+                            } else {
+                                $('body').removeClass('page0')
+                                $('.swiper-left2').show()
+                                $('.box-desc').removeClass('dis-desc')
+                                window.descTimer2 = setTimeout(function () {
+                                    console.log('关闭')
+                                    $('.box-desc').addClass('dis-desc')
+                                }, 4500)
+                            }
+
+
+                            $('.box-desc').show()
+
+
+
+                            $('.mobile-wrap .ti').off('click').click(function () {
+                                clearTimeout(window.descTimer1)
+                                clearTimeout(window.descTimer2)
+                                if ($('.dis-desc').length) {
+                                    $('.box-desc').removeClass('dis-desc').show()
+                                    $('.box-context').addClass('dis-context')
+                                } else {
+                                    $('.box-desc').addClass('dis-desc').show()
+                                }
+                            })
+                        },
+                        onTransitionEnd: function (swiper) {
+                            console.log(swiper)
+                            currentSlideIndex = swiper.realIndex
+                            clearTimeout(window.descTimer1)
+                            clearTimeout(window.descTimer2)
+                            clearTimeout(window.descTimer3)
+
+                            if (currentSlideIndex === 0) {
+                                $('body').addClass('page0')
+                                $('.swiper-left2').hide()
+                                $('.box-desc').show()
+
+                                window.descTimer2 = setTimeout(function () {
+                                    console.log('关闭')
+                                    $('.box-desc').removeClass('dis-desc')
+                                    window.descTimer3 = setTimeout(function () {
+                                        $('.box-desc').addClass('dis-desc')
+                                    }, 4000)
+                                    $('.box-context').addClass('dis-context')
+
+                                }, 0)
+                                // 显示正文
+                                $('.box-context').removeClass('dis-context')
+                            } else {
+                                $('body').removeClass('page0')
+                                $('.swiper-left2').show()
+                                if (!swiper.isEnd) {
+                                    $('.box-desc').removeClass('dis-desc')
+                                    window.descTimer2 = setTimeout(function () {
+                                        console.log('关闭')
+                                        $('.box-desc').addClass('dis-desc')
+                                    }, 4500)
+                                }
+                                // 显示正文
+                                $('.box-context').addClass('dis-context')
+                            }
+
+                            if (swiper.isEnd) {
+                                $('.swiper-right2').hide()
+                                isEnd = true
+                            } else {
+                                $('.swiper-right2').show()
+                                isEnd = false
+                            }
+
+                            if ($('.swiper-slide-active.has-last').length) {
+                                $('.hbox-desc').addClass('dis-desc')
+                            }
+
+                            imgsAll[swiper.realIndex] && $hboxDesc.html(imgsAll[swiper.realIndex].text)
+                        }
+                        // autoplay: 3000
+                    })
+                }
+
+                if (/iPhone|iPad|Android/i.test(navigator.userAgent)) {
+                      
+                    $('.icon-hengping').show().click(function (e) {
+
+                        e.preventDefault()
+                        e.stopImmediatePropagation()
+                         var index = $(this).closest('p').attr('imgindex') - 0
+                          currentSlideIndex = index
+                          if (index === 0) {
+                                 $('.swiper-left1').hide()
+                         } else {
+                              $('.swiper-left1').show()
+                         }
+                        showSwiper(index)
+                    })
+
+                 
+                    $('.content p:has(img)').children('img').click(function (e) {
+                       
+                        e.preventDefault()
+                        e.stopImmediatePropagation()
+                        var index = $(this).closest('p').attr('imgindex') - 0
+                          currentSlideIndex = index
+                         if (index === 0) {
+                                 $('.swiper-left1').hide()
+                         } else {
+                              $('.swiper-left1').show()
+                         }
+                        showSwiper(index)
+                    })
+
+                
+
+                   //  $('.icon-hengping').show()
+                    // setTimeout(function () {
+                    // 	showSwiper()
+                    // 	$('.icon-hengping').show()
+                    // 	setTimeout(function () {
+                    // 		$('.adpt2022').removeClass('adpt2022')
+                    // 	}, 1000)
+                    // }, 0)
+
+                    if (window.innerHeight / window.innerWidth > 1.74 && /iPhone/i.test(navigator)) {
+                        // $('.vbox-arrow').css({
+                        // 	transform: 'translate3d(-20px, -50%, 0)'
+                        // })
+                    }
+
+                }
+
+                $('.mobile-wrap .zhankai').click(function () {
+                    $('.box-context').removeClass('dis-context')
+                    $('.box-desc').addClass('dis-desc')
+                })
+
+                $('.mobile-wrap .btn-close').click(function () {
+                    $('.mobile-wrap').hide()
+                    if (isEnd) {
+                        currentSlideIndex = 0
+                    }
+                    isEnd = false
+                })
+
+                console.log(imgsAll)
+                var allLandImages = []
+                var loadCount = 0
+                var imgs90 = []
+                var preloadImg = function (imgObj) {
+                    var imgObj = imgsAll[loadCount]
+                    if (!imgObj) {
+                        return
+                    }
+                    var img = new Image()
+                    img.src = imgObj.src
+                    img.onerror = function () {
+                        console.log(error)
+                    }
+                    img.onload = function () {
+                        console.log(imgObj)
+
+                        if (img.width / img.height >= 1) {
+                            allLandImages.push(imgObj)
+                            console.log(imgObj)
+                            rotateBase64Img(imgObj.src, 90, function (base64) {
+                                // $('#sw-vbox').append('<img class="ti" src="$src" alt="">'.replace('$src', base64))
+                                imgs90.push(base64)
+                                if (loadCount === imgsAll.length) {
+                                    return
+                                }
+                                loadCount++
+                                preloadImg()
+                            })
+                        }
+                        if (loadCount === imgsAll.length) {
+
+                        }
+                    }
+                }
+
+                // preloadImg(imgsAll[loadCount])
+
+
+            }()
+    </script>
+    <!--图片插件-->
+    <script src="/img/MAIN/2013/12/113953/plugins/jquery.showimg.js"></script>
+    <script type="text/javascript">
+  $(document).ready(function () {
+      var $bza = $("#picG div.bza");
+      if ($bza.find("p").text().length > 10) {
+          $bza.show();
+      }
+      //获取鼠标位置
+      function mousePos(e) {
+          var x, y;
+          var e = e || window.event;
+          return {
+              x: e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft,
+              y: e.clientY + document.body.scrollTop + document.documentElement.scrollTop
+          };
+      };
+      var pic_url = $("#picG img").eq(0).attr("src");
+      $("#pic_url").attr("href", pic_url);
+      //鼠标手势改变
+      var G_str_widthpic = $(".pic_data").width();
+      var G_str_widthpic_all = $(".pic_c").width();
+      var G_str_srcpic = $(".pic_c img").attr("src");
+      $("#yuantu").attr("href", G_str_srcpic);
+      var next_link = $("#next").attr("href");
+      var prev_link = $("#prev").attr("href");
+      $(".pic_data").bind("mousemove", function (e) {
+          if (mousePos(e).x < G_str_widthpic_all / 2) {
+              $(this).addClass("cursor-left");
+              $(this).removeClass("cursor-right");
+              $(".a_left").show();
+              $(".a_right").hide();
+          } else if (mousePos(e).x > G_str_widthpic_all / 2) {
+              $(this).addClass("cursor-right");
+              $(".a_left").hide();
+              $(".a_right").show();
+          }
+      });
+      $(".pic_data").click(function () {
+          var className = $(this).attr("class");
+          console.log(className);
+          if (className == "pic_data clearfix cursor-left") {
+              if (prev_link != undefined) {
+                  window.open(prev_link, "_self");
+              } else {
+              }
+          }
+          if (className == "pic_data clearfix cursor-right" || className == "pic_data clearfix cursor-left cursor-right") {
+              if (next_link != undefined) {
+                  window.open(next_link, "_self");
+              } else {
+                  //alert("已经是最后张了！！") 
+              }
+          }
+      })
+      //排行榜
+      $(".pai_list li").eq(0).addClass("top");
+      $(".pai_list li").eq(1).addClass("top");
+      $(".pai_list li").eq(2).addClass("top");
+  });
+    </script>
+    <!--插入图片透明方法-->
+    <!--[if lte IE 6]>
+<script src="/img/2013lh/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('div, ul, img, li, input , a , td , em,h1 ,h2,h3,h4,h5,h6,em,i,p,');
+</script>
+<script type="text/javascript">
+var $this_width = $(".pic_data img").width();
+var $this_height = $(".pic_data img").height();
+$(".pic_data").css({width:$this_width,height:$this_height});
+var $this_pos = $(".pic_data").offset();
+var G_str_picwidth = $(".pic_data").width();
+$(".open").css({top:$this_pos.top+$this_height-50,left:$this_pos.left+G_str_picwidth+38})
+</script>
+<![endif]-->
+    <!-- 微信分享 -->
+    <script src="http://www.people.com.cn/img/2016wb/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script type="text/javascript">
+            var str = "暴雨中，他们坚守在一线——京津冀防汛现场见闻--图片频道--人民网 ";
+            var str1 = "暴雨中，他们坚守在一线——京津冀防汛现场见闻";
+            str = str.replace(/&nbsp;/g, " ")
+            str = str.replace(/&quot;/g, '"')
+            str = str.replace(/<br>/g, "")
+            str1 = str1.replace("&nbsp;", " ")
+            str1 = str1.replace(/&quot;/g, '"')
+            str1 = str1.replace(/<br>/g, "")
+            var wxData = {
+                "imgUrl": "http://www.people.com.cn/img/2016wb/images/logo_share.jpg", // 200x200
+                "link": window.location.href.split('?')[0],
+                "desc": "" + str + "",
+                "title": "" + str1 + ""
+            };
+    </script>
+    <script src="http://www.people.com.cn/img/2016wb/WeiXinData.js" type="text/javascript"></script>
+    <img src="http://counter.people.cn:8000/c.gif?id=40047972" width="0" height="0" style="display:none;">
+    <script src="/img/MAIN/2013/09/113727/loadScript.js" language="javascript" type="text/javascript"></script>
+    <script src="/img/MAIN/2013/09/113727/AdPopup.js" language="javascript" type="text/javascript"></script>
+    <script src="/img/MAIN/2014/02/114133/load.js" language="javascript" type="text/javascript"></script>
+    <script src="/css/2010tianrun/webdig_test.js" language="javascript" type="text/javascript"></script>
+    <script defer="" async="" type="text/javascript" src="http://tools.people.com.cn/wza/assist.js?sid=2716&amp;pos=left&amp;bar=0"></script>
+
+<script src="http://wx-api.people.com.cn/weixin/JS.js?url=http%3A%2F%2Fpic.people.com.cn%2Fn1%2F2023%2F0801%2Fc1016-40047972.html"></script></body></html>

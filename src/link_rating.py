@@ -225,6 +225,8 @@ class LinkRating:
             rank_sum = 0
             # 遍历所有指向当前页面的入链接
             for in_page in self.in_links.get(url, []):
+                if in_page==url:
+                    continue # 当自己指向自己时，跳过
                 out_degree = len(self.out_links[in_page])
                 if out_degree == 0:
                     continue

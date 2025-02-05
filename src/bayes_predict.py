@@ -19,7 +19,7 @@ class Bayes_Predict:
     """
 
     def __init__(self):
-        self.model = self.load_model("nb_model.pkl")
+        self.model = self.load_model("../src/nb_model.pkl")
 
     def load_model(self,model_path):
         with open(model_path, "rb") as f:

@@ -4,7 +4,7 @@
 # 最终得到的是主题权重向量
 import pickle
 from typing import Tuple
-from read_knowledge_graph_from_conexp import  Node
+from src.read_knowledge_graph_from_conexp import Node
 from src.link_rating import LinkRating
 
 

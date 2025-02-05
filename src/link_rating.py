@@ -1,10 +1,12 @@
 # 链接优先级排序-使用主题相关度
 import math
+import pickle
 from collections import defaultdict, Counter
 import numpy as np
 import jieba
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
+from src.read_knowledge_graph_from_conexp import Node
 
 class LinkRating:
     """
@@ -23,9 +25,14 @@ class LinkRating:
         # 初始化图结构
         self.out_links = defaultdict(set)  # 出链接：每个网页指向的其他网页
         self.in_links = defaultdict(set)  # 入链接：每个网页被哪些网页指向
-        self.anchor_scores={}  # 保存锚文本的主题相关度
+        self.anchor_scores=defaultdict(dict)  # 保存锚文本的主题相关度
         self.topic_matrix=topic_matrix
-        self.pagerank={}# 保存网页的Pagerank值
+
+        self.pagerank = defaultdict(float)  # {url: rank}
+        self.pending_updates = set()  # 待更新的 URL 队列
+        self.damping = 0.85  # 阻尼系数
+        self.omega = 0.5  # 调节因子
+        self.tol = 1e-4  # 收敛阈值
 
     def _cosine_similarity(self,vec1, vec2):
         """
@@ -78,29 +85,90 @@ class LinkRating:
 
     def add_page_to_graph(self, base_url, html_content, keyword_list, base):
         """
-        将一个网页的链接关系和锚文本主题相关度加入图中。
-        :param base_url: 网页 URL (str)
-        :param html_content: 网页内容 (str)
-        :param keyword_list: 关键词列表，用于计算主题相关度
-        :param base: 计算权重时的底数
+        动态添加 URL 并触发增量 PageRank 更新
         """
         normalized_base_url = self.normalize_url(base_url)
         links = self.extract_links(html_content, base_url)
 
-        # 分析锚文本的主题相关度
-        anchor_scores = self.url_anchor_analyze_relevance_scores(base_url, html_content, keyword_list, base, self.topic_matrix)
+        # 分析锚文本主题相关度
+        anchor_scores = self.url_anchor_analyze_relevance_scores(
+            base_url, html_content, keyword_list, base, self.topic_matrix
+        )
+
+        # 初始化当前 URL 的 PageRank（如果未存在）
+        if normalized_base_url not in self.pagerank:
+            self.pagerank[normalized_base_url] = 1.0
 
         for link in links:
             normalized_link = self.normalize_url(link)
 
-            # 添加出链接和入链接
+            # 更新出链和入链关系
             self.out_links[normalized_base_url].add(normalized_link)
             self.in_links[normalized_link].add(normalized_base_url)
 
             # 保存锚文本相关度
-            if normalized_base_url not in self.anchor_scores:
-                self.anchor_scores[normalized_base_url] = {}
             self.anchor_scores[normalized_base_url][normalized_link] = anchor_scores.get(link, 0)
+
+            # 初始化出链 URL 的 PageRank（如果未存在）
+            if normalized_link not in self.pagerank:
+                self.pagerank[normalized_link] = 1.0
+
+        # 标记受影响节点：当前 URL 及其所有出链 URL
+        self.pending_updates.add(normalized_base_url)
+        self.pending_updates.update([self.normalize_url(link) for link in links])
+
+        # 触发增量 PageRank 更新
+        self._batch_update()
+
+    def _batch_update(self, max_iter=3):
+        """批量更新受影响的 PageRank 值"""
+        for _ in range(max_iter):
+            changes = {}
+            for url in self.pending_updates:
+                old_rank = self.pagerank[url]
+
+                # 计算入链贡献（公式中的求和部分）
+                rank_sum = 0.0
+                for in_page in self.in_links.get(url, []):
+                    # 跳过无出链的页面（悬挂节点）
+                    if len(self.out_links.get(in_page, [])) == 0:
+                        continue
+
+                    # 获取语义相关度权重
+                    sem_score = self.anchor_scores.get(in_page, {}).get(url, 0)
+                    weight = 1 + self.omega * sem_score
+
+                    # 贡献值 = PR(in_page) / C(in_page) * weight
+                    rank_sum += (self.pagerank[in_page] / len(self.out_links[in_page])) * weight
+
+                # 更新 PageRank
+                new_rank = (1 - self.damping) + self.damping * rank_sum
+                changes[url] = abs(new_rank - old_rank)
+                self.pagerank[url] = new_rank
+
+            # 判断是否收敛
+            if max(changes.values(), default=0) < self.tol:
+                break
+
+        # 清空待更新队列
+        self.pending_updates.clear()
+
+        # 处理悬挂节点（可选）
+        self._handle_dangling_nodes()
+
+    def _handle_dangling_nodes(self):
+        """处理无出链的悬挂节点贡献"""
+        dangling_nodes = [url for url in self.pagerank if len(self.out_links.get(url, [])) == 0]
+        if not dangling_nodes:
+            return
+
+        # 计算悬挂节点的总贡献
+        total_dangling_rank = sum(self.pagerank[url] for url in dangling_nodes)
+        dangling_contribution = self.damping * total_dangling_rank / len(self.pagerank)
+
+        # 将贡献分配给所有节点
+        for url in self.pagerank:
+            self.pagerank[url] += dangling_contribution
 
     def url_anchor_analyze(self,base_url,html_text,keyword_list,base):
         """
@@ -168,74 +236,24 @@ class LinkRating:
 
 
 
-    #Todo 得改，算法不符合论文要求
-    def compute_pagerank(self, damping=0.85, max_iterations=100, tol=1e-6):
-        """
-        计算 PageRank 值。
-        :param damping: 阻尼系数
-        :param max_iterations: 最大迭代次数
-        :param tol: 收敛容差
-        :return: PageRank 值字典
-        """
-        # 初始化 PageRank 值
-        pages = list(self.out_links.keys() | self.in_links.keys())
-        N = len(pages)
-        pagerank = {page: 1 / N for page in pages}
 
-        # 迭代计算 PageRank
-        for _ in range(max_iterations):
-            new_pagerank = {}
-            for page in pages:
-                rank_sum = 0
-                # 遍历所有指向当前页面的入链接
-                for in_page in self.in_links.get(page, []):
-                    out_degree = len(self.out_links[in_page])
-                    if out_degree == 0:
-                        continue
+if __name__ == '__main__':
+    # 假设已初始化爬虫对象 crawler
+    with open('graph_nodes.pkl', 'rb') as f:
+        nodes = pickle.load(f)
+        from src.top_relevance import TopicRelevance
+        topic_relevance = TopicRelevance(nodes, nodes[1])
+        topic_relevance.main_generate(nodes[1], nodes, (0.2, 0.2, 0.2, 0.2, 0.2))
+        print(topic_relevance.topic_meaning_matrix)
+        print(topic_relevance.keyword_list)
+        crawler=LinkRating(topic_relevance.topic_meaning_matrix)
+        crawler.add_page_to_graph(
+            base_url="http://example.com/A",
+            html_content="<a href='http://example.com/B'>link</a>...",
+            keyword_list=topic_relevance.keyword_list,
+            base=2.0
+        )
 
-                    # 获取锚文本主题相关度
-                    semantic_relevance = self.anchor_scores.get(in_page, {}).get(page, 0)
-                    rank_sum += pagerank[in_page] / out_degree * (1 + semantic_relevance)
-
-                # 更新当前页面的 PageRank
-                new_pagerank[page] = (1 - damping) / N + damping * rank_sum
-
-            # 检查是否收敛
-            if all(abs(new_pagerank[page] - pagerank[page]) < tol for page in pages):
-                break
-            pagerank = new_pagerank
-
-        return pagerank
-
-    def get_pagerank(self,url,damping,omega):
-        """
-        计算某个网页的pagerank,计算完毕后需要将该url加入到图中
-        :param url:网页的url
-        :param damping:阻尼系数
-        :param omega:调节因子
-        :return:
-        """
-        # 引用到该网页的其他的网页,若没有则返回1/len(pages)
-        if url not in self.in_links:
-            pages = list(self.out_links.keys() | self.in_links.keys())
-            N = len(pages)
-            self.pagerank[url]=1/N
-            return 1/N
-        else:
-            rank_sum = 0
-            # 遍历所有指向当前页面的入链接
-            for in_page in self.in_links.get(url, []):
-                if in_page==url:
-                    continue # 当自己指向自己时，跳过
-                out_degree = len(self.out_links[in_page])
-                if out_degree == 0:
-                    continue
-
-                # 获取锚文本主题相关度
-                semantic_relevance = self.anchor_scores.get(in_page, {}).get(url, 0)
-                rank_sum += (self.get_pagerank(in_page,damping,omega)/ out_degree) * (1 + (omega*semantic_relevance))
-
-            # 更新当前页面的 PageRank
-            self.pagerank[url]=(1-damping)+damping*rank_sum
-            return (1-damping)+(damping*rank_sum)
+        # 查看 PageRank 结果
+        print(crawler.pagerank)
 

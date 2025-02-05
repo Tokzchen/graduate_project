@@ -193,6 +193,3 @@ if __name__ == '__main__':
         pages = list(graph.out_links.keys() | graph.in_links.keys())
         damping=0.85
         omega=1
-        for p in pages:
-            r=graph.get_pagerank(p,damping,omega)
-            print(f'{p}的pagerank={r}')

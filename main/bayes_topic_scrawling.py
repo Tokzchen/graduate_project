@@ -77,8 +77,8 @@ class BayesTopicScrawling:
             self.topic_meaning_vector = topic_relevance.topic_meaning_matrix  # 主题语义向量
             self.keyword_list = topic_relevance.keyword_list  # 关键词列表
             self.bayes = Bayes_Predict()  # 贝叶斯分类器模型
-            self.p1 = 0  # 网页相关度阈值p1
-            self.p2 = 0  # 链接相关度阈值p2
+            self.p1 = 0.01  # 网页相关度阈值p1
+            self.p2 = 3  # 链接相关度阈值p2
             self.url_target = []  # 目标url列表
             self.url_queue = collections.deque([])  # 需要处理的url队列
             self.url_process_cnt = 0  # 处理过的url计数，用以计算爬准率
@@ -91,8 +91,9 @@ class BayesTopicScrawling:
             self.link_graph = LinkRating(self.topic_meaning_vector)
             self.base = math.e  # 计算链接优先相关度时的对数底数
             self.link_analyze_setting = [0.33, 0.33, 0.33]  # 计算链接综合优先度时三个变量的权重值
-            self.damping = 0.85  # pagerank 阻尼系数
-            self.omega = 0.5  # pagerank 调节因子
+            self.link_graph.damping = 0.85  # pagerank 阻尼系数
+            self.link_graph.omega = 0.5  # pagerank 调节因子
+
 
     def __del__(self):
         # 对象摧毁前关闭浏览器
@@ -189,6 +190,13 @@ class BayesTopicScrawling:
         :return:
         """
         # 自动化从百度引擎获取种子url
+        # 记录一下主题相关度与综合优先度
+        web_sim_record=[]
+        link_sim_record=[]
+        total_web_sim=0
+        total_web_cnt=0 # 通过筛选的网页数目
+        total_link_sim=0
+        total_link_cnt=0 # 通过筛选的链接数目
         seed_urls = self.get_url_seeds_from_baidu(self.topic, self.seed_num)
         self.url_queue.extend(seed_urls)  # 种子链接加入到待处理队列
         while self.url_queue:
@@ -202,9 +210,12 @@ class BayesTopicScrawling:
             cur_web_vector = HtmlFeatureMatrix().main_generate(cur_html_text, self.keyword_list)
             # 获取网页的向量与主题语义向量的余弦相似度（网页相似度)
             cur_web_similarity = self._cosine_similarity(cur_web_vector, self.topic_meaning_vector)
+            web_sim_record.append(cur_web_similarity) #记录一下网页相似度方便调整
             # 网页文本主题相关度则跳过
             if cur_web_similarity < self.p1:
                 continue
+            total_web_sim+=cur_web_similarity
+            total_web_cnt+=1
             # 进行网页处理，提取网页的链接，根据链接优先度进行分析与筛选
             self.link_graph.add_page_to_graph(cur_url, cur_html_text, self.keyword_list, self.base)
             # 获取网页链接出去的链接
@@ -214,20 +225,27 @@ class BayesTopicScrawling:
                 a, b, c = self.link_analyze_setting
                 cur_outer_url_prior = a * self.link_graph.anchor_scores[self.link_graph.normalize_url(cur_url)][
                     self.link_graph.normalize_url(
-                        outer_url)] + b * cur_web_similarity + c * self.link_graph.get_pagerank(outer_url, self.damping,
-                                                                                                self.omega)
+                        outer_url)] + b * cur_web_similarity + c * self.link_graph.pagerank[outer_url]
                 # 如果链接综合优先度小于p2则跳过
+                link_sim_record.append(cur_outer_url_prior) # 记录一下综合优先度方便进行调整
                 if cur_outer_url_prior < self.p2:
                     continue
+                total_link_sim+=cur_outer_url_prior
+                total_link_cnt+=1
                 self.url_process_cnt += 1  # 进入到需要下载处理的计数
                 self.url_queue.append(outer_url)
             self.url_target.append(cur_url)  # 将处理完的url加入到目标列表
             # 检查目标列表是否达到需要收集的条目数
             if len(self.url_target) >= self.target_num:
                 break
-        print(f'收集{self.target_num}条url完成，爬准率为:{self.target_num / self.url_process_cnt}')
-        return self.target_num
+        print(f'收集{self.target_num}条url完成，共下载网页{self.url_process_cnt}个，爬准率为:{self.target_num / self.url_process_cnt}')
+        print(f'网页相似度记录：{web_sim_record}')
+        print(f'通过网页筛选共{total_web_cnt}条，平均网页相似度为{total_web_sim/(total_web_cnt+1)}')
+        print(f'链接优先度记录:{link_sim_record}')
+        print(f'通过链接筛选共{total_link_cnt}条，平均综合优先度为{total_link_sim/(total_link_cnt+1)}')
+        return self.url_target
 
 
 if __name__ == '__main__':
     res = BayesTopicScrawling().run()
+    print(res)

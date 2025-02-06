@@ -18,4 +18,8 @@ def normalize_url(url):
         normalized_url = normalized_url[:-1]
     return normalized_url
 
-print(normalize_url(s1))
+st=set()
+st.add(1)
+st.add(2)
+st.add(2)
+print(len(st))

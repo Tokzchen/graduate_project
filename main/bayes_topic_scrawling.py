@@ -45,6 +45,7 @@ from src.bayes_predict import Bayes_Predict
 from src.top_relevance import TopicRelevance
 
 from collections import defaultdict
+import pyhttpx
 
 
 # 模型定义变量，不定义的话无法加载二进制文件model
@@ -77,16 +78,16 @@ class BayesTopicScrawling:
             self.topic_meaning_vector = topic_relevance.topic_meaning_matrix  # 主题语义向量
             self.keyword_list = topic_relevance.keyword_list  # 关键词列表
             self.bayes = Bayes_Predict()  # 贝叶斯分类器模型
-            self.p1 = 0.01  # 网页相关度阈值p1
-            self.p2 = 3  # 链接相关度阈值p2
+            self.p1 = 0.94  # 网页相关度阈值p1
+            self.p2 = 2  # 链接相关度阈值p2
             self.url_target = []  # 目标url列表
             self.url_queue = collections.deque([])  # 需要处理的url队列
             self.url_process_cnt = 0  # 处理过的url计数，用以计算爬准率
             self.driver_path = '../diver/132.0.6834.160/chromedriver.exe'  # chrome_driver路径，用以自动化
             self.web = None  # 自动化浏览器对象
             self.topic = '暴雨灾害'
-            self.seed_num = 5  # 种子链接数
-            self.target_num = 15  # 目标收集的url数目
+            self.seed_num = 50  # 种子链接数
+            self.target_num = 200  # 目标收集的url数目
             self.request_html_retry_cnt = 3  # 请求url的html的重试次数
             self.link_graph = LinkRating(self.topic_meaning_vector)
             self.base = math.e  # 计算链接优先相关度时的对数底数
@@ -102,12 +103,12 @@ class BayesTopicScrawling:
 
     def get_url_seeds_from_baidu(self, topic, url_cnt):
         """
-        使用自动化程序从百度搜索引擎获取主题相关的种子url
+        使用自动化程序从百度搜索引擎获取主题相关的种子url,标准化，并持久化为pkl文件
         :param topic: 主题名称
         :param url_cnt: 需获取的种子url数目
         :return: 种子url列表
         """
-        res = []
+        res = set()
         baidu_homepage_url = 'https://www.baidu.com'
         homepage_input_selector = '//input[contains(@class,"s_ipt")]'
         homepage_search_btn_selector = '//input[@value="百度一下"]'
@@ -126,13 +127,23 @@ class BayesTopicScrawling:
             search_result_item_num = self.web.get_element_num(search_result_item_a_selector)
             # 获取当前页面的句柄
             search_result_page_handle = self.web.get_current_window_handle()
+            self.web.web_refresh()
+            time.sleep(1)
             for i in range(1, search_result_item_num + 1):
-                self.web.click(f'({search_result_item_a_selector})[{i}]')
+                time.sleep(1)
+                try:
+                    self.web.web_click_js(f'({search_result_item_a_selector})[{i}]')
+                except Exception as e:
+                    continue
                 # 移动到新打开的搜索页获取url
                 self.web.switch_to_window(self.web.get_window_handles()[-1])
-                cur_url = self.web.get_web_content('current_url')
+                try:
+                    cur_url = self.web.get_web_content('current_url')
+                except Exception as e:
+                    self.web.close_window()
+                    continue
                 # Todo url是否需要标准化, 这里先统一标准化了？
-                res.append(self.link_graph.normalize_url(cur_url))
+                res.add(self.link_graph.normalize_url(cur_url))
                 if len(res) >= url_cnt:
                     break
                 self.web.close_window()
@@ -140,9 +151,21 @@ class BayesTopicScrawling:
                 self.web.switch_to_window(search_result_page_handle)
             else:
                 self.web.click(next_search_page_btn_selector)
+                time.sleep(3)
         self.web.close()
         self.web = None
-        return res
+        with open('./seed_urls.pkl','wb') as f:
+            pickle.dump(list(res),f)
+        return list(res)
+
+    def load_seed_urls_from_pickle(self):
+        """
+        加载种子url文件
+        :return:
+        """
+        with open('./seed_urls.pkl','rb')as f:
+            seed_urls=pickle.load(f)
+            return seed_urls
 
     def get_html_text_from_url(self, url, retry):
         """
@@ -151,10 +174,16 @@ class BayesTopicScrawling:
         :param retry: 重试次数
         :return:
         """
+
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
+        }
+        session = pyhttpx.HttpSession()
+
         cnt = retry
         while cnt > 0:
             # 发送 GET 请求
-            response = requests.get(url)
+            response = session.get(url='https://www.baidu.com/', headers=headers)
             # 检查请求是否成功
             if response.status_code == 200:
                 # 获取 HTML 文本
@@ -197,7 +226,7 @@ class BayesTopicScrawling:
         total_web_cnt=0 # 通过筛选的网页数目
         total_link_sim=0
         total_link_cnt=0 # 通过筛选的链接数目
-        seed_urls = self.get_url_seeds_from_baidu(self.topic, self.seed_num)
+        seed_urls = self.load_seed_urls_from_pickle() # 加载种子url
         self.url_queue.extend(seed_urls)  # 种子链接加入到待处理队列
         while self.url_queue:
             cur_url = self.url_queue.popleft()
@@ -238,14 +267,13 @@ class BayesTopicScrawling:
             # 检查目标列表是否达到需要收集的条目数
             if len(self.url_target) >= self.target_num:
                 break
-        print(f'收集{self.target_num}条url完成，共下载网页{self.url_process_cnt}个，爬准率为:{self.target_num / self.url_process_cnt}')
-        print(f'网页相似度记录：{web_sim_record}')
+        print(f'共收集到{len(self.url_target)}条url，共下载网页{self.url_process_cnt}个，爬准率为:{self.target_num / self.url_process_cnt}')
+        # print(f'网页相似度记录：{web_sim_record}')
         print(f'通过网页筛选共{total_web_cnt}条，平均网页相似度为{total_web_sim/(total_web_cnt+1)}')
-        print(f'链接优先度记录:{link_sim_record}')
+        # print(f'链接优先度记录:{link_sim_record}')
         print(f'通过链接筛选共{total_link_cnt}条，平均综合优先度为{total_link_sim/(total_link_cnt+1)}')
         return self.url_target
 
 
 if __name__ == '__main__':
-    res = BayesTopicScrawling().run()
-    print(res)
+    BayesTopicScrawling().run()

@@ -80,31 +80,3 @@ class HtmlFeatureMatrix:
         return results, max_frequencies
 
 
-# 示例用法
-html_content = """
-<html>
-    <head>
-        <title>天气预报</title>
-        <meta name="keywords" content="天气,预警,湿度">
-        <meta name="description" content="提供实时天气预报和预警信息。">
-    </head>
-    <body>
-        <h1>今日天气预报</h1>
-        <h2>潮湿预警</h2>
-        <p>今天的天气预报显示，湿度较高，请注意防潮。</p>
-        <a href="#">更多天气信息</a>
-    </body>
-</html>
-"""
-keywords_list = ['天气预报', '预警', '潮湿']
-
-results, max_freq = HtmlFeatureMatrix().analyze_html(html_content, keywords_list)
-final_matrix=HtmlFeatureMatrix().main_generate(html_content,keywords_list)
-# 打印统计结果
-print("统计结果:")
-for category, counts in results.items():
-    print(f"{category}: {dict(counts)}")
-
-print("\n最大词频统计:")
-print(max_freq)
-print(final_matrix)

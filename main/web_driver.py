@@ -10,6 +10,8 @@ class WebAutomation:
     def __init__(self, browser='chrome', driver_path=None):
         if browser.lower() == 'chrome':
             self.driver = webdriver.Chrome()
+            # 设置页面加载超时时间为 10 秒
+            self.driver.set_page_load_timeout(10)
         elif browser.lower() == 'firefox':
             self.driver = webdriver.Firefox()
         else:
@@ -99,9 +101,36 @@ class WebAutomation:
         except Exception as e:
             raise RuntimeError(f'移动到{xpath}时发生错误:{e}')
 
+    def web_refresh(self):
+        """
+        刷新当前网页
+        :return:
+        """
+        self.driver.refresh()
+
     def close(self):
         """关闭浏览器"""
         self.driver.quit()
+
+    def web_execute_js(self,js):
+        """
+        执行js代码
+        :param js:
+        :return:
+        """
+        try:
+            self.driver.execute_script(js)
+        except Exception as e:
+            raise RuntimeError(f'执行js代码{js}报错:{e}')
+
+    def web_click_js(self,xpath):
+        """
+        使用js的方式进行点击
+        :param xpath:
+        :return:
+        """
+        js=f"""document.evaluate('{xpath}',document).iterateNext().click()"""
+        self.web_execute_js(js)
 
 # 示例用法
 if __name__ == "__main__":

@@ -34,6 +34,7 @@ import math
 import pickle
 import time
 
+import httpx
 import numpy as np
 import requests
 
@@ -78,8 +79,8 @@ class BayesTopicScrawling:
             self.topic_meaning_vector = topic_relevance.topic_meaning_matrix  # 主题语义向量
             self.keyword_list = topic_relevance.keyword_list  # 关键词列表
             self.bayes = Bayes_Predict()  # 贝叶斯分类器模型
-            self.p1 = 0.94  # 网页相关度阈值p1
-            self.p2 = 2  # 链接相关度阈值p2
+            self.p1 = 0.30  # 网页相关度阈值p1
+            self.p2 = 1.1  # 链接相关度阈值p2
             self.url_target = []  # 目标url列表
             self.url_queue = collections.deque([])  # 需要处理的url队列
             self.url_process_cnt = 0  # 处理过的url计数，用以计算爬准率
@@ -87,7 +88,7 @@ class BayesTopicScrawling:
             self.web = None  # 自动化浏览器对象
             self.topic = '暴雨灾害'
             self.seed_num = 50  # 种子链接数
-            self.target_num = 200  # 目标收集的url数目
+            self.target_num = 500  # 目标收集的url数目
             self.request_html_retry_cnt = 3  # 请求url的html的重试次数
             self.link_graph = LinkRating(self.topic_meaning_vector)
             self.base = math.e  # 计算链接优先相关度时的对数底数
@@ -141,6 +142,8 @@ class BayesTopicScrawling:
                     cur_url = self.web.get_web_content('current_url')
                 except Exception as e:
                     self.web.close_window()
+                    time.sleep(1)
+                    self.web.switch_to_window(search_result_page_handle)
                     continue
                 # Todo url是否需要标准化, 这里先统一标准化了？
                 res.add(self.link_graph.normalize_url(cur_url))
@@ -178,22 +181,21 @@ class BayesTopicScrawling:
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
         }
-        session = pyhttpx.HttpSession()
 
-        cnt = retry
-        while cnt > 0:
-            # 发送 GET 请求
-            response = session.get(url='https://www.baidu.com/', headers=headers)
-            # 检查请求是否成功
-            if response.status_code == 200:
-                # 获取 HTML 文本
-                html_text = response.text
-                return html_text
-            else:
-                print(f"请求失败，状态码: {response.status_code}")
+        with httpx.Client() as session:
+            cnt = retry
+            while cnt > 0:
+                try:
+                    response = session.get(url, headers=headers, timeout=5, follow_redirects=True)
+                    if response.status_code == 200:
+                        return response.text
+                    else:
+                        print(f"请求失败，状态码: {response.status_code}")
+                except httpx.RequestError as e:
+                    print(f"请求出错: {e}")
                 cnt -= 1
-        else:
-            raise RuntimeError(f'请求{url}失败')
+
+        raise RuntimeError(f"请求 {url} 失败")
 
     def _cosine_similarity(self, vec1, vec2):
         """
@@ -230,7 +232,10 @@ class BayesTopicScrawling:
         self.url_queue.extend(seed_urls)  # 种子链接加入到待处理队列
         while self.url_queue:
             cur_url = self.url_queue.popleft()
-            cur_html_text = self.get_html_text_from_url(cur_url, self.request_html_retry_cnt)
+            try:
+                cur_html_text = self.get_html_text_from_url(cur_url, self.request_html_retry_cnt)
+            except Exception as e:
+                continue
             self.url_process_cnt += 1  # 下载一次网页则计数加1
             cur_label = self.bayes.classify_with_weight(cur_html_text)
             if cur_label != self.topic:
@@ -261,7 +266,6 @@ class BayesTopicScrawling:
                     continue
                 total_link_sim+=cur_outer_url_prior
                 total_link_cnt+=1
-                self.url_process_cnt += 1  # 进入到需要下载处理的计数
                 self.url_queue.append(outer_url)
             self.url_target.append(cur_url)  # 将处理完的url加入到目标列表
             # 检查目标列表是否达到需要收集的条目数
@@ -276,4 +280,5 @@ class BayesTopicScrawling:
 
 
 if __name__ == '__main__':
-    BayesTopicScrawling().run()
+    # Todo: 多线程优化整体的性能
+    r=BayesTopicScrawling().run()

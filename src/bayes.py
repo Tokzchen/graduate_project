@@ -3,6 +3,17 @@ import math
 from collections import defaultdict
 
 import jieba
+import pickle
+
+from src.top_relevance import TopicRelevance
+
+with open('../src/graph_nodes.pkl', 'rb') as f:
+    nodes = pickle.load(f)
+    topic_relevance = TopicRelevance(nodes, nodes[1])
+    topic_relevance.main_generate(nodes[1], nodes, (0.2, 0.2, 0.2, 0.2, 0.2))
+    kw_list = topic_relevance.keyword_list
+    for w in kw_list:
+        jieba.add_word(w)
 
 TAG_GROUPS = {
     "group1": {

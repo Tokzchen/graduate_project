@@ -1,25 +1,32 @@
-import collections
-from urllib.parse import urlparse
+import httpx
 
-s='https://www.51miz.com/so-sucai/4304092.html?utm_term=24813233&utm_source=baidu&bd_vid=6067477385671942740'
-s1='http://www.byzh.org.cn/article/doi/10.12406/byzh.2023-239?viewType=HTML'
 
-def normalize_url(url):
+def get_html_text_from_url( url, retry):
     """
-    标准化 URL，移除尾斜杠和查询参数等。
-    :param url: 原始 URL (str)
-    :return: 标准化后的 URL (str)
+    从url获取html文本
+    :param url: 目标url
+    :param retry: 重试次数
+    :return:
     """
-    parsed = urlparse(url)
-    # 移除查询参数和 fragment（锚点）
-    normalized_url = parsed.scheme + "://" + parsed.netloc + parsed.path
-    # 去掉尾部的斜杠
-    if normalized_url.endswith('/'):
-        normalized_url = normalized_url[:-1]
-    return normalized_url
 
-st=set()
-st.add(1)
-st.add(2)
-st.add(2)
-print(len(st))
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
+    }
+
+    with httpx.Client() as session:
+        cnt = retry
+        while cnt > 0:
+            try:
+                response = session.get(url, headers=headers, timeout=10, follow_redirects=True)
+                if response.status_code == 200:
+                    return response.text
+                else:
+                    print(f"请求失败，状态码: {response.status_code}")
+            except httpx.RequestError as e:
+                print(f"请求出错: {e}")
+            cnt -= 1
+
+    raise RuntimeError(f"请求 {url} 失败")
+
+r=get_html_text_from_url('https://baike.baidu.com/item/2024%E5%B9%B4%E8%BE%BD%E5%AE%81%E6%9A%B4%E9%9B%A8/64727038?fr=aladdin',3)
+print(r)

@@ -22,6 +22,14 @@ class LinkRating:
             在这里存储记录已爬取的网页的相关数据，记录的内容包括：
             -已爬取的网页的url数，url列表，page_rank值，分别使用字典进行记录
         """
+        with open('../src/graph_nodes.pkl', 'rb') as f:
+            from src.top_relevance import TopicRelevance
+            nodes = pickle.load(f)
+            topic_relevance = TopicRelevance(nodes, nodes[1])
+            topic_relevance.main_generate(nodes[1], nodes, (0.2, 0.2, 0.2, 0.2, 0.2))
+            kw_list=topic_relevance.keyword_list
+            for w in kw_list:
+                jieba.add_word(w)
         # 初始化图结构
         self.out_links = defaultdict(set)  # 出链接：每个网页指向的其他网页
         self.in_links = defaultdict(set)  # 入链接：每个网页被哪些网页指向
@@ -75,12 +83,14 @@ class LinkRating:
         :param url: 原始 URL (str)
         :return: 标准化后的 URL (str)
         """
-        parsed = urlparse(url)
-        # 移除查询参数和 fragment（锚点）
-        normalized_url = parsed.scheme + "://" + parsed.netloc + parsed.path
-        # 去掉尾部的斜杠
-        if normalized_url.endswith('/'):
-            normalized_url = normalized_url[:-1]
+        # update：主题爬虫不再对url进行标准化
+        # parsed = urlparse(url)
+        # # 移除查询参数和 fragment（锚点）
+        # normalized_url = parsed.scheme + "://" + parsed.netloc + parsed.path
+        # # 去掉尾部的斜杠
+        # if normalized_url.endswith('/'):
+        #     normalized_url = normalized_url[:-1]
+        normalized_url=url
         return normalized_url
 
     def add_page_to_graph(self, base_url, html_content, keyword_list, base):

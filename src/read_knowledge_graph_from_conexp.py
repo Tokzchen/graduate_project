@@ -6,21 +6,19 @@ from rdflib import RDFS
 
 
 class Node:
-    def __init__(self, node_id):
-        self.node_id = node_id
-        self.attributes = []  # 用于存储该节点的属性
+    def __init__(self, node_id, attribute):
+        self.node_id = node_id  # 节点编号
+        self.attributes = [] # 节点属性
+        self.attributes.append(attribute)
         self.children = []  # 子节点
         self.parent = []  # 父节点
 
-    def add_attribute(self, attribute):
-        self.attributes.append(attribute)
-
     def add_child(self, child_node):
         self.children.append(child_node)
-        child_node.parent .append(self)
+        child_node.parent.append(self)
 
     def __repr__(self):
-        return f"Node({self.node_id}, attributes={self.attributes}, children={len(self.children)})"
+        return f"Node(id={self.node_id}, name={self.name})"
 
 
 # 解析树的描述文件

@@ -58,7 +58,7 @@ def default_class_stats():
         "doc_contain_word": defaultdict(int)
     }
 
-
+cookie_str="""BAIDU_WISE_UID=wapp_1715096917846_549; BAIDUID=438E7E635B5C02F05A2EEC0A0749C593:FG=1; BAIDUID_BFESS=438E7E635B5C02F05A2EEC0A0749C593:FG=1; __bid_n=18ff7683ec049449b6a747; BDUSS=tNN1ZKeTZ1UDdzaX5Dc29WNC1rQ0VESzFaZUdaUzBVc3R0RVg2Q0pETEFDc3BuSVFBQUFBJCQAAAAAAAAAAAEAAABhC3WlytjN-8DvtcTIywAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMB9omfAfaJndE; BDUSS_BFESS=tNN1ZKeTZ1UDdzaX5Dc29WNC1rQ0VESzFaZUdaUzBVc3R0RVg2Q0pETEFDc3BuSVFBQUFBJCQAAAAAAAAAAAEAAABhC3WlytjN-8DvtcTIywAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMB9omfAfaJndE; RT="z=1&dm=baidu.com&si=83fd8623-0d7a-4d57-b187-936586a64b67&ss=m6qyg5kb&sl=1&tt=3yv&bcn=https%3A%2F%2Ffclog.baidu.com%2Flog%2Fweirwood%3Ftype%3Dperf&ld=4qy&ul=gdua&hd=gduo"; BIDUPSID=438E7E635B5C02F05A2EEC0A0749C593; PSTM=1738762125; BD_UPN=12314753; H_WISE_SIDS=61027_61673_61801_61876_61985; H_WISE_SIDS_BFESS=61027_61673_61801_61876_61985; Hm_lvt_aec699bb6442ba076c8981c6dc490771=1738768198; BA_HECTOR=2k008k05a0ag2l810k05ag8kas80be1jqc8gs1u; ZFY=UCJKjgUxm0fspdIZ0b3s:A26w4X27sm:APQnrGhVtMYHM:C; BD_CK_SAM=1; PSINO=7; H_PS_PSSID=61027_61673_61801_61876_61985_62042_62053_62061; delPer=0; H_PS_645EC=6270%2Bjr3ps7ENUJJARXFa7AkRcJ7uMXgG0nw%2F7mJzkzvVPe7DWwTVWoKJfiSKlIDL2jK; baikeVisitId=e91021b3-2a65-4bd7-904c-bcc440df783a; BDORZ=B490B5EBF6F3CD402E515D22BCDA1598; COOKIE_SESSION=183091_2_5_3_7_40_1_0_5_5_3_15_8_5663_0_0_1738768173_1738768153_1738950709%7C5%235282_3_1738767618%7C2; BDRCVFR[feWj1Vr5u3D]=mk3SLVN4HKm; BDSVRTM=22"""
 class BayesTopicScrawling:
     def __init__(self):
         """
@@ -80,7 +80,7 @@ class BayesTopicScrawling:
             self.keyword_list = topic_relevance.keyword_list  # 关键词列表
             self.bayes = Bayes_Predict()  # 贝叶斯分类器模型
             self.p1 = 0.30  # 网页相关度阈值p1
-            self.p2 = 1.1  # 链接相关度阈值p2
+            self.p2 = 3  # 链接相关度阈值p2
             self.url_target = []  # 目标url列表
             self.url_queue = collections.deque([])  # 需要处理的url队列
             self.url_process_cnt = 0  # 处理过的url计数，用以计算爬准率
@@ -180,6 +180,7 @@ class BayesTopicScrawling:
 
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
+            "Cookie":cookie_str
         }
 
         with httpx.Client() as session:
@@ -191,10 +192,10 @@ class BayesTopicScrawling:
                         return response.text
                     else:
                         print(f"请求失败，状态码: {response.status_code}")
+                        cnt-=1
                 except httpx.RequestError as e:
                     print(f"请求出错: {e}")
-                cnt -= 1
-
+                    cnt -= 1
         raise RuntimeError(f"请求 {url} 失败")
 
     def _cosine_similarity(self, vec1, vec2):
@@ -244,7 +245,6 @@ class BayesTopicScrawling:
             cur_web_vector = HtmlFeatureMatrix().main_generate(cur_html_text, self.keyword_list)
             # 获取网页的向量与主题语义向量的余弦相似度（网页相似度)
             cur_web_similarity = self._cosine_similarity(cur_web_vector, self.topic_meaning_vector)
-            web_sim_record.append(cur_web_similarity) #记录一下网页相似度方便调整
             # 网页文本主题相关度则跳过
             if cur_web_similarity < self.p1:
                 continue
@@ -261,7 +261,6 @@ class BayesTopicScrawling:
                     self.link_graph.normalize_url(
                         outer_url)] + b * cur_web_similarity + c * self.link_graph.pagerank[outer_url]
                 # 如果链接综合优先度小于p2则跳过
-                link_sim_record.append(cur_outer_url_prior) # 记录一下综合优先度方便进行调整
                 if cur_outer_url_prior < self.p2:
                     continue
                 total_link_sim+=cur_outer_url_prior
@@ -280,5 +279,5 @@ class BayesTopicScrawling:
 
 
 if __name__ == '__main__':
-    # Todo: 多线程优化整体的性能
+    # Todo: 多线程优化整体的性能，更正链接综合优先度(包含链接的网页的主题相关度都要算),检查网页文本特征向量生成、锚文本特征向量生成是否符合公式, 考虑重新训练累乘贝叶斯
     r=BayesTopicScrawling().run()

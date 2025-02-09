@@ -205,7 +205,7 @@ def load_and_split_data(csv_path, train_per_class=1000, test_per_class=200):
 #
 #     for cls in model["classes"]:
 #         log_prob = math.log(model["prior_prob"][cls])
-#         # 累加带权概率
+#         # Todo 累加带权概率(但是按公式来应该是累乘以)
 #         for word, weight in words_with_weight:
 #             # 获取基础条件概率
 #             base_prob = model["conditional_prob"][cls].get(

@@ -2,6 +2,7 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver import ActionChains
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -9,7 +10,8 @@ from selenium.webdriver.support import expected_conditions as EC
 class WebAutomation:
     def __init__(self, browser='chrome', driver_path=None):
         if browser.lower() == 'chrome':
-            self.driver = webdriver.Chrome()
+            service = Service(driver_path)
+            self.driver = webdriver.Chrome(service=service)
             # 设置页面加载超时时间为 10 秒
             self.driver.set_page_load_timeout(10)
         elif browser.lower() == 'firefox':

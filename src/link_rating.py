@@ -93,16 +93,18 @@ class LinkRating:
         normalized_url=url
         return normalized_url
 
-    def add_page_to_graph(self, base_url, html_content, keyword_list, base):
+    def add_page_to_graph(self, base_url, html_content, keyword_list, base, crawl_page_total_cnt,contains_kw_url_cnt ):
         """
         动态添加 URL 并触发增量 PageRank 更新
+        :param crawl_page_total_cnt 爬到的网页总数
+        :param 包含关键词的网页数字典
         """
         normalized_base_url = self.normalize_url(base_url)
         links = self.extract_links(html_content, base_url)
 
         # 分析锚文本主题相关度
         anchor_scores = self.url_anchor_analyze_relevance_scores(
-            base_url, html_content, keyword_list, base, self.topic_matrix
+            base_url, html_content, keyword_list, base, self.topic_matrix, crawl_page_total_cnt, contains_kw_url_cnt
         )
 
         # 初始化当前 URL 的 PageRank（如果未存在）
@@ -180,12 +182,14 @@ class LinkRating:
         for url in self.pagerank:
             self.pagerank[url] += dangling_contribution
 
-    def url_anchor_analyze(self,base_url,html_text,keyword_list,base):
+    def url_anchor_analyze(self,base_url,html_text,keyword_list,base,crawl_page_total_cnt, contains_kw_url_cnt):
         """
         当爬取到一个html网页时，会对网页中所有的url(即外链)进行分析，根据锚文本进行评分，排序
         :param html_text:
         :param keyword_list:关键词列表
         :param base: 计算权重时的底数
+        :param crawl_page_total_cnt 爬取到的网页数量
+        :param 包含关键词的网页情况
         :return:
         """
         # 初始化 BeautifulSoup
@@ -206,9 +210,9 @@ class LinkRating:
         anchor_text_and_urls=[(self.normalize_url(url),text) for url,text in anchor_text_and_urls]
         # 根据第一个值去重
         anchor_text_and_urls = list({item[0]: item for item in anchor_text_and_urls}.values())
-        exist_dict=defaultdict(list)
-        results={key:defaultdict(int) for key,_ in anchor_text_and_urls}
-        max_freq=defaultdict(int)
+        exist_dict=defaultdict(list) # 存在某个关键词的锚文本url {keyword:[urls]}
+        results={key:defaultdict(int) for key,_ in anchor_text_and_urls} # 用于记录每个锚文本对应的关键词词频{url:{word:cnt}}
+        max_freq=defaultdict(int) # 统计每个锚文本对应的最大主题关键词的词频 {url:topic_word_cnt}
         for url,text in anchor_text_and_urls:
             words=jieba.lcut(text)
             words_cnt=Counter(words)
@@ -222,22 +226,24 @@ class LinkRating:
         for url,cnt in results.items():
             for kw in keyword_list:
                 # 为防止分母为0，分子分母同时加1
-                value=((results[url][kw]+1)/(max_freq[url]+1))*(math.log((len(anchor_text_and_urls)/len(exist_dict[kw]))+0.01,base))
+                value=((results[url][kw]+1)/(max_freq[url]+1))*(math.log(((crawl_page_total_cnt+1)/(contains_kw_url_cnt[kw]+1))+0.01,base))
                 matrix_res[url].append(value)
         return matrix_res
 
-    def url_anchor_analyze_relevance_scores(self,base_url,html_text,keyword_list,base,topic_matrix):
+    def url_anchor_analyze_relevance_scores(self,base_url,html_text,keyword_list,base,topic_matrix,crawl_page_total_cnt, contains_kw_url_cnt):
         """
         计算该网页下各锚文本的主题相关度，主要是使用余弦相似度，参数与url_anchor_analyze一致
         :param base_url:
         :param html_text:
         :param keyword_list:
         :param base:
+        :param crawl_page_total_cnt 爬到的网页总数
+        :param contains_kw_url_cnt 包含关键词的网页数字典
         :param topic_matrix: 主题语义权重向量，根据本体树（知识图谱）计算获取，使用TopicRelevance.main_generate()获取
         :return:
         """
         res={}
-        anchor_matrix_dict=self.url_anchor_analyze(base_url,html_text,keyword_list,base)
+        anchor_matrix_dict=self.url_anchor_analyze(base_url,html_text,keyword_list,base,crawl_page_total_cnt, contains_kw_url_cnt)
         for url,vector in anchor_matrix_dict.items():
             cos_sim=self._cosine_similarity(vector,topic_matrix)
             res[url]=cos_sim

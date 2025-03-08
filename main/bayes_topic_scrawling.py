@@ -32,11 +32,14 @@ f)	返回 `url_target` 并进行相关性能检验。【需完成】
 import collections
 import math
 import pickle
+import re
 import time
 
 import httpx
+import jieba
 import numpy as np
 import requests
+from bs4 import BeautifulSoup
 
 from src.html_feature_matrix import HtmlFeatureMatrix
 from src.link_rating import LinkRating
@@ -84,7 +87,7 @@ class BayesTopicScrawling:
             self.url_target = []  # 目标url列表
             self.url_queue = collections.deque([])  # 需要处理的url队列
             self.url_process_cnt = 0  # 处理过的url计数，用以计算爬准率
-            self.driver_path = '../diver/132.0.6834.160/chromedriver.exe'  # chrome_driver路径，用以自动化
+            self.driver_path = '../main/driver/132.0.6834.160/chromedriver.exe'  # chrome_driver路径，用以自动化
             self.web = None  # 自动化浏览器对象
             self.topic = '暴雨灾害'
             self.seed_num = 50  # 种子链接数
@@ -95,6 +98,11 @@ class BayesTopicScrawling:
             self.link_analyze_setting = [0.33, 0.33, 0.33]  # 计算链接综合优先度时三个变量的权重值
             self.link_graph.damping = 0.85  # pagerank 阻尼系数
             self.link_graph.omega = 0.5  # pagerank 调节因子
+
+            for w in self.keyword_list:
+                jieba.add_word(w)
+            self.crawl_page_total_cnt=0 # 总共完成爬取的网页数
+            self.contains_kw_url_cnt={key:0 for key in self.keyword_list} # 爬取到的文章中，包含各个关键词的网页数
 
 
     def __del__(self):
@@ -191,12 +199,38 @@ class BayesTopicScrawling:
                     if response.status_code == 200:
                         return response.text
                     else:
-                        print(f"请求失败，状态码: {response.status_code}")
+                        print(f"请求{url}失败，状态码: {response.status_code}")
                         cnt-=1
                 except httpx.RequestError as e:
                     print(f"请求出错: {e}")
                     cnt -= 1
         raise RuntimeError(f"请求 {url} 失败")
+
+    def check_html_exist_kw(self,html, keywords):
+        """
+        检测某个html文本中包含关键词的情况
+        :param html:
+        :param keywords:
+        :return:
+        """
+        # 使用BeautifulSoup提取可见文本（自动处理HTML实体）
+        soup = BeautifulSoup(html, 'html.parser')
+
+        # 移除脚本和样式内容
+        for tag in soup(['script', 'style', 'noscript', 'meta', 'link']):
+            tag.decompose()
+
+        # 获取纯文本（保留alt/text等属性）
+        text = soup.get_text(separator=' ', strip=True)
+
+        # 执行精确分词
+        words = jieba.lcut(text)
+        # print("【精确分词结果】", "/".join(words))
+
+        # 更新包含具体关键词的网页数
+        for kw in keywords:
+            if kw in words:
+                self.contains_kw_url_cnt[kw]+=1
 
     def _cosine_similarity(self, vec1, vec2):
         """
@@ -251,7 +285,7 @@ class BayesTopicScrawling:
             total_web_sim+=cur_web_similarity
             total_web_cnt+=1
             # 进行网页处理，提取网页的链接，根据链接优先度进行分析与筛选
-            self.link_graph.add_page_to_graph(cur_url, cur_html_text, self.keyword_list, self.base)
+            self.link_graph.add_page_to_graph(cur_url, cur_html_text, self.keyword_list, self.base, self.crawl_page_total_cnt,self.contains_kw_url_cnt)
             # 获取网页链接出去的链接
             all_outer_urls = self.link_graph.extract_links(cur_html_text, cur_url)
             # 综合链接锚文本优先度、当前网页的主题相关度、pr值综合计算链接的优先级相关度
@@ -267,6 +301,8 @@ class BayesTopicScrawling:
                 total_link_cnt+=1
                 self.url_queue.append(outer_url)
             self.url_target.append(cur_url)  # 将处理完的url加入到目标列表
+            # 检测包含关键词的url的情况
+            self.check_html_exist_kw(cur_html_text,self.keyword_list)
             # 检查目标列表是否达到需要收集的条目数
             if len(self.url_target) >= self.target_num:
                 break
@@ -279,5 +315,6 @@ class BayesTopicScrawling:
 
 
 if __name__ == '__main__':
-    # Todo: 多线程优化整体的性能，更正链接综合优先度(包含链接的网页的主题相关度都要算),检查网页文本特征向量生成、锚文本特征向量生成是否符合公式, 考虑重新训练累乘贝叶斯
+    # Todo: 1.多线程优化整体的性能，2.更正链接综合优先度(包含链接的网页的主题相关度都要算),检查网页文本特征向量生成、锚文本特征向量生成是否符合公式, 考虑重新训练累乘贝叶斯
+    # Todo: 暂时认为锚文本链接所在的网页就是当前的网页即不处理2，更正了锚文本特征向量的生成，检查完毕网页文本特征向量的生成方式无误，未重新训练贝叶斯（即按照主题关键词模式分词再统计）
     r=BayesTopicScrawling().run()

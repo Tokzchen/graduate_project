@@ -36,11 +36,8 @@ class LinkRating:
         self.anchor_scores=defaultdict(dict)  # 保存锚文本的主题相关度
         self.topic_matrix=topic_matrix
 
-        self.pagerank = defaultdict(float)  # {url: rank}
-        self.pending_updates = set()  # 待更新的 URL 队列
-        self.damping = 0.85  # 阻尼系数
-        self.omega = 0.5  # 调节因子
-        self.tol = 1e-4  # 收敛阈值
+
+        self.block_list_set = {'https://baike.baidu.com', 'https://beian.miit.gov.cn'}
 
     def _cosine_similarity(self,vec1, vec2):
         """
@@ -74,6 +71,8 @@ class LinkRating:
             # 忽略无效链接和锚点
             parsed_url = urlparse(full_url)
             if parsed_url.scheme in ['http', 'https']:
+                if any(full_url.startswith(blocked) for blocked in self.block_list_set):
+                    continue
                 links.add(full_url)
         return links
 
@@ -95,7 +94,7 @@ class LinkRating:
 
     def add_page_to_graph(self, base_url, html_content, keyword_list, base, crawl_page_total_cnt,contains_kw_url_cnt ):
         """
-        动态添加 URL 并触发增量 PageRank 更新
+         处理网页中的相关链接
         :param crawl_page_total_cnt 爬到的网页总数
         :param 包含关键词的网页数字典
         """
@@ -107,9 +106,6 @@ class LinkRating:
             base_url, html_content, keyword_list, base, self.topic_matrix, crawl_page_total_cnt, contains_kw_url_cnt
         )
 
-        # 初始化当前 URL 的 PageRank（如果未存在）
-        if normalized_base_url not in self.pagerank:
-            self.pagerank[normalized_base_url] = 1.0
 
         for link in links:
             normalized_link = self.normalize_url(link)
@@ -121,66 +117,6 @@ class LinkRating:
             # 保存锚文本相关度
             self.anchor_scores[normalized_base_url][normalized_link] = anchor_scores.get(link, 0)
 
-            # 初始化出链 URL 的 PageRank（如果未存在）
-            if normalized_link not in self.pagerank:
-                self.pagerank[normalized_link] = 1.0
-
-        # 标记受影响节点：当前 URL 及其所有出链 URL
-        self.pending_updates.add(normalized_base_url)
-        self.pending_updates.update([self.normalize_url(link) for link in links])
-
-        # 触发增量 PageRank 更新
-        self._batch_update()
-
-    def _batch_update(self, max_iter=3):
-        """批量更新受影响的 PageRank 值"""
-        for _ in range(max_iter):
-            changes = {}
-            for url in self.pending_updates:
-                old_rank = self.pagerank[url]
-
-                # 计算入链贡献（公式中的求和部分）
-                rank_sum = 0.0
-                for in_page in self.in_links.get(url, []):
-                    # 跳过无出链的页面（悬挂节点）
-                    if len(self.out_links.get(in_page, [])) == 0:
-                        continue
-
-                    # 获取语义相关度权重
-                    sem_score = self.anchor_scores.get(in_page, {}).get(url, 0)
-                    weight = 1 + self.omega * sem_score
-
-                    # 贡献值 = PR(in_page) / C(in_page) * weight
-                    rank_sum += (self.pagerank[in_page] / len(self.out_links[in_page])) * weight
-
-                # 更新 PageRank
-                new_rank = (1 - self.damping) + self.damping * rank_sum
-                changes[url] = abs(new_rank - old_rank)
-                self.pagerank[url] = new_rank
-
-            # 判断是否收敛
-            if max(changes.values(), default=0) < self.tol:
-                break
-
-        # 清空待更新队列
-        self.pending_updates.clear()
-
-        # 处理悬挂节点（可选）
-        self._handle_dangling_nodes()
-
-    def _handle_dangling_nodes(self):
-        """处理无出链的悬挂节点贡献"""
-        dangling_nodes = [url for url in self.pagerank if len(self.out_links.get(url, [])) == 0]
-        if not dangling_nodes:
-            return
-
-        # 计算悬挂节点的总贡献
-        total_dangling_rank = sum(self.pagerank[url] for url in dangling_nodes)
-        dangling_contribution = self.damping * total_dangling_rank / len(self.pagerank)
-
-        # 将贡献分配给所有节点
-        for url in self.pagerank:
-            self.pagerank[url] += dangling_contribution
 
     def url_anchor_analyze(self,base_url,html_text,keyword_list,base,crawl_page_total_cnt, contains_kw_url_cnt):
         """
@@ -226,7 +162,7 @@ class LinkRating:
         for url,cnt in results.items():
             for kw in keyword_list:
                 # 为防止分母为0，分子分母同时加1
-                value=((results[url][kw]+1)/(max_freq[url]+1))*(math.log(((crawl_page_total_cnt+1)/(contains_kw_url_cnt[kw]+1))+0.01,base))
+                value=((results[url][kw])/(max_freq[url]+1))*(math.log(((crawl_page_total_cnt+1)/(contains_kw_url_cnt[kw]+1))+math.e,base))
                 matrix_res[url].append(value)
         return matrix_res
 
@@ -246,6 +182,8 @@ class LinkRating:
         anchor_matrix_dict=self.url_anchor_analyze(base_url,html_text,keyword_list,base,crawl_page_total_cnt, contains_kw_url_cnt)
         for url,vector in anchor_matrix_dict.items():
             cos_sim=self._cosine_similarity(vector,topic_matrix)
+            if cos_sim<0:
+                print(f'检测到相似度小于零，此时锚文本向量为：{vector}')
             res[url]=cos_sim
         return res
 

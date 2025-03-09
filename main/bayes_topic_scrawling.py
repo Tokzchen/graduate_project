@@ -82,8 +82,8 @@ class BayesTopicScrawling:
             self.topic_meaning_vector = topic_relevance.topic_meaning_matrix  # 主题语义向量
             self.keyword_list = topic_relevance.keyword_list  # 关键词列表
             self.bayes = Bayes_Predict()  # 贝叶斯分类器模型
-            self.p1 = 0.30  # 网页相关度阈值p1
-            self.p2 = 3  # 链接相关度阈值p2
+            self.p1 = 0.49  # 网页相关度阈值p1，该值越高对网页的筛选就越严格，爬准率就越低
+            self.p2 = 0.33  # 链接相关度阈值p2，该值越低，爬准率越低，但设置过高会导致抽取的链接数减少，影响爬取速度
             self.url_target = []  # 目标url列表
             self.url_queue = collections.deque([])  # 需要处理的url队列
             self.url_process_cnt = 0  # 处理过的url计数，用以计算爬准率
@@ -92,10 +92,10 @@ class BayesTopicScrawling:
             self.topic = '暴雨灾害'
             self.seed_num = 50  # 种子链接数
             self.target_num = 500  # 目标收集的url数目
-            self.request_html_retry_cnt = 3  # 请求url的html的重试次数
+            self.request_html_retry_cnt = 1  # 请求url的html的重试次数
             self.link_graph = LinkRating(self.topic_meaning_vector)
             self.base = math.e  # 计算链接优先相关度时的对数底数
-            self.link_analyze_setting = [0.33, 0.33, 0.33]  # 计算链接综合优先度时三个变量的权重值
+            self.link_analyze_setting = [0.66, 0.33, 0]  # 计算链接综合优先度时三个变量的权重值
             self.link_graph.damping = 0.85  # pagerank 阻尼系数
             self.link_graph.omega = 0.5  # pagerank 调节因子
 
@@ -187,15 +187,18 @@ class BayesTopicScrawling:
         """
 
         headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
-            "Cookie":cookie_str
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+            "Cookie":cookie_str,
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive'
         }
 
         with httpx.Client() as session:
             cnt = retry
             while cnt > 0:
                 try:
-                    response = session.get(url, headers=headers, timeout=5, follow_redirects=True)
+                    response = session.get(url, headers=headers, timeout=3, follow_redirects=True)
                     if response.status_code == 200:
                         return response.text
                     else:
@@ -272,7 +275,11 @@ class BayesTopicScrawling:
             except Exception as e:
                 continue
             self.url_process_cnt += 1  # 下载一次网页则计数加1
+            start_time1=time.time()
             cur_label = self.bayes.classify_with_weight(cur_html_text)
+            end_time1=time.time()
+            bayes_predict_time=end_time1-start_time1
+            print(f'贝叶斯分类器预测用时:{bayes_predict_time:.4f}秒')
             if cur_label != self.topic:
                 continue
             # 获取网页的加权向量表示
@@ -289,18 +296,23 @@ class BayesTopicScrawling:
             # 获取网页链接出去的链接
             all_outer_urls = self.link_graph.extract_links(cur_html_text, cur_url)
             # 综合链接锚文本优先度、当前网页的主题相关度、pr值综合计算链接的优先级相关度
+            start_time=time.time()
             for outer_url in all_outer_urls:
                 a, b, c = self.link_analyze_setting
                 cur_outer_url_prior = a * self.link_graph.anchor_scores[self.link_graph.normalize_url(cur_url)][
                     self.link_graph.normalize_url(
-                        outer_url)] + b * cur_web_similarity + c * self.link_graph.pagerank[outer_url]
+                        outer_url)] + b * cur_web_similarity
                 # 如果链接综合优先度小于p2则跳过
                 if cur_outer_url_prior < self.p2:
                     continue
+                print(f'链接通过筛选，综合优先度为 {cur_outer_url_prior},此时 锚文本相似度为{a * self.link_graph.anchor_scores[cur_url][outer_url]}')
                 total_link_sim+=cur_outer_url_prior
                 total_link_cnt+=1
                 self.url_queue.append(outer_url)
             self.url_target.append(cur_url)  # 将处理完的url加入到目标列表
+            end_time=time.time()
+            link_analyze_time=end_time-start_time
+            print(f'爬取到{len(self.url_target)}个网页, 解析出{len(all_outer_urls)}条url，用时{link_analyze_time:.4f}秒')
             # 检测包含关键词的url的情况
             self.check_html_exist_kw(cur_html_text,self.keyword_list)
             # 检查目标列表是否达到需要收集的条目数
@@ -318,3 +330,4 @@ if __name__ == '__main__':
     # Todo: 1.多线程优化整体的性能，2.更正链接综合优先度(包含链接的网页的主题相关度都要算),检查网页文本特征向量生成、锚文本特征向量生成是否符合公式, 考虑重新训练累乘贝叶斯
     # Todo: 暂时认为锚文本链接所在的网页就是当前的网页即不处理2，更正了锚文本特征向量的生成，检查完毕网页文本特征向量的生成方式无误，未重新训练贝叶斯（即按照主题关键词模式分词再统计）
     r=BayesTopicScrawling().run()
+    # Todo 链接选样， debug link_sim

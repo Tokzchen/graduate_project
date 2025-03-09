@@ -82,8 +82,8 @@ class BayesTopicScrawling:
             self.topic_meaning_vector = topic_relevance.topic_meaning_matrix  # 主题语义向量
             self.keyword_list = topic_relevance.keyword_list  # 关键词列表
             self.bayes = Bayes_Predict()  # 贝叶斯分类器模型
-            self.p1 = 0.49  # 网页相关度阈值p1，该值越高对网页的筛选就越严格，爬准率就越低
-            self.p2 = 0.33  # 链接相关度阈值p2，该值越低，爬准率越低，但设置过高会导致抽取的链接数减少，影响爬取速度
+            self.p1 = 0.45  # 网页相关度阈值p1，该值越高对网页的筛选就越严格，爬准率就越低
+            self.p2 = 0.35  # 链接相关度阈值p2，该值越低，爬准率越低，但设置过高会导致抽取的链接数减少，影响爬取速度
             self.url_target = []  # 目标url列表
             self.url_queue = collections.deque([])  # 需要处理的url队列
             self.url_process_cnt = 0  # 处理过的url计数，用以计算爬准率
@@ -91,7 +91,7 @@ class BayesTopicScrawling:
             self.web = None  # 自动化浏览器对象
             self.topic = '暴雨灾害'
             self.seed_num = 50  # 种子链接数
-            self.target_num = 500  # 目标收集的url数目
+            self.target_num = 2000  # 目标收集的url数目
             self.request_html_retry_cnt = 1  # 请求url的html的重试次数
             self.link_graph = LinkRating(self.topic_meaning_vector)
             self.base = math.e  # 计算链接优先相关度时的对数底数
@@ -329,5 +329,15 @@ class BayesTopicScrawling:
 if __name__ == '__main__':
     # Todo: 1.多线程优化整体的性能，2.更正链接综合优先度(包含链接的网页的主题相关度都要算),检查网页文本特征向量生成、锚文本特征向量生成是否符合公式, 考虑重新训练累乘贝叶斯
     # Todo: 暂时认为锚文本链接所在的网页就是当前的网页即不处理2，更正了锚文本特征向量的生成，检查完毕网页文本特征向量的生成方式无误，未重新训练贝叶斯（即按照主题关键词模式分词再统计）
+    total_start_time=time.time()
     r=BayesTopicScrawling().run()
     # Todo 链接选样， debug link_sim
+    total_end_time=time.time()
+    total_seconds=total_end_time-total_start_time
+    hours = int(total_seconds // 3600)
+    minutes = int((total_seconds % 3600) // 60)
+    seconds = int(total_seconds % 60)
+    milliseconds = int((total_seconds - int(total_seconds)) * 1000)
+
+    formatted_time = f"{hours:02d}:{minutes:02d}:{seconds:02d}.{milliseconds:03d}"
+    print(f'总共执行时间为 {formatted_time}')
